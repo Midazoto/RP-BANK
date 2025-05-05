@@ -58,7 +58,7 @@ router.get("/subordonnes", verifierToken,verifierEmploye, (req, res) => {
   );
 });
 
-router.get('/me', verifierToken,verifierEmploye, (req, res) => {
+router.get('/current', verifierToken,verifierEmploye, (req, res) => {
   const id = req.user.id;
   db.get('SELECT id, nom, prenom, poste FROM employe WHERE id = ?', [id], (err, employe) => {
     if (err) {
