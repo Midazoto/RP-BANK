@@ -1,18 +1,9 @@
-*{
-    margin :0;
-    padding :0;
-    box-sizing : border-box;
-    font-family : 'Poppins', sans-serif;
-}
-
-body{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/login_bg.jpg) no-repeat;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
+    min-height: calc(100vh - 100px); /* Laisse de la place pour le header */
+    padding: 40px 20px;
 }
 
 .wrapper{
