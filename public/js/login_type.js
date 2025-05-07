@@ -1,3 +1,6 @@
+import { addPopup,setHeader } from "./utils/index.js";
+
+setHeader('login_type');
 document.addEventListener("DOMContentLoaded", () => {
     const type = window.location.pathname.split('/').pop();
     const form = document.getElementById("login-form");
@@ -22,16 +25,18 @@ document.addEventListener("DOMContentLoaded", () => {
         if (response.ok) {
           // Connexion réussie : stocke le token par exemple
           localStorage.setItem("token", data.token);
-          alert("Connexion réussie !");
+          addPopup("Vous êtes maintenant connecté.", "success");
           // Redirection éventuelle
-          // window.location.href = "/accueil.html";
+          window.location.href = "/";
         } else {
-          alert(data.message || "Échec de la connexion");
+          addPopup(data.message || "Échec de la connexion", "error");
+          window.location.reload();
         }
 
       } catch (err) {
         console.error("Erreur :", err);
-        alert("Une erreur est survenue");
+        addPopup("Erreur lors de la connexion", "error");
+        window.location.reload();
       }
     });
   });

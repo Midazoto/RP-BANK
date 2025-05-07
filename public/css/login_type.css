@@ -68,4 +68,5 @@ main {
     outline: none;
     background:black;
     color:white;
+    cursor:pointer;
 }

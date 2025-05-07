@@ -10,7 +10,12 @@ router.get('/', (req, res) => {
 
 router.get('/login',(req,res) => {
     res.sendFile(path.join(__dirname, '../public/html/login.html'));
-})
+});
+
+router.get('/logout', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/html/logout.html'));
+}
+);
 
 router.get('/login/:type', (req, res) => {
     const { type } = req.params;

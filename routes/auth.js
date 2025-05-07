@@ -79,11 +79,11 @@ router.post('/login/:type', async (req, res) => {
                         const token = jwt.sign({ id: client.id, type: 'client' }, JWT_SECRET, { expiresIn: '1h' });
                         return res.json({ token });
                     } else {
-                        return res.status(401).json({ message: 'Mot de passe incorrect' });
+                        return res.status(401).json({ message: 'Adresse e-mail ou mot de passe incorrect' })
                     }
                 });
             } else {
-                return res.status(404).json({ message: 'Utilisateur non trouvé' });
+                return res.status(404).json({ message: 'Adresse e-mail ou mot de passe incorrect' })
             }
         })
     } else if (type === 'employe') {
@@ -100,11 +100,11 @@ router.post('/login/:type', async (req, res) => {
                         const token = jwt.sign({ id: employe.id, type: 'employe' }, JWT_SECRET, { expiresIn: '1h' });
                         return res.json({ token });
                     } else {
-                        return res.status(401).json({ message: 'Mot de passe incorrect' });
+                        return res.status(401).json({ message: 'Adresse e-mail ou mot de passe incorrect' });
                     }
                 });
             } else {
-                return res.status(404).json({ message: 'Utilisateur non trouvé' });
+                return res.status(404).json({ message: 'Adresse e-mail ou mot de passe incorrect' });
             }
         })
     }
