@@ -1,31 +1,15 @@
 import { showPopup } from "./index.js";
 
-function injectHeadAssets(page) {
-    const head = document.head;
-
-    const links = [
-        `../css/header.css`,
-        `../css/popup.css`,
-        `https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css`,
-        `../css/${page}.css`  // Ajouter le fichier de style spécifique à la page
-    ];
-
-    links.forEach(href => {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = href;
-        head.appendChild(link);
-    });
-}
-
 // Fonction pour l'état anonyme (non connecté)
 function headerAnonymous() {
     const header = document.getElementById('main-header');
 
     header.innerHTML = `
         <div class="logo-container">
-            <img src="../img/logo.webp" alt="Logo" class="logo">
-            <h1>RP Bank</h1>
+            <a href="/" class="logo-container">
+                <img src="../img/logo.webp" alt="Logo" class="logo">
+                <h1>RP Bank</h1>
+            </a>
         </div>
         <nav>
             <ul id="nav-links">
@@ -42,8 +26,10 @@ function headerEmploye() {
 
     header.innerHTML = `
         <div class="logo-container">
-            <img src="../img/logo.webp" alt="Logo" class="logo">
-            <h1>RP Bank - Espace Employé</h1>
+            <a href="/" class="logo-container">
+                <img src="../img/logo.webp" alt="Logo" class="logo">
+                <h1>RP Bank - Espace Employé</h1>
+            </a>
         </div>
         <nav>
             <ul id="nav-links">
@@ -61,8 +47,10 @@ function headerClient() {
 
     header.innerHTML = `
         <div class="logo-container">
-            <img src="../img/logo.webp" alt="Logo" class="logo">
-            <h1>RP Bank - Espace Client</h1>
+            <a href="/" class="logo-container">
+                <img src="../img/logo.webp" alt="Logo" class="logo">
+                <h1>RP Bank - Espace Client</h1>
+            </a>
         </div>
         <nav>
             <ul id="nav-links">
@@ -75,9 +63,8 @@ function headerClient() {
 }
 
 // Fonction qui détermine quel header afficher et injecte les styles
-export function setHeader(page) {
+export function setHeader() {
     // Injecte les assets CSS pour la page
-    injectHeadAssets(page);
 
     // Récupère les informations de l'utilisateur
     fetch('/api/auth/user', {

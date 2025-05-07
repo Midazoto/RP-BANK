@@ -2,7 +2,7 @@ import { addPopup, requireAuth,setHeader } from './utils/index.js';
 
 
 requireAuth();
-setHeader('logout');
+setHeader();
 document.addEventListener('DOMContentLoaded', () => {
     const btnYes = document.getElementById('LogoutYes');
     const btnNo = document.getElementById('LogoutNo');

@@ -1,6 +1,6 @@
 import { addPopup,setHeader } from "./utils/index.js";
 
-setHeader('login_type');
+setHeader();
 document.addEventListener("DOMContentLoaded", () => {
     const type = window.location.pathname.split('/').pop();
     const form = document.getElementById("login-form");
