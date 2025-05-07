@@ -69,7 +69,7 @@ db.serialize(() => {
             FOREIGN KEY (compte_id) REFERENCES compte(id)
         )`);
 
-    db.get('SELECT * FROM employe WHERE email = ?',['admin@pobank.lol'], (err, row) => {
+    db.get('SELECT * FROM employe WHERE email = ?',['admin@rpbank.lol'], (err, row) => {
         if (err) {
             console.error(err.message);
             return;
@@ -77,7 +77,7 @@ db.serialize(() => {
         if (!row) {
             const bcrypt = require('bcryptjs');
             const password = 'admin123';
-            const email ='admin@pobank.lol';
+            const email ='admin@rpbank.lol';
             const nom = 'Admin';
             const prenom = 'Principal';
             const poste = 'Administrateur';

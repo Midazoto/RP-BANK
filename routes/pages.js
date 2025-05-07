@@ -7,18 +7,20 @@ router.get('/', (req, res) => {
     }
 );
 
+
+router.get('/login',(req,res) => {
+    res.sendFile(path.join(__dirname, '../public/html/login.html'));
+})
+
 router.get('/login/:type', (req, res) => {
     const { type } = req.params;
     if (type !== 'client' && type !== 'employe') {
         return res.status(404).send('Type d’utilisateur inconnu');
     }
 
-    res.sendFile(path.join(__dirname, '../public/html/login.html'));
+    res.sendFile(path.join(__dirname, '../public/html/login_type.html'));
 });
 
-router.get('/organigramme', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/html/organigramme.html'));
-});
 
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));

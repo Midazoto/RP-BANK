@@ -110,4 +110,25 @@ router.post('/login/:type', async (req, res) => {
     }
 });
 
+router.get('/user', (req, res) => {
+    const authHeader = req.headers.authorization;
+
+    // Vérification si le token est présent
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+        return res.json({ isLoggedIn: false, type: null }); // Utilisateur non connecté
+    }
+
+    const token = authHeader.split(' ')[1];
+
+    try {
+        // Vérification du token
+        const decoded = jwt.verify(token, JWT_SECRET);
+        // Si le token est valide, on renvoie isLoggedIn: true et le type d'utilisateur
+        return res.json({ isLoggedIn: true, type: decoded.type });
+    } catch (err) {
+        // Si le token est invalide ou expiré
+        return res.json({ isLoggedIn: false, type: null });
+    }
+});
+
 module.exports = router;

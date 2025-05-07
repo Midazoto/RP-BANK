@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
-
 <body>
-    <div class ="wrapper">
-        <form id="login-form">
-            <h1>Connexion</h1>
-            <div class="input-box">
-                <input type="text" name="mail" placeholder="Email" required>
-                <i class="bx bxs-user"></i>
-            </div>
+    <header>
+        <div class="logo-container">
+            <img src="../img/logo.webp" alt="Logo" class="logo">
+            <h1>RP Bank</h1>
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <!-- liens ajoutés dynamiquement -->
+            </ul>
+        </nav>
+    </header>
 
-            <div class="input-box">
-                <input type="password" name="password" placeholder="Mot de passe" required>
-                <i class="bx bxs-lock-alt"></i>
+    <main>
+        <div class="wrapper">
+            <h1>Comment voulez-vous connecter</h1>
+            <div class="button-container">
+                <a href="/login/client" class="button">Client</a>
+                <a href="/login/employe" class="button">Employé</a>
             </div>
-
-            <button type="submit" class="button">Se connecter</button>
-        </form>
-    </div>
-    <script src="../js/login.js"></script>
+        </div>
+    </main>
+    <script src="../js/header.js"></script>
 </body>
+</html>
