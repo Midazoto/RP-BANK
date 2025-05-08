@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
+    <!--Gestion du theme-->
+    <script>
+        (function() {
+          const theme = localStorage.getItem('theme') || 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+    <link rel="stylesheet" href="../css/theme.css">
+
+    <!-- Autres styles -->
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/popup.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
@@ -20,15 +29,23 @@
         </div>
         <nav>
             <ul id="nav-links">
-                <!--Lien ajouté dynamiquement en fonction du type de compte connecté-->
+                <!-- Lien ajouté dynamiquement en fonction du type de compte connecté -->
             </ul>
         </nav>
+        <!-- Bouton pour changer le thème -->
     </header>
+
     <div id="popup-container" class="popup-container"></div>
 
     <main>
+        <button id="theme-toggle" title="Changer de thème">
+            <i class='bx bx-moon'></i>
+        </button>
         <h1>Simple Template</h1>
     </main>
+
+    <!-- Scripts -->
     <script type="module" src="../js/index.js"></script>
+    <script type="module" src="../js/theme.js"></script>
 </body>
 </html>
