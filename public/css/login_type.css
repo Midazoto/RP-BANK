@@ -10,12 +10,12 @@ main {
     width: 100%;
     max-width: 420px;
     background:transparent;
-    color:black;
+    color: var(--color-primary);
     border-radius: 10px;
     padding: 30px 40px;
-    border : 2px solid rgb(0, 0, 0, 0.3);
+    border : var(--box-border);
     backdrop-filter: blur(35px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
 }
 
 .wrapper h1{
@@ -36,16 +36,16 @@ main {
     background:transparent;
     border:none;
     outline: none;
-    border: 2px solid rgb(0, 0, 0, 0.3);
+    border: var(--box-border);
     border-radius: 50px;
     font-size:16px;
-    color:black;
+    color:var(--color-primary);
     padding: 20px 45px 20px 20px;
 
 }
 
 .input-box input::placeholder{
-    color:black;
+    color:var(--color-primary);
     opacity: 0.80;
 }
 
@@ -54,7 +54,7 @@ main {
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: black;
+    color: var(--color-primary);
     pointer-events: none;
 }
 
@@ -66,7 +66,7 @@ main {
     border-radius: 50px;
     border:none;
     outline: none;
-    background:black;
-    color:white;
+    background:var(--button-primary-bg);
+    color: var(--button-primary-color);
     cursor:pointer;
 }

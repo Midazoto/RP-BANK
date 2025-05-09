@@ -7,11 +7,12 @@
 
 body {
     min-height: 100vh;
-    height: 300vh;
-    background: var(--bg-image) no-repeat;
-    background-position: left top;
+    margin: 0;
+    background-image: var(--bg-image), linear-gradient(to bottom, #111, #111);
+    background-repeat: no-repeat;
+    background-position: left bottom;
     background-attachment: fixed;
-    background-size:cover;
+    background-size: cover;
 }
 
 header {

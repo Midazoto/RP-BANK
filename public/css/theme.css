@@ -5,6 +5,15 @@
     --header-bg: #f0f0f0;
     --popup-bg: #ffffff;
     --bg-image: url('../img/bg_light.jpg');
+    --box-border: 2px solid rgba(0, 0, 0, 0.3);
+    --box-border-color: rgba(0, 0, 0, 0.3);
+    --box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    --color-primary:black;
+    --color-secondary: white;
+    --button-primary-bg: black;
+    --button-primary-color: white;
+    --button-secondary-bg: white;
+    --button-secondary-color: black;
 }
 
 /* Thème sombre */
@@ -14,6 +23,15 @@
     --header-bg: #1e1e1e;
     --popup-bg: #1c1c1c;
     --bg-image: url('../img/bg_dark.jpg');
+    --box-border: 2px solid rgba(255, 255, 255, 0.3);
+    --box-border-color: rgba(255, 255, 255, 0.3);
+    --box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    --color-primary:white;
+    --color-secondary: black;
+    --button-primary-bg: white;
+    --button-primary-color: black;
+    --button-secondary-bg: black;
+    --button-secondary-color: white;
 }
 
 body {

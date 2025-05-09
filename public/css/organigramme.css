@@ -1,0 +1,37 @@
+#tree{
+    background-color: transparent;
+    height: calc(-90px + 100vh);
+}
+
+.glass-node {
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+    border-radius: 10px;
+    backdrop-filter: blur(35px);
+    box-shadow: var(--box-shadow);
+    border: var(--box-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.glass-node:hover {
+    background: var(--box-border-color);
+    transition: background 0.3s ease;
+}
+
+[data-n-id] text {
+    fill: var(--color-primary);
+}
+
+[data-l-id] path {
+    stroke: var(--color-primary);
+    stroke-width: 2px;
+}
+
+[data-ctrl-ec-id] {
+    display: none;
+}

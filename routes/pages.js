@@ -26,6 +26,10 @@ router.get('/login/:type', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/login_type.html'));
 });
 
+router.get('/organigramme', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/html/organigramme.html'));
+});
+
 
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
