@@ -22,7 +22,7 @@ router.get("/subordonnes", verifierToken,verifierEmploye, (req, res) => {
       return;
     }
     const mail = row.email;
-    if(mail !== "admin@pobank.lol"){
+    if(mail !== "admin@rpbank.lol"){
       db.all(
         `WITH RECURSIVE hierarchie(id, email, nom, prenom, poste, resp_id) AS (
             SELECT id, email, nom, prenom, poste, resp_id
