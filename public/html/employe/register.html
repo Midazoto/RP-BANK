@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <!--Gestion du theme-->
+    <script>
+        (function() {
+          const theme = localStorage.getItem('theme') || 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+    <link rel="stylesheet" href="/css/theme.css">
+
+    <!-- Autres styles -->
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/popup.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="/css/employe/register.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="logo-container">
+            <a href="/" class="logo-container">
+                <img src="/img/logo.webp" alt="Logo" class="logo">
+                <h1>RP Bank</h1>
+            </a>
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <!--Lien ajouté dynamiquement en fonction du type de compte connecté-->
+            </ul>
+        </nav>
+    </header>
+    <div id="popup-container" class="popup-container"></div>
+
+        <main>
+        <div class="wrapper">
+            <h1>Quel type de compte souhaitez-vous créer ?</h1>
+            <div class="button-container">
+                <a href="/employe/register/client" class="button">Client</a>
+                <a href="/employe/register/employe" class="button">Employé</a>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="/js/employe/register.js"></script>
+</body>
+</html>

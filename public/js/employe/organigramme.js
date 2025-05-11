@@ -40,59 +40,15 @@ Promise.all([
   };
 
   // Transformer les subordonnés avec pid
-  /* const orgData = subordonnes.map(e => ({
+  const orgData = subordonnes.map(e => ({
     id: e.id,
     pid: e.resp_id,
     name: `${e.prenom} ${e.nom}`,
     title: e.poste
-  })); */
+  }));
 
   // Ajouter l'utilisateur courant comme racine
-  //orgData.push(rootNode);
-  const orgData = [
-  { id: 1, name: "Jean Dupont", title: "PDG" },
-
-  // Niveau 1
-  { id: 2, pid: 1, name: "Claire Martin", title: "Directrice RH" },
-  { id: 3, pid: 1, name: "Luc Durand", title: "CTO" },
-  { id: 4, pid: 1, name: "Marc Petit", title: "CFO" },
-
-  // Niveau 2
-  { id: 5, pid: 2, name: "Paul Lemoine", title: "Chargé RH" },
-  { id: 6, pid: 2, name: "Isabelle Moreau", title: "Recruteuse" },
-  { id: 7, pid: 3, name: "Sophie Bernard", title: "Dev Backend" },
-  { id: 8, pid: 3, name: "Nicolas Lefevre", title: "Dev Frontend" },
-  { id: 9, pid: 4, name: "Carole Gilbert", title: "Comptable" },
-  { id: 10, pid: 4, name: "Julien Barra", title: "Contrôleur Financier" },
-
-  // Niveau 3
-  { id: 11, pid: 5, name: "Emma Perrot", title: "Assistant RH" },
-  { id: 12, pid: 6, name: "Lucie Garnier", title: "Stagiaire RH" },
-  { id: 13, pid: 7, name: "Thomas Renault", title: "Dev Junior" },
-  { id: 14, pid: 7, name: "Camille Faure", title: "Dev QA" },
-  { id: 15, pid: 8, name: "David Henry", title: "UI/UX Designer" },
-  { id: 16, pid: 8, name: "Marine Lopez", title: "Graphiste" },
-  { id: 17, pid: 9, name: "Quentin Fabre", title: "Assistant Comptable" },
-  { id: 18, pid: 10, name: "Alice Mercier", title: "Auditrice" },
-
-  // Niveau 4
-  { id: 19, pid: 13, name: "Hugo Tessier", title: "Alternant" },
-  { id: 20, pid: 14, name: "Léa Richard", title: "Testeuse" },
-  { id: 21, pid: 15, name: "Bruno Maillot", title: "Design Systems" },
-  { id: 22, pid: 16, name: "Sandra Colin", title: "Motion Designer" },
-
-  // Niveau 5
-  { id: 23, pid: 19, name: "Jules Rolland", title: "Stagiaire Dév" },
-  { id: 24, pid: 20, name: "Claire Vidal", title: "QA Junior" },
-  { id: 25, pid: 21, name: "Mélanie Dumas", title: "UX Researcher" },
-  { id: 26, pid: 22, name: "Etienne Perrin", title: "Animateur Graphique" },
-
-  // Quelques branches supplémentaires
-  { id: 27, pid: 3, name: "Xavier Roux", title: "Architecte Logiciel" },
-  { id: 28, pid: 27, name: "Loïc Delmas", title: "Expert Sécurité" },
-  { id: 29, pid: 28, name: "Valérie Cousin", title: "Pentester" },
-  { id: 30, pid: 6, name: "Sabrina Noël", title: "Chargée de formation" }
-];
+  orgData.push(rootNode)
   // Initialiser l'organigramme
   const chart = new OrgChart(document.getElementById("tree"), {
     enableSearch: false,

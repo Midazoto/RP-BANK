@@ -30,6 +30,18 @@ router.get('/employe/organigramme', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/employe/organigramme.html'));
 });
 
+router.get('/employe/register', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/html/employe/register.html'));
+});
+
+router.get('/employe/register/:type', (req, res) => {
+    const { type } = req.params;
+    if (type !== 'client' && type !== 'employe') {
+        return res.status(404).send('Type d’utilisateur inconnu');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/employe/register_type.html'));
+});
 
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
