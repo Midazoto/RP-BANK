@@ -4,12 +4,14 @@ const db = require('../db');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
+const verifierToken = require("../middleware/authMiddleware");
+const verifierEmploye = require("../middleware/EmpMiddleware");
 
 dotenv.config();
 const JWT_SECRET = process.env.JWT_SECRET;
 
 //Inscription d'un nouvel utilisateur
-router.post('/register/:type',async (req, res) => {
+router.post('/register/:type',verifierToken,verifierEmploye,async (req, res) => {
     const { email,password,nom,prenom,resp_id,adresse,telephone,banquier,poste} = req.body;
     const type = req.params.type;
     if (!email || !password || !nom || !prenom) {
