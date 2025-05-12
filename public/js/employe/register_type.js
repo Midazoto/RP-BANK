@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Vider d'abord les options sauf la première (placeholder)
             select.innerHTML = `
-                <option value="" disabled selected>Responsable</option>
+                <option value="" disabled selected>Responsable :</option>
                 <option value=null>Pas de responsable</option>
             `;
 
