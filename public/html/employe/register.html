@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/popup.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 
-    <link rel="stylesheet" href="/css/template.css">
+    <link rel="stylesheet" href="/css/employe/register.css">
 </head>
 <body>
     <header id="main-header">
@@ -36,10 +36,15 @@
     </header>
     <div id="popup-container" class="popup-container"></div>
 
-    <main>
-        <h1>Simple Template</h1>
+        <main>
+        <div class="wrapper">
+            <h1>Quel type de compte souhaitez-vous créer ?</h1>
+            <div class="button-container">
+                <a href="/employe/register/client" class="button">Client</a>
+                <a href="/employe/register/employe" class="button">Employé</a>
+            </div>
+        </div>
     </main>
-
-    <script type="module" src="/js/template.js"></script>
+    <script type="module" src="/js/employe/register.js"></script>
 </body>
 </html>

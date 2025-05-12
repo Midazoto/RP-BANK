@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/popup.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 
-    <link rel="stylesheet" href="/css/template.css">
+    <link rel="stylesheet" href="/css/employe/register_type.css">
 </head>
 <body>
     <header id="main-header">
@@ -36,10 +36,30 @@
     </header>
     <div id="popup-container" class="popup-container"></div>
 
-    <main>
-        <h1>Simple Template</h1>
+        <main>
+        <div class ="wrapper">
+            <form id="register-form">
+                <h1>Création du compte :</h1>
+                <div class="input-box">
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="prenom" placeholder="Prenom" required>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="mail" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password" placeholder="Mot de passe" required>
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+                <button type="submit" class="button">Se connecter</button>
+            </form>
+        </div>
     </main>
-
-    <script type="module" src="/js/template.js"></script>
+    <script type="module" src="/js/employe/register_type.js"></script>
 </body>
 </html>

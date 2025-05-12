@@ -7,7 +7,7 @@ function headerAnonymous() {
     header.innerHTML = `
         <div class="logo-container">
             <a href="/" class="logo-container">
-                <img src="../img/logo.webp" alt="Logo" class="logo">
+                <img src="/img/logo.webp" alt="Logo" class="logo">
                 <h1>RP Bank</h1>
             </a>
         </div>
@@ -27,7 +27,7 @@ function headerEmploye() {
     header.innerHTML = `
         <div class="logo-container">
             <a href="/" class="logo-container">
-                <img src="../img/logo.webp" alt="Logo" class="logo">
+                <img src="/img/logo.webp" alt="Logo" class="logo">
                 <h1>RP Bank - Espace Employé</h1>
             </a>
         </div>
@@ -48,7 +48,7 @@ function headerClient() {
     header.innerHTML = `
         <div class="logo-container">
             <a href="/" class="logo-container">
-                <img src="../img/logo.webp" alt="Logo" class="logo">
+                <img src="/img/logo.webp" alt="Logo" class="logo">
                 <h1>RP Bank - Espace Client</h1>
             </a>
         </div>
