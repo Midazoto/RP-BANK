@@ -15,6 +15,13 @@ function headerAnonymous() {
             <ul id="nav-links">
                 <li><a href="/">Accueil</a></li>
                 <li><a href="/login">Se connecter</a></li>
+                <li>
+                    <button id="theme-toggle" title="Changer de thème">
+                        <span class="icon bx bx-sun"></span>
+                        <span class="slider"></span>
+                        <span class="icon bx bx-moon"></span>
+                    </button>
+                </li>
             </ul>
         </nav>
     `;
@@ -36,6 +43,13 @@ function headerEmploye() {
                 <li><a href="/dashboard">Tableau de bord</a></li>
                 <li><a href="/gestion">Gestion</a></li>
                 <li><a href="/logout">Déconnexion</a></li>
+                <li>
+                    <button id="theme-toggle" title="Changer de thème">
+                        <span class="icon bx bx-sun"></span>
+                        <span class="slider"></span>
+                        <span class="icon bx bx-moon"></span>
+                    </button>
+                </li>
             </ul>
         </nav>
     `;
@@ -57,6 +71,13 @@ function headerClient() {
                 <li><a href="/produits">Produits</a></li>
                 <li><a href="/profil">Mon compte</a></li>
                 <li><a href="/logout">Déconnexion</a></li>
+                <li>
+                    <button id="theme-toggle" title="Changer de thème">
+                        <span class="icon bx bx-sun"></span>
+                        <span class="slider"></span>
+                        <span class="icon bx bx-moon"></span>
+                    </button>
+                </li>
             </ul>
         </nav>
     `;
@@ -64,7 +85,8 @@ function headerClient() {
 
 // Fonction qui détermine quel header afficher et injecte les styles
 export function setHeader() {
-    // Injecte les assets CSS pour la page
+
+
 
     // Récupère les informations de l'utilisateur
     fetch('/api/auth/user', {
@@ -83,6 +105,17 @@ export function setHeader() {
         } else {
             headerAnonymous(); // Appelle la fonction pour l'état anonyme
         }
+        const toggleBtn = document.getElementById("theme-toggle");
+        const currentTheme = localStorage.getItem("theme") || "light";
+
+        // Applique le thème au chargement
+        document.documentElement.setAttribute("data-theme", currentTheme);
+
+        toggleBtn.addEventListener("click", () => {
+            const newTheme = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+            document.documentElement.setAttribute("data-theme", newTheme);
+            localStorage.setItem("theme", newTheme);
+        });
     })
     .catch(err => {
         console.error('Erreur lors de la récupération des données', err);
