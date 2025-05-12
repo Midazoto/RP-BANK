@@ -1,5 +1,6 @@
-import { setHeader,addPopup } from "../utils/index.js";
+import { setHeader,addPopup,requireAuthEmploye } from "../utils/index.js";
 
+requireAuthEmploye();
 setHeader();
 const token = localStorage.getItem('token');
 if (!token) {
@@ -34,11 +35,69 @@ document.addEventListener("DOMContentLoaded", () => {
                 <i class='bx bxs-envelope'></i>
             </div>
             <div class="input-box">
+                <input type="text" name="adresse" placeholder="Adresse" required>
+                <i class='bx bxs-home' ></i>
+            </div>
+            <div class="input-box">
+                <input type="text" name="telephone" placeholder="N° de téléphone" required>
+                <i class='bx bxs-phone' ></i>
+            </div>
+            <div class="input-box">
+                <select name="banquier" aria-label="Banquier" required>
+                    <option value="" disabled selected>Banquier :</option>
+                </select>
+                <i class='bx bxs-user-badge' ></i>
+            </div>
+            <div class="input-box">
                 <input type="password" name="password" placeholder="Mot de passe" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
             <button type="submit" class="button">Se connecter</button>
         `;
+
+        Promise.all([
+            fetch('/api/employe/current', {
+                headers: {
+                'Authorization': `Bearer ${token}`
+                }
+            }).then(res => res.json()),
+
+            fetch('/api/employe/subordonnes', {
+                headers: {
+                'Authorization': `Bearer ${token}`
+                }
+            }).then(res => res.json())
+            ])
+            .then(([currentUser, subordonnes]) => {
+            // Récupérer le <select>
+            const select = document.querySelector('select[name="banquier"]');
+            if (!select) {
+                console.error("Le <select> responsable est introuvable.");
+                return;
+            }
+
+            // Vider d'abord les options sauf la première (placeholder)
+            select.innerHTML = `
+                <option value="" disabled selected>Banquier :</option>
+            `;
+
+            // Ajouter l'utilisateur courant
+            const optionUser = document.createElement('option');
+            optionUser.value = currentUser.id;
+            optionUser.textContent = `${currentUser.prenom} ${currentUser.nom} — ${currentUser.poste}`;
+            select.appendChild(optionUser);
+
+            // Ajouter les subordonnés
+            subordonnes.forEach(e => {
+                const option = document.createElement('option');
+                option.value = e.id;
+                option.textContent = `${e.prenom} ${e.nom} — ${e.poste}`;
+                select.appendChild(option);
+            });
+            })
+            .catch(err => {
+            console.error("Erreur lors de la récupération des employés :", err);
+        });
     }
     else if(type === 'employe') {
         form.innerHTML=`
@@ -61,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
             <div class="input-box">
                 <select name="responsable" aria-label="Responsable" required>
-                    <option value="" disabled selected>Responsable</option>
+                    <option value="" disabled selected>Responsable :</option>
                 </select>
                 <i class='bx bxs-user-badge' ></i>
             </div>
@@ -124,11 +183,17 @@ document.addEventListener("DOMContentLoaded", () => {
         const prenom = form.prenom.value;
         const email = form.mail.value;
         const password = form.password.value;
-        const body = JSON.stringify({ nom, prenom, email, password });
+        var body = JSON.stringify({ nom, prenom, email, password });
         if (type === 'employe'){
             const poste = form.poste ? form.poste.value : null;
             const resp_id = form.responsable.value === 'null' ? null : parseInt(form.responsable.value);
             body = JSON.stringify({ nom, prenom, email, password, poste, resp_id });
+        }
+        else if (type === 'client'){
+            const adresse = form.adresse.value;
+            const telephone = form.telephone.value;
+            const banquier = parseInt(form.banquier.value);
+            body = JSON.stringify({ nom, prenom, email, password, adresse, telephone, banquier });
         }
         alert(body);
         try {
@@ -150,13 +215,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 window.location.href = "/";
             } else {
                 addPopup(data.message || "Échec de la connexion", "error");
-                //window.location.reload();
+                window.location.reload();
             }
 
         } catch (err) {
             console.error("Erreur :", err);
             addPopup("Erreur lors de la connexion", "error");
-            //window.location.reload();
+            window.location.reload();
         }
     });
 })

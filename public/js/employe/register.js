@@ -1,3 +1,4 @@
-import { setHeader } from "../utils/index.js";
+import { setHeader,requireAuthEmploye } from "../utils/index.js";
 
+requireAuthEmploye();
 setHeader();
