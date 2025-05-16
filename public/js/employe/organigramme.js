@@ -86,7 +86,7 @@ Promise.all([
     const node = chart.get(args.node.id);
     if (node) {
       const userId = node.id;
-      window.location.href = `/employe/${userId}`;
+      window.location.href = `/employe/${userId}/profil`;
     }
   });
 

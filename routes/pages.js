@@ -7,6 +7,10 @@ router.get('/', (req, res) => {
     }
 );
 
+router.get('/employe/home', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/html/employe/home.html'));
+});
+
 
 router.get('/login',(req,res) => {
     res.sendFile(path.join(__dirname, '../public/html/login.html'));
@@ -43,7 +47,7 @@ router.get('/employe/register/:type', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/employe/register_type.html'));
 });
 
-router.get('/employe/:id', (req, res) => {
+router.get('/employe/:id/profil', (req, res) => {
     const { id } = req.params;
     if (!id) {
         return res.status(404).send('ID d’employé manquant');

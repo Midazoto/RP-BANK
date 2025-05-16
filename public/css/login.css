@@ -30,15 +30,3 @@ main {
     margin-top: 50px;
 }
 
-.button {
-    flex: 1;
-    height: 50px;
-    border-radius: 50px;
-    border: none;
-    background: var(--button-primary-bg);
-    color: var(--button-primary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}

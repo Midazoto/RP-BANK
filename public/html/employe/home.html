@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <!--Gestion du theme-->
+    <script>
+        (function() {
+          const theme = localStorage.getItem('theme') || 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+    <link rel="stylesheet" href="/css/theme.css">
+
+    <!-- Autres styles -->
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/popup.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="/css/employe/home.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="logo-container">
+            <a href="/" class="logo-container">
+                <img src="/img/logo.webp" alt="Logo" class="logo">
+                <h1>RP Bank</h1>
+            </a>
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <!--Lien ajouté dynamiquement en fonction du type de compte connecté-->
+            </ul>
+        </nav>
+    </header>
+    <div id="popup-container" class="popup-container"></div>
+
+    <main>
+        <div class="title">
+            <h1>Bienvenue sur votre espace employé</h1>
+            <br>
+            <h3>Voici les différentes fonctionnalité à votre disposition :</h3>
+        </div>
+        <div class="app-grid">
+            <div class="element">
+                <div class="icon">
+                    <i class='bx bxs-user-plus' ></i>
+                </div>
+                <h2>Ajouter des comptes :</h2>
+                <div class="button-row">
+                    <a href="/employe/register/client" class="button">Client</a>
+                    <a href="/employe/register/employe" class="button">Employé</a>
+                </div>
+            </div>
+            <div class="element">
+                <div class="icon">
+                    <i class='bx bx-sitemap'></i>
+                </div>
+                <h2>Mon Organigramme :</h2>
+                <div class="button-row">
+                    <a href="/employe/organigramme" class="button">Accéder</a>
+                </div>
+            </div>
+            <div class="element">
+                <div class="icon">
+                    <i class='bx bxs-user-plus' ></i>
+                </div>
+                <h2>Mes Informations :</h2>
+                <div class="button-row">
+                    <a href="#" class="button" id="Consulter_profil">Consulter</a>
+                    <a href="#" class="button" id="Modifier_profil">Modifier</a>
+                </div>
+            </div>
+            <div class="element large">
+                <div class="icon">
+                    <i class='bx bxs-spreadsheet' ></i>
+                </div>
+                <h2>Mes Clients :</h2>
+                <table id="table_clients">
+                    <thead>
+                        <tr>
+                            <th style="width: 20%;">Nom</th>
+                            <th style="width: 20%;">Prénom</th>
+                            <th class="hide-on-small" style="width: 20%;">Nombre de compte</th>
+                            <th style="width: 40%;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="client_list">
+                        <!-- Liste de démonstration -->
+                        <tr>
+                            <td>Dupont</td>
+                            <td>Jean</td>
+                            <td class="hide-on-small">2</td>
+                            <td>
+                                <div class="button-row">
+                                    <a href="#" class="button">Consulter</a>
+                                    <a href="#" class="button hide-on-small">Modifier</a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Martin</td>
+                            <td>Marie</td>
+                            <td class="hide-on-small">1</td>
+                            <td>
+                                <div class="button-row">
+                                    <a href="#" class="button">Consulter</a>
+                                    <a href="#" class="button hide-on-small">Modifier</a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Durand</td>
+                            <td>Paul</td>
+                            <td class="hide-on-small">3</td>
+                            <td>
+                                <div class="button-row">
+                                    <a href="#" class="button">Consulter</a>
+                                    <a href="#" class="button hide-on-small">Modifier</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="/js/employe/home.js"></script>
+</body>
+</html>

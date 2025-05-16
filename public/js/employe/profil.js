@@ -6,7 +6,8 @@ setHeader();
 
 const token = localStorage.getItem('token');
 
-const id = window.location.pathname.split('/').pop();
+const parts = window.location.pathname.split('/');
+const id = parts[parts.indexOf('employe') + 1];
 
 fetch('/api/employe/profil/' + id, {
     headers: {

@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
           localStorage.setItem("token", data.token);
           addPopup("Vous êtes maintenant connecté.", "success");
           // Redirection éventuelle
-          window.location.href = "/";
+          window.location.href = `/${type}/home`;
         } else {
           addPopup(data.message || "Échec de la connexion", "error");
           window.location.reload();
