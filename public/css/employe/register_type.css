@@ -9,12 +9,12 @@ main {
 .wrapper{
     width: 100%;
     max-width: 420px;
-    background:transparent;
+    background:var(--box-bg);
     color: var(--color-primary);
     border-radius: 10px;
     padding: 30px 40px;
     border : var(--box-border);
-    backdrop-filter: blur(35px);
+    backdrop-filter: var(--box-blur);
     box-shadow: var(--box-shadow);
 }
 
@@ -88,6 +88,10 @@ main {
     transform: translateY(-50%);
     color: var(--color-primary);
     pointer-events: none;
+}
+select option {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .button{

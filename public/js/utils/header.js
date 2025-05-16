@@ -40,8 +40,8 @@ function headerEmploye() {
         </div>
         <nav>
             <ul id="nav-links">
-                <li><a href="/dashboard">Tableau de bord</a></li>
-                <li><a href="/gestion">Gestion</a></li>
+                <li><a href="/employe/organigramme">Organigramme</a></li>
+                <li><a href="/employe/register">Inscritpion</a></li>
                 <li><a href="/logout">Déconnexion</a></li>
                 <li>
                     <button id="theme-toggle" title="Changer de thème">

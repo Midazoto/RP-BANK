@@ -1,7 +1,7 @@
 /* Thème clair par défaut */
 :root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
+    --bg-color: white;
+    --text-color: black;
     --header-bg: #f0f0f0;
     --popup-bg: #ffffff;
     --bg-image: url('../img/bg_light.jpg');
@@ -18,12 +18,13 @@
     --org-node-bg : lightblue;
     --org-current-user-bg : rgba(255, 183, 77, 0.4);
     --org-current-user-border : 3px solid #FFB300;
+    --box-blur : blur(15px)
 }
 
 /* Thème sombre */
 [data-theme="dark"] {
-    --bg-color: #121212;
-    --text-color: #f0f0f0;
+    --bg-color: black;
+    --text-color: white;
     --header-bg: #1e1e1e;
     --popup-bg: #1c1c1c;
     --bg-image: url('../img/bg_dark.jpg');
@@ -40,6 +41,7 @@
     --org-node-bg : rgb(29, 29, 95);
     --org-current-user-bg : rgba(255, 183, 77, 0.3);
     --org-current-user-border : 3px solid #FFB300;
+    --box-blur : blur(15px)
 }
 
 
