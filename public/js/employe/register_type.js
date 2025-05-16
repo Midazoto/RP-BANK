@@ -217,6 +217,30 @@ document.addEventListener("DOMContentLoaded", () => {
             if (response.ok) {
                 // Connexion réussie : stocke le token par exemple
                 addPopup("Le compte à bien été créé", "success");
+                if (type === "client") {
+                    const id_client = data.id;
+                    try {
+                        const compteResponse = await fetch(`/api/client/${id_client}/compte/add`, {
+                            method: "POST",
+                            headers: {
+                                'Authorization': `Bearer ${token}`,
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({ type_compte: "Compte Courant" })
+                        });
+
+                        const compteData = await compteResponse.json();
+                        if (!compteResponse.ok) {
+                            console.error("Erreur à la création du compte client :", compteData);
+                            addPopup(compteData.message || "Erreur lors de la création du compte bancaire", "error");
+                            return;
+                        }
+                    } catch (compteError) {
+                        console.error("Exception lors de la création du compte client :", compteError);
+                        addPopup("Erreur lors de la création du compte bancaire", "error");
+                        return;
+                    }
+                }
                 // Redirection éventuelle
                 window.location.href = "/";
             } else {
