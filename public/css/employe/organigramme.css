@@ -23,8 +23,26 @@
     transition: background 0.3s ease;
 }
 
+.glass-node.current-user {
+  border: var(--org-current-user-border);
+  background: var(--org-current-user-bg);
+  color: var(--color-primary);
+}
+
+.glass-node.current-user:hover {
+  background: rgba(255, 183, 77, 0.3); /* intensifie le fond */
+  box-shadow: 0 0 12px 4px rgba(255, 183, 77, 0.5); /* halo chaud */
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
 [data-n-id] text {
     fill: var(--color-primary);
+    pointer-events: none; /* 🧠 clé du problème */
+}
+
+[data-n-id] tspan {
+  fill: var(--color-primary);
+  pointer-events: none;
 }
 
 [data-l-id] path {

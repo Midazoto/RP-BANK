@@ -71,4 +71,41 @@ router.get('/current', verifierToken,verifierEmploye, (req, res) => {
   });
 });
 
+router.get('/all', verifierToken,verifierEmploye, (req, res) => {
+  db.all('SELECT * FROM employe', (err, employes) => {
+    if (err) {
+      return res.status(500).json({ error: err.message });
+    }
+    res.json(employes);
+  });
+}
+);
+
+router.get('/profil/:id', verifierToken,verifierEmploye, (req, res) => {
+  const id = req.params.id;
+  db.get(`SELECT
+            e.id,
+            e.email,
+            e.nom,
+            e.prenom,
+            e.poste,
+            e.resp_id,
+            r.email AS r_email,
+            r.nom AS r_nom,
+            r.prenom AS r_prenom,
+            r.poste AS r_poste
+          FROM employe e
+          LEFT JOIN employe r ON e.resp_id = r.id
+          WHERE e.id = ?;`, [id], (err, employe) => {
+    if (err) {
+      return res.status(500).json({ error: err.message });
+    }
+    if (!employe) {
+      return res.status(404).json({ message: 'Employé non trouvé' });
+    }
+    res.json(employe);
+  });
+}
+);
+
 module.exports = router;

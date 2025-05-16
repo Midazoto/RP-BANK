@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px); /* Laisse de la place pour le header */
+    padding: 40px 20px;
+}
+
+#user-info {
+    width: 100%;
+    max-width: 420px;
+    background:var(--box-bg);
+    color: var(--color-primary);
+    border-radius: 10px;
+    padding: 30px 40px;
+    border : var(--box-border);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--box-shadow);
+}

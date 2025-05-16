@@ -6,17 +6,27 @@ setHeader();
 const token = localStorage.getItem('token');
 OrgChart.templates.glass = Object.assign({}, OrgChart.templates.ana);
 
-    OrgChart.templates.glass.size = [250, 120];
-    OrgChart.templates.glass.nodePadding = 0;
-    OrgChart.templates.glass.min = [250, 120];
-    OrgChart.templates.glass.node = `
-      <foreignObject x="0" y="0" width="250" height="120">
-        <div xmlns="http://www.w3.org/1999/xhtml" class="glass-node">
-          <div class="node-content">
-          </div>
-        </div>
-      </foreignObject>
-    `;
+OrgChart.templates.glass.size = [250, 120];
+OrgChart.templates.glass.nodePadding = 0;
+OrgChart.templates.glass.min = [250, 120];
+OrgChart.templates.glass.node = `
+  <foreignObject x="0" y="0" width="250" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="glass-node">
+      <div class="node-content">
+      </div>
+    </div>
+  </foreignObject>
+`;
+OrgChart.templates.glassCurrent = Object.assign({}, OrgChart.templates.glass);
+OrgChart.templates.glassCurrent.node = `
+  <foreignObject x="0" y="0" width="250" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="glass-node current-user">
+      <div class="node-content">
+      </div>
+    </div>
+  </foreignObject>
+`;
+
 
 Promise.all([
   fetch('/api/employe/current', {
@@ -25,31 +35,21 @@ Promise.all([
     }
   }).then(res => res.json()),
 
-  fetch('/api/employe/subordonnes', {
+  fetch('/api/employe/all', {
     headers: {
       'Authorization': `Bearer ${token}`
     }
   }).then(res => res.json())
 ])
-.then(([currentUser, subordonnes]) => {
-  // Construire l'entrée de l'utilisateur courant sans pid
-  const rootNode = {
-    id: currentUser.id,
-    name: `${currentUser.prenom} ${currentUser.nom}`,
-    title: currentUser.poste // ou currentUser.titre_poste
-    // pas de pid ici
-  };
-
-  // Transformer les subordonnés avec pid
-  const orgData = subordonnes.map(e => ({
+.then(([currentUser, allEmployees]) => {
+  const orgData = allEmployees.map(e => ({
     id: e.id,
     pid: e.resp_id,
     name: `${e.prenom} ${e.nom}`,
-    title: e.poste
+    title: e.poste,
+    tags: e.id === currentUser.id ? ["currentUser"] : []
   }));
 
-  // Ajouter l'utilisateur courant comme racine
-  orgData.push(rootNode)
   // Initialiser l'organigramme
   const chart = new OrgChart(document.getElementById("tree"), {
     enableSearch: false,
@@ -64,6 +64,11 @@ Promise.all([
     },
     nodes: orgData,
     nodeMouseClick: OrgChart.action.none,
+    tags: {
+      currentUser: {
+        template: "glassCurrent" // ou une autre couleur spéciale
+      }
+    },
     collapse: false,
     expand: { all: true }
   });
@@ -79,7 +84,16 @@ Promise.all([
   // Événement clic sur un nœud
   chart.onNodeClick((args) => {
     const node = chart.get(args.node.id);
-    alert(`ID: ${node.id}\nName: ${node.name}\nTitle: ${node.title}`);
+    if (node) {
+      const userId = node.id;
+      window.location.href = `/employe/${userId}`;
+    }
+  });
+
+  orgData.forEach(node => {
+    if (node.isCurrentUser) {
+      chart.getNode(node.id).tags = ["currentUser"];
+    }
   });
 
 })

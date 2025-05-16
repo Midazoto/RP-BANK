@@ -154,8 +154,15 @@ document.addEventListener("DOMContentLoaded", () => {
             // Vider d'abord les options sauf la première (placeholder)
             select.innerHTML = `
                 <option value="" disabled selected>Responsable :</option>
-                <option value=null>Pas de responsable</option>
             `;
+
+            if(currentUser.resp_id === null) {
+                const no_resp = document.createElement('option');
+                no_resp.value = 'null';
+                no_resp.textContent = "Pas de responsable";
+                select.appendChild(no_resp);
+            }
+
 
             // Ajouter l'utilisateur courant
             const optionUser = document.createElement('option');
@@ -195,7 +202,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const banquier = parseInt(form.banquier.value);
             body = JSON.stringify({ nom, prenom, email, password, adresse, telephone, banquier });
         }
-        alert(body);
         try {
             const response = await fetch(`/api/auth/register/${type}`, {
                 method: "POST",

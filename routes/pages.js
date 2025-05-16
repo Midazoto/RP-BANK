@@ -43,6 +43,15 @@ router.get('/employe/register/:type', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/employe/register_type.html'));
 });
 
+router.get('/employe/:id', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID d’employé manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/employe/profil.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });

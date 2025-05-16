@@ -32,7 +32,8 @@ db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS compte(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            solde REAL NOT NULL,
+            numero TEXT NOT NULL UNIQUE,
+            solde REAL NOT NULL DEFAULT 0,
             type TEXT NOT NULL,
             client_id INTEGER NOT NULL,
             FOREIGN KEY (client_id) REFERENCES client(id)

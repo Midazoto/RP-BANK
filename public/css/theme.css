@@ -8,6 +8,7 @@
     --box-border: 2px solid rgba(0, 0, 0, 0.3);
     --box-border-color: rgba(0, 0, 0, 0.3);
     --box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    --box-bg: rgb(255, 255, 255, 0.30);
     --color-primary:black;
     --color-secondary: white;
     --button-primary-bg: black;
@@ -15,6 +16,8 @@
     --button-secondary-bg: white;
     --button-secondary-color: black;
     --org-node-bg : lightblue;
+    --org-current-user-bg : rgba(255, 183, 77, 0.4);
+    --org-current-user-border : 3px solid #FFB300;
 }
 
 /* Thème sombre */
@@ -27,6 +30,7 @@
     --box-border: 2px solid rgba(255, 255, 255, 0.3);
     --box-border-color: rgba(255, 255, 255, 0.3);
     --box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    --box-bg: rgb(0, 0, 0, 0.30);
     --color-primary:white;
     --color-secondary: black;
     --button-primary-bg: white;
@@ -34,6 +38,8 @@
     --button-secondary-bg: black;
     --button-secondary-color: white;
     --org-node-bg : rgb(29, 29, 95);
+    --org-current-user-bg : rgba(255, 183, 77, 0.3);
+    --org-current-user-border : 3px solid #FFB300;
 }
 
 
