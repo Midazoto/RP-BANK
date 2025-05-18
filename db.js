@@ -1,5 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('./db.sqlite');
+const importEmployes = require('./sample_data/Script/importEmploye.js').importEmployes;
 
 db.serialize(() => {
 
@@ -70,28 +71,15 @@ db.serialize(() => {
             FOREIGN KEY (compte_id) REFERENCES compte(id)
         )`);
 
-    db.get('SELECT * FROM employe WHERE email = ?',['admin@rpbank.lol'], (err, row) => {
+    db.get('SELECT * FROM employe', (err, row) => {
         if (err) {
             console.error(err.message);
             return;
         }
         if (!row) {
-            const bcrypt = require('bcryptjs');
-            const password = 'admin123';
-            const email ='admin@rpbank.lol';
-            const nom = 'Admin';
-            const prenom = 'Principal';
-            const poste = 'Administrateur';
-            const hashedPassword = bcrypt.hashSync(password, 10);
-            db.run(`INSERT INTO employe (email, password, nom, prenom, poste) VALUES (?, ?, ?, ?, ?)`, [email, hashedPassword, nom, prenom, poste], function(err) {
-                if (err) {
-                    console.error(err.message);
-                } else {
-                    console.log(`Le Compte Admin à été créée avec l'ID : ${this.lastID}`);
-                }
-            });
+            importEmployes(db);
         }else {
-            console.log('Le Compte Admin existe déjà');
+            console.log('Base de données déjà initialisée avec les employés.');
         }
     });
 

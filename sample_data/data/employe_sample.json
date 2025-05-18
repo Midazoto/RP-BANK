@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "email": "clemoine@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Lemoine",
+    "prenom": "Claire",
+    "poste": "Directrice Générale",
+    "resp_id": null
+  },
+  {
+    "id": 2,
+    "email": "lmartin@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Martin",
+    "prenom": "Luc",
+    "poste": "Directeur Clients Entreprises",
+    "resp_id": 1
+  },
+  {
+    "id": 3,
+    "email": "sdurand@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Durand",
+    "prenom": "Sophie",
+    "poste": "Directrice Clients Particuliers",
+    "resp_id": 1
+  },
+  {
+    "id": 4,
+    "email": "jmoreau@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Moreau",
+    "prenom": "Julien",
+    "poste": "Directeur Administratif",
+    "resp_id": 1
+  },
+  {
+    "id": 5,
+    "email": "lgarcia@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Garcia",
+    "prenom": "Laura",
+    "poste": "Responsable Clientèle Particuliers",
+    "resp_id": 3
+  },
+  {
+    "id": 6,
+    "email": "tpetit@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Petit",
+    "prenom": "Thomas",
+    "poste": "Responsable Clientèle Entreprises",
+    "resp_id": 2
+  },
+  {
+    "id": 7,
+    "email": "crobert@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Robert",
+    "prenom": "Camille",
+    "poste": "Responsable Gestion Privée",
+    "resp_id": 3
+  },
+  {
+    "id": 8,
+    "email": "amarchand@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Marchand",
+    "prenom": "Alain",
+    "poste": "Responsable Crédits",
+    "resp_id": 4
+  },
+  {
+    "id": 9,
+    "email": "nleroy@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Leroy",
+    "prenom": "Nina",
+    "poste": "Conseillère Clientèle Particuliers",
+    "resp_id": 5
+  },
+  {
+    "id": 10,
+    "email": "qroux@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Roux",
+    "prenom": "Quentin",
+    "poste": "Conseiller Clientèle Particuliers",
+    "resp_id": 5
+  },
+  {
+    "id": 11,
+    "email": "ecolin@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Colin",
+    "prenom": "Emma",
+    "poste": "Conseillère Clientèle Étudiants",
+    "resp_id": 5
+  },
+  {
+    "id": 12,
+    "email": "lfernandez@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Fernandez",
+    "prenom": "Lucas",
+    "poste": "Conseiller Clientèle Entreprises",
+    "resp_id": 6
+  },
+  {
+    "id": 13,
+    "email": "elambert@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Lambert",
+    "prenom": "Elodie",
+    "poste": "Conseillère Clientèle Professionnels",
+    "resp_id": 6
+  },
+  {
+    "id": 14,
+    "email": "aphilippe@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Philippe",
+    "prenom": "Adrien",
+    "poste": "Conseiller Gestion Privée",
+    "resp_id": 7
+  },
+  {
+    "id": 15,
+    "email": "mlopez@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Lopez",
+    "prenom": "Manon",
+    "poste": "Conseillère Crédits Immobilier",
+    "resp_id": 8
+  },
+  {
+    "id": 16,
+    "email": "mpires@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Pires",
+    "prenom": "Mathieu",
+    "poste": "Conseiller Crédits Consommation",
+    "resp_id": 8
+  },
+  {
+    "id": 17,
+    "email": "jsimon@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Simon",
+    "prenom": "Julie",
+    "poste": "Conseillère Clientèle Particuliers",
+    "resp_id": 5
+  },
+  {
+    "id": 18,
+    "email": "vnoel@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Noël",
+    "prenom": "Victor",
+    "poste": "Conseiller Clientèle Entreprises",
+    "resp_id": 6
+  },
+  {
+    "id": 19,
+    "email": "crey@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Rey",
+    "prenom": "Chloé",
+    "poste": "Conseillère Clientèle Professionnels",
+    "resp_id": 6
+  },
+  {
+    "id": 20,
+    "email": "bgauthier@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Gauthier",
+    "prenom": "Benoît",
+    "poste": "Conseiller Gestion Privée",
+    "resp_id": 7
+  },
+  {
+    "id": 21,
+    "email": "sbarbier@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Barbier",
+    "prenom": "Sarah",
+    "poste": "Conseillère Crédits Professionnels",
+    "resp_id": 8
+  },
+  {
+    "id": 22,
+    "email": "prenard@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Renard",
+    "prenom": "Pascal",
+    "poste": "Conseiller Crédits Agricoles",
+    "resp_id": 8
+  },
+  {
+    "id": 23,
+    "email": "mhenry@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Henry",
+    "prenom": "Marion",
+    "poste": "Conseillère Clientèle Particuliers",
+    "resp_id": 5
+  }
+]
