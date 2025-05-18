@@ -1,6 +1,18 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(-90px + 100vh);
+}
 #tree{
     background-color: transparent;
-    height: calc(-90px + 100vh);
+    height: calc(100vh - 150px);
+    width: 97%;
+    background-color: var(--box-bg);
+    border-radius: 10px;
+    border: var(--box-border);
+    backdrop-filter: var(--box-blur);
+    box-shadow: var(--box-shadow);
 }
 
 .glass-node {
@@ -50,6 +62,7 @@
     stroke-width: 2px;
 }
 
-[data-ctrl-ec-id] {
-    display: none;
+[data-ctrl-ec-id] line {
+  stroke: black !important; /* ou la couleur que tu veux */
+  stroke-width: 1
 }

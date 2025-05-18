@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "email": "clemoine@rpbank.lol",
+    "email": "nlefol@rpbank.lol",
     "password": "mdp123",
-    "nom": "Lemoine",
-    "prenom": "Claire",
-    "poste": "Directrice Générale",
+    "nom": "Le Fol",
+    "prenom": "Nathan",
+    "poste": "Directeur Général",
     "resp_id": null
   },
   {
@@ -37,10 +37,10 @@
   },
   {
     "id": 5,
-    "email": "lgarcia@rpbank.lol",
+    "email": "eheulot@rpbank.lol",
     "password": "mdp123",
-    "nom": "Garcia",
-    "prenom": "Laura",
+    "nom": "Heulot",
+    "prenom": "Evan",
     "poste": "Responsable Clientèle Particuliers",
     "resp_id": 3
   },
@@ -145,11 +145,11 @@
   },
   {
     "id": 17,
-    "email": "jsimon@rpbank.lol",
+    "email": "alagane@rpbank.lol",
     "password": "mdp123",
-    "nom": "Simon",
-    "prenom": "Julie",
-    "poste": "Conseillère Clientèle Particuliers",
+    "nom": "Lagane",
+    "prenom": "Antoine",
+    "poste": "Conseiller Clientèle Particuliers",
     "resp_id": 5
   },
   {

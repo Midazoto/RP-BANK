@@ -54,8 +54,8 @@ Promise.all([
   const chart = new OrgChart(document.getElementById("tree"), {
     enableSearch: false,
     template:"glass",
-    zoom: true,
-    scaleInitial: 1.0,
+    zoom: false,
+    scaleInitial: 1,
     showYScroll: true,
     showXScroll: true,
     nodeBinding: {
@@ -63,14 +63,22 @@ Promise.all([
       field_1: "title"
     },
     nodes: orgData,
+    mouseScrool: OrgChart.action.scroll,
     nodeMouseClick: OrgChart.action.none,
     tags: {
       currentUser: {
         template: "glassCurrent" // ou une autre couleur spéciale
       }
     },
-    collapse: false,
-    expand: { all: true }
+    collapse: {
+        level: 1,
+        allChildren: true
+    },
+    expand: { 
+      nodes:[currentUser.id],
+      allChildren: true
+     },
+    orientation: OrgChart.orientation.left_top
   });
 
   let resizeTimeout;
