@@ -205,5 +205,23 @@
     "prenom": "Marion",
     "poste": "Conseillère Clientèle Particuliers",
     "resp_id": 5
+  },
+  {
+    "id": 24,
+    "email": "sleclerc@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Leclerc",
+    "prenom": "Simon",
+    "poste": "Директор Советской Родины",
+    "resp_id": 1
+  },
+  {
+    "id": 25,
+    "email": "vpoutine@rpbank.lol",
+    "password": "mdp123",
+    "nom": "Poutine",
+    "prenom": "Vladimir",
+    "poste": "Советник по специальным военным операциям",
+    "resp_id": 24
   }
 ]

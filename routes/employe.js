@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const db = require("../db");
 const verifierToken = require("../middleware/authMiddleware");
-const verifierEmploye = require("../middleware/EmpMiddleware");
+const verifierEmploye = require("../middleware/empMiddleware");
 
 
 //GET tout les subordonnées d'un employé connecté
