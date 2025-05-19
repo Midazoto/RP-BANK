@@ -81,13 +81,6 @@ Promise.all([
     orientation: OrgChart.orientation.left_top
   });
 
-  let resizeTimeout;
-  window.addEventListener('resize', () => {
-    clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(() => {
-      chart.fit();
-    }, 200);
-  });
 
   // Événement clic sur un nœud
   chart.onNodeClick((args) => {
