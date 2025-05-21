@@ -50,6 +50,20 @@ Promise.all([
     tags: e.id === currentUser.id ? ["currentUser"] : []
   }));
 
+  let direct_subordinates = allEmployees.filter(e => e.resp_id === currentUser.id).map(e => ({
+    id: e.id,
+    pid: e.resp_id,
+    name: `${e.prenom} ${e.nom}`,
+    title: e.poste,
+    tags: e.id === currentUser.id ? ["currentUser"] : []
+  }));
+
+  let nodes_list = [];
+  for (let i = 0; i < direct_subordinates.length; i++) {
+    nodes_list.push(direct_subordinates[i].id);
+  }
+  nodes_list.push(currentUser.id);
+
   // Initialiser l'organigramme
   const chart = new OrgChart(document.getElementById("tree"), {
     enableSearch: false,
@@ -74,10 +88,9 @@ Promise.all([
         level: 1,
         allChildren: true
     },
-    expand: { 
-      nodes:[currentUser.id],
-      allChildren: true
-     },
+    expand: {
+      nodes:nodes_list
+    },
     orientation: OrgChart.orientation.left_top
   });
 
