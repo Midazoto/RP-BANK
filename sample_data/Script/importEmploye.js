@@ -12,6 +12,7 @@ function importEmployes(db) {
     const employes = JSON.parse(rawData);
 
     db.serialize(() => {
+        db.run("BEGIN TRANSACTION");
         const stmt = db.prepare(`
             INSERT OR IGNORE INTO employe (id, email, password, nom, prenom, poste, resp_id)
             VALUES (?, ?, ?, ?, ?, ?, ?)
@@ -22,8 +23,9 @@ function importEmployes(db) {
             stmt.run(emp.id, emp.email, hashedPassword, emp.nom, emp.prenom, emp.poste, emp.resp_id || null);
         }
 
-        stmt.finalize(() => {
-            console.log("Import des employés terminé.");
+        stmt.finalize();
+        db.run("COMMIT", () => {
+            console.log("Import des employée terminé.");
         });
     });
 }

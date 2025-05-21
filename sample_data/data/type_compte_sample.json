@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "libelle": "Compte courant"
+    },
+    {
+        "id": 2,
+        "libelle": "Livret A"
+    },
+    {
+        "id": 3,
+        "libelle": "Livret de développement durable et solidaire (LDDS)"
+    },
+    {
+        "id": 4,
+        "libelle": "Livret d'épargne populaire (LEP)"
+    },
+    {
+        "id": 5,
+        "libelle": "Livret jeune"
+    },
+    {
+        "id": 6,
+        "libelle": "Compte épargne logement (CEL)"
+    },
+    {
+        "id": 7,
+        "libelle": "Plan épargne logement (PEL)"
+    },
+    {
+        "id": 8,
+        "libelle": "Plan d'épargne retraite populaire (Perp)"
+    },
+    {
+        "id": 9,
+        "libelle": "Compte sur livret ou livret d'épargne bancaire"
+    },
+    {
+        "id": 10,
+        "libelle": "Compte à terme (CAT)"
+    },
+    {
+        "id": 11,
+        "libelle": "Plan d'épargne en actions (PEA)"
+    },
+    {
+        "id": 12,
+        "libelle": "Plan d'épargne avenir climat"
+    }
+]

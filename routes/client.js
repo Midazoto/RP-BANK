@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const db = require("../db");
 const verifierToken = require("../middleware/authMiddleware");
-const verifierEmploye = require("../middleware/EmpMiddleware");
+const verifierEmploye = require("../middleware/empMiddleware");
 
 router.get("/:id_client/compte",verifierToken,(req,res)=>{
     return res.status(500).json({message:"Route non disponible"});

@@ -153,7 +153,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const data = await response.json();
 
             if (response.ok) {
-                // Connexion réussie : stocke le token par exemple
                 addPopup("Le compte à bien été créé", "success");
                 if (type === "client") {
                     const id_client = data.id;
@@ -164,25 +163,23 @@ document.addEventListener("DOMContentLoaded", () => {
                                 'Authorization': `Bearer ${token}`,
                                 "Content-Type": "application/json"
                             },
-                            body: JSON.stringify({ type_compte: "Compte Courant" })
+                            body: JSON.stringify({ type_compte: 1 })
                         });
 
                         const compteData = await compteResponse.json();
                         if (!compteResponse.ok) {
                             console.error("Erreur à la création du compte client :", compteData);
-                            addPopup(compteData.message || "Erreur lors de la création du compte bancaire", "error");
-                            return;
+                            addPopup("Erreur lors de la création du compte bancaire", "error");
                         }
-                    } catch (compteError) {
+                    } catch (err) {
                         console.error("Exception lors de la création du compte client :", compteError);
                         addPopup("Erreur lors de la création du compte bancaire", "error");
-                        return;
                     }
                 }
                 // Redirection éventuelle
-                window.location.href = "/";
+                window.location.href = "/employe/home";
             } else {
-                addPopup(data.message || "Échec de la connexion", "error");
+                addPopup(data.message || "Échec de la création du compte", "error");
                 window.location.reload();
             }
 

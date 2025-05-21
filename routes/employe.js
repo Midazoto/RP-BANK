@@ -110,7 +110,7 @@ router.get('/profil/:id', verifierToken,verifierEmploye, (req, res) => {
 
 router.get('/getClient', verifierToken,verifierEmploye, (req, res) => {
   const id = req.user.id;
-  db.all('SELECT client.id,nom,prenom,count(*) as nb_compte FROM client LEFT JOIN compte on client.id = compte.client_id WHERE banquier = ? GROUP BY client.id,nom,prenom',[id], (err, rows) => {
+  db.all('SELECT client.id,nom,prenom,count(client_id) as nb_compte FROM client LEFT JOIN compte on client.id = compte.client_id WHERE banquier = ? GROUP BY client.id,nom,prenom',[id], (err, rows) => {
     if (err) {
       res.status(500).json({ error: err.message });
       return;

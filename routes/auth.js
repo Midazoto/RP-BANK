@@ -5,7 +5,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 const verifierToken = require("../middleware/authMiddleware");
-const verifierEmploye = require("../middleware/EmpMiddleware");
+const verifierEmploye = require("../middleware/empMiddleware");
 
 dotenv.config();
 const JWT_SECRET = process.env.JWT_SECRET;
