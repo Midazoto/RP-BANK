@@ -1,4846 +1,6306 @@
 [
     {
         "id": 1,
-        "numero": "04640200755",
+        "numero": "94969396923",
         "solde": 0,
         "type": 1,
+        "droit_decouvert": 500,
         "client_id": 1
     },
     {
         "id": 2,
-        "numero": "53314064736",
+        "numero": "88146312880",
         "solde": 0,
         "type": 2,
+        "droit_decouvert": 0,
         "client_id": 1
     },
     {
         "id": 3,
-        "numero": "91510559404",
+        "numero": "53031040456",
         "solde": 0,
-        "type": 1,
-        "client_id": 2
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 1
     },
     {
         "id": 4,
-        "numero": "01599007564",
+        "numero": "96001957444",
         "solde": 0,
-        "type": 6,
+        "type": 1,
+        "droit_decouvert": 0,
         "client_id": 2
     },
     {
         "id": 5,
-        "numero": "24925780439",
+        "numero": "36441688824",
         "solde": 0,
-        "type": 1,
-        "client_id": 3
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 2
     },
     {
         "id": 6,
-        "numero": "54087448071",
+        "numero": "67878315446",
         "solde": 0,
-        "type": 2,
+        "type": 1,
+        "droit_decouvert": 0,
         "client_id": 3
     },
     {
         "id": 7,
-        "numero": "98259237180",
+        "numero": "90638017232",
         "solde": 0,
-        "type": 12,
+        "type": 2,
+        "droit_decouvert": 0,
         "client_id": 3
     },
     {
         "id": 8,
-        "numero": "77494467706",
+        "numero": "84832452967",
         "solde": 0,
-        "type": 1,
-        "client_id": 4
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 3
     },
     {
         "id": 9,
-        "numero": "98523531159",
+        "numero": "05159764037",
         "solde": 0,
-        "type": 2,
+        "type": 1,
+        "droit_decouvert": 500,
         "client_id": 4
     },
     {
         "id": 10,
-        "numero": "66059517713",
+        "numero": "17756428595",
         "solde": 0,
-        "type": 1,
-        "client_id": 5
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 4
     },
     {
         "id": 11,
-        "numero": "18925416166",
+        "numero": "75206740112",
         "solde": 0,
-        "type": 2,
+        "type": 1,
+        "droit_decouvert": 200,
         "client_id": 5
     },
     {
         "id": 12,
-        "numero": "74601695346",
+        "numero": "98481912690",
         "solde": 0,
-        "type": 1,
-        "client_id": 6
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 5
     },
     {
         "id": 13,
-        "numero": "74520830461",
+        "numero": "70428113271",
         "solde": 0,
-        "type": 2,
+        "type": 1,
+        "droit_decouvert": 300,
         "client_id": 6
     },
     {
         "id": 14,
-        "numero": "75687991761",
+        "numero": "95198564227",
         "solde": 0,
-        "type": 1,
-        "client_id": 7
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 6
     },
     {
         "id": 15,
-        "numero": "30078017041",
+        "numero": "90323304441",
         "solde": 0,
         "type": 1,
-        "client_id": 8
+        "droit_decouvert": 20,
+        "client_id": 7
     },
     {
         "id": 16,
-        "numero": "24237734276",
+        "numero": "86351956740",
         "solde": 0,
         "type": 2,
-        "client_id": 8
+        "droit_decouvert": 0,
+        "client_id": 7
     },
     {
         "id": 17,
-        "numero": "50103234349",
+        "numero": "36259594705",
         "solde": 0,
-        "type": 11,
+        "type": 1,
+        "droit_decouvert": 200,
         "client_id": 8
     },
     {
         "id": 18,
-        "numero": "81579470788",
+        "numero": "68964587818",
         "solde": 0,
-        "type": 1,
-        "client_id": 9
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 8
     },
     {
         "id": 19,
-        "numero": "74882574066",
+        "numero": "44770877012",
         "solde": 0,
-        "type": 10,
-        "client_id": 9
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 8
     },
     {
         "id": 20,
-        "numero": "15299219839",
+        "numero": "31602649593",
         "solde": 0,
         "type": 1,
-        "client_id": 10
+        "droit_decouvert": 50,
+        "client_id": 9
     },
     {
         "id": 21,
-        "numero": "31987427236",
+        "numero": "89761816161",
         "solde": 0,
-        "type": 1,
-        "client_id": 11
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 9
     },
     {
         "id": 22,
-        "numero": "83749883566",
+        "numero": "81701123179",
         "solde": 0,
-        "type": 2,
-        "client_id": 11
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 10
     },
     {
         "id": 23,
-        "numero": "12618306904",
+        "numero": "31165548365",
         "solde": 0,
-        "type": 1,
-        "client_id": 12
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 10
     },
     {
         "id": 24,
-        "numero": "01882359183",
+        "numero": "16513561360",
         "solde": 0,
         "type": 1,
-        "client_id": 13
+        "droit_decouvert": 200,
+        "client_id": 11
     },
     {
         "id": 25,
-        "numero": "47371426501",
+        "numero": "06272473538",
         "solde": 0,
         "type": 2,
-        "client_id": 13
+        "droit_decouvert": 0,
+        "client_id": 11
     },
     {
         "id": 26,
-        "numero": "93964783607",
+        "numero": "22820466745",
         "solde": 0,
-        "type": 4,
-        "client_id": 13
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 11
     },
     {
         "id": 27,
-        "numero": "86872876759",
+        "numero": "04217196353",
         "solde": 0,
         "type": 1,
-        "client_id": 14
+        "droit_decouvert": 100,
+        "client_id": 12
     },
     {
         "id": 28,
-        "numero": "61949985842",
+        "numero": "74551323725",
         "solde": 0,
         "type": 2,
-        "client_id": 14
+        "droit_decouvert": 0,
+        "client_id": 12
     },
     {
         "id": 29,
-        "numero": "82597945062",
+        "numero": "74436612847",
         "solde": 0,
-        "type": 1,
-        "client_id": 15
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 12
     },
     {
         "id": 30,
-        "numero": "11508544464",
+        "numero": "73715349731",
         "solde": 0,
-        "type": 6,
-        "client_id": 15
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 13
     },
     {
         "id": 31,
-        "numero": "19162487240",
+        "numero": "81345263105",
         "solde": 0,
         "type": 1,
-        "client_id": 16
+        "droit_decouvert": 0,
+        "client_id": 14
     },
     {
         "id": 32,
-        "numero": "42418956335",
+        "numero": "57482222321",
         "solde": 0,
-        "type": 1,
-        "client_id": 17
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 14
     },
     {
         "id": 33,
-        "numero": "90480734107",
+        "numero": "64849536088",
         "solde": 0,
-        "type": 2,
-        "client_id": 17
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 14
     },
     {
         "id": 34,
-        "numero": "63475776038",
+        "numero": "33755503645",
         "solde": 0,
-        "type": 5,
-        "client_id": 17
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 14
     },
     {
         "id": 35,
-        "numero": "43469760747",
+        "numero": "56653162686",
         "solde": 0,
         "type": 1,
-        "client_id": 18
+        "droit_decouvert": 250,
+        "client_id": 15
     },
     {
         "id": 36,
-        "numero": "47180212764",
+        "numero": "15788774371",
         "solde": 0,
-        "type": 2,
-        "client_id": 18
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 15
     },
     {
         "id": 37,
-        "numero": "87174083619",
+        "numero": "69330435774",
         "solde": 0,
         "type": 1,
-        "client_id": 19
+        "droit_decouvert": 500,
+        "client_id": 16
     },
     {
         "id": 38,
-        "numero": "17521485885",
+        "numero": "22202876569",
         "solde": 0,
         "type": 2,
-        "client_id": 19
+        "droit_decouvert": 0,
+        "client_id": 16
     },
     {
         "id": 39,
-        "numero": "89567032824",
+        "numero": "39025142746",
         "solde": 0,
-        "type": 1,
-        "client_id": 20
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 16
     },
     {
         "id": 40,
-        "numero": "59633375941",
+        "numero": "61702624223",
         "solde": 0,
         "type": 1,
-        "client_id": 21
+        "droit_decouvert": 100,
+        "client_id": 17
     },
     {
         "id": 41,
-        "numero": "96649837322",
+        "numero": "11963192193",
         "solde": 0,
         "type": 2,
-        "client_id": 21
+        "droit_decouvert": 0,
+        "client_id": 17
     },
     {
         "id": 42,
-        "numero": "06510588752",
+        "numero": "34355477478",
         "solde": 0,
         "type": 1,
-        "client_id": 22
+        "droit_decouvert": 20,
+        "client_id": 18
     },
     {
         "id": 43,
-        "numero": "87803727497",
+        "numero": "47640081372",
         "solde": 0,
         "type": 2,
-        "client_id": 22
+        "droit_decouvert": 0,
+        "client_id": 18
     },
     {
         "id": 44,
-        "numero": "60889775095",
+        "numero": "93038490004",
         "solde": 0,
         "type": 1,
-        "client_id": 23
+        "droit_decouvert": 250,
+        "client_id": 19
     },
     {
         "id": 45,
-        "numero": "34810050850",
+        "numero": "21361875714",
         "solde": 0,
         "type": 2,
-        "client_id": 23
+        "droit_decouvert": 0,
+        "client_id": 19
     },
     {
         "id": 46,
-        "numero": "28435848088",
+        "numero": "48566442693",
         "solde": 0,
-        "type": 12,
-        "client_id": 23
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 19
     },
     {
         "id": 47,
-        "numero": "12633706118",
+        "numero": "50901965289",
         "solde": 0,
         "type": 1,
-        "client_id": 24
+        "droit_decouvert": 0,
+        "client_id": 20
     },
     {
         "id": 48,
-        "numero": "35107678620",
+        "numero": "54560895006",
         "solde": 0,
         "type": 2,
-        "client_id": 24
+        "droit_decouvert": 0,
+        "client_id": 20
     },
     {
         "id": 49,
-        "numero": "46261413102",
+        "numero": "49200231702",
         "solde": 0,
         "type": 1,
-        "client_id": 25
+        "droit_decouvert": 0,
+        "client_id": 21
     },
     {
         "id": 50,
-        "numero": "46990137847",
+        "numero": "55039094707",
         "solde": 0,
         "type": 1,
-        "client_id": 26
+        "droit_decouvert": 500,
+        "client_id": 22
     },
     {
         "id": 51,
-        "numero": "97513127299",
+        "numero": "71470924873",
         "solde": 0,
-        "type": 1,
-        "client_id": 27
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 22
     },
     {
         "id": 52,
-        "numero": "59327995833",
+        "numero": "00226181668",
         "solde": 0,
-        "type": 1,
-        "client_id": 28
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 22
     },
     {
         "id": 53,
-        "numero": "67444453637",
+        "numero": "07830268157",
         "solde": 0,
-        "type": 2,
-        "client_id": 28
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 22
     },
     {
         "id": 54,
-        "numero": "88618879070",
+        "numero": "37912033324",
         "solde": 0,
         "type": 1,
-        "client_id": 29
+        "droit_decouvert": 250,
+        "client_id": 23
     },
     {
         "id": 55,
-        "numero": "55342652153",
+        "numero": "96120077192",
         "solde": 0,
         "type": 2,
-        "client_id": 29
+        "droit_decouvert": 0,
+        "client_id": 23
     },
     {
         "id": 56,
-        "numero": "47024185555",
+        "numero": "40248344615",
         "solde": 0,
         "type": 1,
-        "client_id": 30
+        "droit_decouvert": 250,
+        "client_id": 24
     },
     {
         "id": 57,
-        "numero": "05345218574",
+        "numero": "97066896551",
         "solde": 0,
-        "type": 1,
-        "client_id": 31
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 24
     },
     {
         "id": 58,
-        "numero": "45159356302",
+        "numero": "34919221401",
         "solde": 0,
-        "type": 2,
-        "client_id": 31
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 25
     },
     {
         "id": 59,
-        "numero": "48072270017",
+        "numero": "74698270716",
         "solde": 0,
-        "type": 1,
-        "client_id": 32
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 25
     },
     {
         "id": 60,
-        "numero": "07784468239",
+        "numero": "82954218068",
         "solde": 0,
-        "type": 2,
-        "client_id": 32
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 26
     },
     {
         "id": 61,
-        "numero": "57193039314",
+        "numero": "39646465751",
         "solde": 0,
-        "type": 1,
-        "client_id": 33
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 26
     },
     {
         "id": 62,
-        "numero": "78716390856",
+        "numero": "16960811432",
         "solde": 0,
-        "type": 2,
-        "client_id": 33
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 27
     },
     {
         "id": 63,
-        "numero": "34325044357",
+        "numero": "38204335120",
         "solde": 0,
-        "type": 1,
-        "client_id": 34
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 27
     },
     {
         "id": 64,
-        "numero": "92634589050",
+        "numero": "14286822906",
         "solde": 0,
         "type": 1,
-        "client_id": 35
+        "droit_decouvert": 300,
+        "client_id": 28
     },
     {
         "id": 65,
-        "numero": "47004893558",
+        "numero": "99821189957",
         "solde": 0,
-        "type": 6,
-        "client_id": 35
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 28
     },
     {
         "id": 66,
-        "numero": "50164311454",
+        "numero": "51361341719",
         "solde": 0,
-        "type": 1,
-        "client_id": 36
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 28
     },
     {
         "id": 67,
-        "numero": "59335660474",
+        "numero": "82065619032",
         "solde": 0,
         "type": 1,
-        "client_id": 37
+        "droit_decouvert": 100,
+        "client_id": 29
     },
     {
         "id": 68,
-        "numero": "23285523078",
+        "numero": "10173999723",
         "solde": 0,
         "type": 2,
-        "client_id": 37
+        "droit_decouvert": 0,
+        "client_id": 29
     },
     {
         "id": 69,
-        "numero": "16945894281",
+        "numero": "33224452929",
         "solde": 0,
-        "type": 7,
-        "client_id": 37
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 30
     },
     {
         "id": 70,
-        "numero": "60152136515",
+        "numero": "63457394946",
         "solde": 0,
-        "type": 1,
-        "client_id": 38
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 30
     },
     {
         "id": 71,
-        "numero": "09698326057",
+        "numero": "67418234948",
         "solde": 0,
         "type": 1,
-        "client_id": 39
+        "droit_decouvert": 300,
+        "client_id": 31
     },
     {
         "id": 72,
-        "numero": "07015081946",
+        "numero": "25351934212",
         "solde": 0,
-        "type": 11,
-        "client_id": 39
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 31
     },
     {
         "id": 73,
-        "numero": "15963495928",
+        "numero": "39162454947",
         "solde": 0,
-        "type": 1,
-        "client_id": 40
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 31
     },
     {
         "id": 74,
-        "numero": "15765786172",
+        "numero": "09348262136",
         "solde": 0,
         "type": 1,
-        "client_id": 41
+        "droit_decouvert": 500,
+        "client_id": 32
     },
     {
         "id": 75,
-        "numero": "73652105638",
+        "numero": "95277122221",
         "solde": 0,
-        "type": 10,
-        "client_id": 41
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 32
     },
     {
         "id": 76,
-        "numero": "95880418833",
+        "numero": "01559854787",
         "solde": 0,
-        "type": 11,
-        "client_id": 41
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 33
     },
     {
         "id": 77,
-        "numero": "76694453304",
+        "numero": "62698160457",
         "solde": 0,
-        "type": 1,
-        "client_id": 42
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 33
     },
     {
         "id": 78,
-        "numero": "80180801473",
+        "numero": "45705098366",
         "solde": 0,
-        "type": 2,
-        "client_id": 42
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 34
     },
     {
         "id": 79,
-        "numero": "23038391194",
+        "numero": "03940971219",
         "solde": 0,
-        "type": 8,
-        "client_id": 42
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 34
     },
     {
         "id": 80,
-        "numero": "25267151029",
+        "numero": "74127269623",
         "solde": 0,
-        "type": 1,
-        "client_id": 43
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 34
     },
     {
         "id": 81,
-        "numero": "27598141460",
+        "numero": "97154350517",
         "solde": 0,
-        "type": 2,
-        "client_id": 43
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 34
     },
     {
         "id": 82,
-        "numero": "88204242229",
+        "numero": "22442494496",
         "solde": 0,
-        "type": 12,
-        "client_id": 43
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 35
     },
     {
         "id": 83,
-        "numero": "59955815810",
+        "numero": "28462028744",
         "solde": 0,
-        "type": 1,
-        "client_id": 44
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 35
     },
     {
         "id": 84,
-        "numero": "45255886282",
+        "numero": "22298740725",
         "solde": 0,
-        "type": 8,
-        "client_id": 44
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 36
     },
     {
         "id": 85,
-        "numero": "51188001942",
+        "numero": "18667734439",
         "solde": 0,
-        "type": 1,
-        "client_id": 45
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 36
     },
     {
         "id": 86,
-        "numero": "78510964990",
+        "numero": "63108411691",
         "solde": 0,
-        "type": 2,
-        "client_id": 45
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 36
     },
     {
         "id": 87,
-        "numero": "80615111615",
+        "numero": "95668201253",
         "solde": 0,
         "type": 1,
-        "client_id": 46
+        "droit_decouvert": 200,
+        "client_id": 37
     },
     {
         "id": 88,
-        "numero": "55464967113",
+        "numero": "24417408523",
         "solde": 0,
-        "type": 1,
-        "client_id": 47
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 37
     },
     {
         "id": 89,
-        "numero": "32182331467",
+        "numero": "48900505679",
         "solde": 0,
-        "type": 2,
-        "client_id": 47
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 38
     },
     {
         "id": 90,
-        "numero": "47178111487",
+        "numero": "40334478273",
         "solde": 0,
-        "type": 5,
-        "client_id": 47
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 38
     },
     {
         "id": 91,
-        "numero": "75693816564",
+        "numero": "25649704554",
         "solde": 0,
-        "type": 6,
-        "client_id": 47
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 38
     },
     {
         "id": 92,
-        "numero": "06131353496",
+        "numero": "70374582174",
         "solde": 0,
-        "type": 8,
-        "client_id": 47
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 39
     },
     {
         "id": 93,
-        "numero": "10257065327",
+        "numero": "95326043225",
         "solde": 0,
-        "type": 1,
-        "client_id": 48
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 39
     },
     {
         "id": 94,
-        "numero": "52870844527",
+        "numero": "35220527764",
         "solde": 0,
-        "type": 2,
-        "client_id": 48
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 40
     },
     {
         "id": 95,
-        "numero": "05610771070",
+        "numero": "63549654219",
         "solde": 0,
         "type": 1,
-        "client_id": 49
+        "droit_decouvert": 0,
+        "client_id": 41
     },
     {
         "id": 96,
-        "numero": "48095744559",
+        "numero": "28660348028",
         "solde": 0,
         "type": 2,
-        "client_id": 49
+        "droit_decouvert": 0,
+        "client_id": 41
     },
     {
         "id": 97,
-        "numero": "06246776487",
+        "numero": "90755456393",
         "solde": 0,
-        "type": 6,
-        "client_id": 49
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 42
     },
     {
         "id": 98,
-        "numero": "86842903548",
+        "numero": "59197480095",
         "solde": 0,
         "type": 1,
-        "client_id": 50
+        "droit_decouvert": 50,
+        "client_id": 43
     },
     {
         "id": 99,
-        "numero": "66132054236",
+        "numero": "12909266243",
         "solde": 0,
         "type": 2,
-        "client_id": 50
+        "droit_decouvert": 0,
+        "client_id": 43
     },
     {
         "id": 100,
-        "numero": "41714223271",
+        "numero": "33091843312",
         "solde": 0,
         "type": 1,
-        "client_id": 51
+        "droit_decouvert": 20,
+        "client_id": 44
     },
     {
         "id": 101,
-        "numero": "70545113492",
+        "numero": "56472598136",
         "solde": 0,
         "type": 2,
-        "client_id": 51
+        "droit_decouvert": 0,
+        "client_id": 44
     },
     {
         "id": 102,
-        "numero": "91907020993",
+        "numero": "99237209886",
         "solde": 0,
         "type": 1,
-        "client_id": 52
+        "droit_decouvert": 300,
+        "client_id": 45
     },
     {
         "id": 103,
-        "numero": "71572272912",
+        "numero": "12684169278",
         "solde": 0,
-        "type": 7,
-        "client_id": 52
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 45
     },
     {
         "id": 104,
-        "numero": "40125372223",
+        "numero": "42523353627",
         "solde": 0,
         "type": 1,
-        "client_id": 53
+        "droit_decouvert": 300,
+        "client_id": 46
     },
     {
         "id": 105,
-        "numero": "26174544863",
+        "numero": "97792096360",
         "solde": 0,
-        "type": 2,
-        "client_id": 53
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 47
     },
     {
         "id": 106,
-        "numero": "89199056772",
+        "numero": "89101958789",
         "solde": 0,
-        "type": 1,
-        "client_id": 54
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 47
     },
     {
         "id": 107,
-        "numero": "35569201302",
+        "numero": "76150945431",
         "solde": 0,
-        "type": 2,
-        "client_id": 54
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 48
     },
     {
         "id": 108,
-        "numero": "26788069005",
+        "numero": "89910346079",
         "solde": 0,
-        "type": 1,
-        "client_id": 55
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 48
     },
     {
         "id": 109,
-        "numero": "39796328959",
+        "numero": "46646187145",
         "solde": 0,
-        "type": 2,
-        "client_id": 55
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 49
     },
     {
         "id": 110,
-        "numero": "56709481843",
+        "numero": "96793764212",
         "solde": 0,
-        "type": 5,
-        "client_id": 55
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 49
     },
     {
         "id": 111,
-        "numero": "27254968807",
+        "numero": "37872252340",
         "solde": 0,
-        "type": 1,
-        "client_id": 56
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 49
     },
     {
         "id": 112,
-        "numero": "22522632659",
+        "numero": "41018857018",
         "solde": 0,
-        "type": 11,
-        "client_id": 56
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 50
     },
     {
         "id": 113,
-        "numero": "77748057712",
+        "numero": "61057895757",
         "solde": 0,
-        "type": 1,
-        "client_id": 57
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 50
     },
     {
         "id": 114,
-        "numero": "95599993824",
+        "numero": "14629252149",
         "solde": 0,
-        "type": 6,
-        "client_id": 57
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 50
     },
     {
         "id": 115,
-        "numero": "96849012680",
+        "numero": "31967288689",
         "solde": 0,
         "type": 1,
-        "client_id": 58
+        "droit_decouvert": 50,
+        "client_id": 51
     },
     {
         "id": 116,
-        "numero": "85139379440",
+        "numero": "92912523032",
         "solde": 0,
-        "type": 2,
-        "client_id": 58
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 52
     },
     {
         "id": 117,
-        "numero": "63177382160",
+        "numero": "22698523081",
         "solde": 0,
-        "type": 1,
-        "client_id": 59
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 52
     },
     {
         "id": 118,
-        "numero": "63447297912",
+        "numero": "79430606661",
         "solde": 0,
-        "type": 3,
-        "client_id": 59
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 52
     },
     {
         "id": 119,
-        "numero": "86920717829",
+        "numero": "78201602781",
         "solde": 0,
         "type": 1,
-        "client_id": 60
+        "droit_decouvert": 250,
+        "client_id": 53
     },
     {
         "id": 120,
-        "numero": "41372931135",
+        "numero": "85290223588",
         "solde": 0,
-        "type": 3,
-        "client_id": 60
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 53
     },
     {
         "id": 121,
-        "numero": "14447115561",
+        "numero": "69414256612",
         "solde": 0,
-        "type": 1,
-        "client_id": 61
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 53
     },
     {
         "id": 122,
-        "numero": "35387302833",
+        "numero": "47419545855",
         "solde": 0,
-        "type": 2,
-        "client_id": 61
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 54
     },
     {
         "id": 123,
-        "numero": "43480438773",
+        "numero": "83816212418",
         "solde": 0,
-        "type": 11,
-        "client_id": 61
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 54
     },
     {
         "id": 124,
-        "numero": "61482094360",
+        "numero": "03993180779",
         "solde": 0,
         "type": 1,
-        "client_id": 62
+        "droit_decouvert": 200,
+        "client_id": 55
     },
     {
         "id": 125,
-        "numero": "47779899799",
+        "numero": "08122164663",
         "solde": 0,
         "type": 2,
-        "client_id": 62
+        "droit_decouvert": 0,
+        "client_id": 55
     },
     {
         "id": 126,
-        "numero": "47199999660",
+        "numero": "01878567957",
         "solde": 0,
         "type": 1,
-        "client_id": 63
+        "droit_decouvert": 20,
+        "client_id": 56
     },
     {
         "id": 127,
-        "numero": "70682613116",
+        "numero": "80933282610",
         "solde": 0,
         "type": 1,
-        "client_id": 64
+        "droit_decouvert": 20,
+        "client_id": 57
     },
     {
         "id": 128,
-        "numero": "22788085219",
+        "numero": "93793365027",
         "solde": 0,
-        "type": 2,
-        "client_id": 64
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 57
     },
     {
         "id": 129,
-        "numero": "59886562992",
+        "numero": "74425318848",
         "solde": 0,
-        "type": 1,
-        "client_id": 65
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 57
     },
     {
         "id": 130,
-        "numero": "28778145152",
+        "numero": "60259497451",
         "solde": 0,
-        "type": 2,
-        "client_id": 65
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 58
     },
     {
         "id": 131,
-        "numero": "75916545417",
+        "numero": "78428663008",
         "solde": 0,
-        "type": 1,
-        "client_id": 66
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 58
     },
     {
         "id": 132,
-        "numero": "35899341793",
+        "numero": "24563982341",
         "solde": 0,
-        "type": 2,
-        "client_id": 66
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 59
     },
     {
         "id": 133,
-        "numero": "81171471535",
+        "numero": "75003461790",
         "solde": 0,
-        "type": 4,
-        "client_id": 66
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 59
     },
     {
         "id": 134,
-        "numero": "90082707716",
+        "numero": "57106766627",
         "solde": 0,
-        "type": 1,
-        "client_id": 67
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 59
     },
     {
         "id": 135,
-        "numero": "87506998293",
+        "numero": "12225662962",
         "solde": 0,
-        "type": 2,
-        "client_id": 67
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 60
     },
     {
         "id": 136,
-        "numero": "99355817337",
+        "numero": "80651163359",
         "solde": 0,
         "type": 1,
-        "client_id": 68
+        "droit_decouvert": 500,
+        "client_id": 61
     },
     {
         "id": 137,
-        "numero": "07658603203",
+        "numero": "02029698231",
         "solde": 0,
         "type": 2,
-        "client_id": 68
+        "droit_decouvert": 0,
+        "client_id": 61
     },
     {
         "id": 138,
-        "numero": "51285443399",
+        "numero": "00811735849",
         "solde": 0,
         "type": 1,
-        "client_id": 69
+        "droit_decouvert": 20,
+        "client_id": 62
     },
     {
         "id": 139,
-        "numero": "59381163886",
+        "numero": "97075226038",
         "solde": 0,
         "type": 2,
-        "client_id": 69
+        "droit_decouvert": 0,
+        "client_id": 62
     },
     {
         "id": 140,
-        "numero": "39012756750",
+        "numero": "73689008945",
         "solde": 0,
-        "type": 9,
-        "client_id": 69
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 63
     },
     {
         "id": 141,
-        "numero": "90585202598",
+        "numero": "94922194340",
         "solde": 0,
-        "type": 1,
-        "client_id": 70
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 63
     },
     {
         "id": 142,
-        "numero": "46424291210",
+        "numero": "02609864404",
         "solde": 0,
-        "type": 6,
-        "client_id": 70
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 63
     },
     {
         "id": 143,
-        "numero": "86507485978",
+        "numero": "43442062179",
         "solde": 0,
-        "type": 1,
-        "client_id": 71
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 63
     },
     {
         "id": 144,
-        "numero": "70276163903",
+        "numero": "53869618161",
         "solde": 0,
-        "type": 2,
-        "client_id": 71
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 64
     },
     {
         "id": 145,
-        "numero": "16910801867",
+        "numero": "98790710464",
         "solde": 0,
-        "type": 1,
-        "client_id": 72
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 64
     },
     {
         "id": 146,
-        "numero": "60234203770",
+        "numero": "55379070451",
         "solde": 0,
-        "type": 2,
-        "client_id": 72
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 64
     },
     {
         "id": 147,
-        "numero": "86538252631",
+        "numero": "88655418686",
         "solde": 0,
         "type": 1,
-        "client_id": 73
+        "droit_decouvert": 50,
+        "client_id": 65
     },
     {
         "id": 148,
-        "numero": "50532422997",
+        "numero": "32930627080",
         "solde": 0,
         "type": 2,
-        "client_id": 73
+        "droit_decouvert": 0,
+        "client_id": 65
     },
     {
         "id": 149,
-        "numero": "35950135377",
+        "numero": "00234183490",
         "solde": 0,
-        "type": 4,
-        "client_id": 73
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 65
     },
     {
         "id": 150,
-        "numero": "96795997722",
+        "numero": "13547441650",
         "solde": 0,
         "type": 1,
-        "client_id": 74
+        "droit_decouvert": 20,
+        "client_id": 66
     },
     {
         "id": 151,
-        "numero": "69563593807",
+        "numero": "86833692066",
         "solde": 0,
         "type": 1,
-        "client_id": 75
+        "droit_decouvert": 300,
+        "client_id": 67
     },
     {
         "id": 152,
-        "numero": "11251887446",
+        "numero": "58126715871",
         "solde": 0,
         "type": 2,
-        "client_id": 75
+        "droit_decouvert": 0,
+        "client_id": 67
     },
     {
         "id": 153,
-        "numero": "22929797233",
+        "numero": "10036311713",
         "solde": 0,
-        "type": 3,
-        "client_id": 75
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 68
     },
     {
         "id": 154,
-        "numero": "16250491037",
+        "numero": "78596504738",
         "solde": 0,
-        "type": 1,
-        "client_id": 76
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 68
     },
     {
         "id": 155,
-        "numero": "20271922529",
+        "numero": "67279845115",
         "solde": 0,
         "type": 1,
-        "client_id": 77
+        "droit_decouvert": 300,
+        "client_id": 69
     },
     {
         "id": 156,
-        "numero": "55517283261",
+        "numero": "89624548567",
         "solde": 0,
-        "type": 10,
-        "client_id": 77
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 70
     },
     {
         "id": 157,
-        "numero": "08501625038",
+        "numero": "97984471997",
         "solde": 0,
-        "type": 1,
-        "client_id": 78
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 70
     },
     {
         "id": 158,
-        "numero": "01745213735",
+        "numero": "97475568831",
         "solde": 0,
-        "type": 2,
-        "client_id": 78
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 71
     },
     {
         "id": 159,
-        "numero": "16512571424",
+        "numero": "56644897145",
         "solde": 0,
         "type": 1,
-        "client_id": 79
+        "droit_decouvert": 250,
+        "client_id": 72
     },
     {
         "id": 160,
-        "numero": "41948517568",
+        "numero": "77813212043",
         "solde": 0,
         "type": 2,
-        "client_id": 79
+        "droit_decouvert": 0,
+        "client_id": 72
     },
     {
         "id": 161,
-        "numero": "53675971719",
+        "numero": "00231207414",
         "solde": 0,
         "type": 1,
-        "client_id": 80
+        "droit_decouvert": 100,
+        "client_id": 73
     },
     {
         "id": 162,
-        "numero": "29342287004",
+        "numero": "72980979777",
         "solde": 0,
         "type": 2,
-        "client_id": 80
+        "droit_decouvert": 0,
+        "client_id": 73
     },
     {
         "id": 163,
-        "numero": "47611793232",
+        "numero": "15598758013",
         "solde": 0,
-        "type": 3,
-        "client_id": 80
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 74
     },
     {
         "id": 164,
-        "numero": "49086977758",
+        "numero": "02919811338",
         "solde": 0,
-        "type": 1,
-        "client_id": 81
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 74
     },
     {
         "id": 165,
-        "numero": "45833977735",
+        "numero": "45405309667",
         "solde": 0,
-        "type": 10,
-        "client_id": 81
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 75
     },
     {
         "id": 166,
-        "numero": "13868004974",
+        "numero": "97459151011",
         "solde": 0,
-        "type": 1,
-        "client_id": 82
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 75
     },
     {
         "id": 167,
-        "numero": "23026685248",
+        "numero": "59272622465",
         "solde": 0,
-        "type": 2,
-        "client_id": 82
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 75
     },
     {
         "id": 168,
-        "numero": "64710762241",
+        "numero": "73582992861",
         "solde": 0,
-        "type": 1,
-        "client_id": 83
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 75
     },
     {
         "id": 169,
-        "numero": "09122972546",
+        "numero": "32284571008",
         "solde": 0,
-        "type": 2,
-        "client_id": 83
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 76
     },
     {
         "id": 170,
-        "numero": "80702394193",
+        "numero": "55837092220",
         "solde": 0,
-        "type": 1,
-        "client_id": 84
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 76
     },
     {
         "id": 171,
-        "numero": "34505211795",
+        "numero": "06724485902",
         "solde": 0,
-        "type": 2,
-        "client_id": 84
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 77
     },
     {
         "id": 172,
-        "numero": "09320026102",
+        "numero": "75097290353",
         "solde": 0,
-        "type": 11,
-        "client_id": 84
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 77
     },
     {
         "id": 173,
-        "numero": "16271964199",
+        "numero": "95383852123",
         "solde": 0,
         "type": 1,
-        "client_id": 85
+        "droit_decouvert": 50,
+        "client_id": 78
     },
     {
         "id": 174,
-        "numero": "31643179167",
+        "numero": "10136004230",
         "solde": 0,
-        "type": 1,
-        "client_id": 86
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 78
     },
     {
         "id": 175,
-        "numero": "92224061558",
+        "numero": "16629441231",
         "solde": 0,
-        "type": 2,
-        "client_id": 86
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 79
     },
     {
         "id": 176,
-        "numero": "75707660834",
+        "numero": "13568458547",
         "solde": 0,
-        "type": 1,
-        "client_id": 87
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 79
     },
     {
         "id": 177,
-        "numero": "38401438547",
+        "numero": "75177404261",
         "solde": 0,
-        "type": 1,
-        "client_id": 88
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 79
     },
     {
         "id": 178,
-        "numero": "71847732502",
+        "numero": "20642719574",
         "solde": 0,
-        "type": 4,
-        "client_id": 88
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 79
     },
     {
         "id": 179,
-        "numero": "84321305500",
+        "numero": "07159413765",
         "solde": 0,
         "type": 1,
-        "client_id": 89
+        "droit_decouvert": 50,
+        "client_id": 80
     },
     {
         "id": 180,
-        "numero": "61770190895",
+        "numero": "47692277802",
         "solde": 0,
-        "type": 1,
-        "client_id": 90
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 80
     },
     {
         "id": 181,
-        "numero": "69317838540",
+        "numero": "67642483472",
         "solde": 0,
-        "type": 2,
-        "client_id": 90
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 80
     },
     {
         "id": 182,
-        "numero": "13048744565",
+        "numero": "94558593869",
         "solde": 0,
         "type": 1,
-        "client_id": 91
+        "droit_decouvert": 300,
+        "client_id": 81
     },
     {
         "id": 183,
-        "numero": "44285871401",
+        "numero": "37910188914",
         "solde": 0,
-        "type": 8,
-        "client_id": 91
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 82
     },
     {
         "id": 184,
-        "numero": "80501148508",
+        "numero": "93004628333",
         "solde": 0,
-        "type": 1,
-        "client_id": 92
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 82
     },
     {
         "id": 185,
-        "numero": "12350240532",
+        "numero": "29792389364",
         "solde": 0,
-        "type": 2,
-        "client_id": 92
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 82
     },
     {
         "id": 186,
-        "numero": "45793833356",
+        "numero": "91465157296",
         "solde": 0,
         "type": 1,
-        "client_id": 93
+        "droit_decouvert": 0,
+        "client_id": 83
     },
     {
         "id": 187,
-        "numero": "86747037276",
+        "numero": "66694254792",
         "solde": 0,
         "type": 2,
-        "client_id": 93
+        "droit_decouvert": 0,
+        "client_id": 83
     },
     {
         "id": 188,
-        "numero": "21503894149",
+        "numero": "84081241075",
         "solde": 0,
         "type": 1,
-        "client_id": 94
+        "droit_decouvert": 200,
+        "client_id": 84
     },
     {
         "id": 189,
-        "numero": "96659953535",
+        "numero": "60254514972",
         "solde": 0,
-        "type": 12,
-        "client_id": 94
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 84
     },
     {
         "id": 190,
-        "numero": "98802540899",
+        "numero": "60996037528",
         "solde": 0,
         "type": 1,
-        "client_id": 95
+        "droit_decouvert": 200,
+        "client_id": 85
     },
     {
         "id": 191,
-        "numero": "42078860476",
+        "numero": "22459000302",
         "solde": 0,
-        "type": 7,
-        "client_id": 95
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 85
     },
     {
         "id": 192,
-        "numero": "00866092424",
+        "numero": "08981253448",
         "solde": 0,
-        "type": 1,
-        "client_id": 96
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 85
     },
     {
         "id": 193,
-        "numero": "60193684493",
+        "numero": "66590712288",
         "solde": 0,
-        "type": 2,
-        "client_id": 96
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 86
     },
     {
         "id": 194,
-        "numero": "87452210141",
+        "numero": "96931068311",
         "solde": 0,
         "type": 1,
-        "client_id": 97
+        "droit_decouvert": 200,
+        "client_id": 87
     },
     {
         "id": 195,
-        "numero": "64806181424",
+        "numero": "48521067381",
         "solde": 0,
         "type": 2,
-        "client_id": 97
+        "droit_decouvert": 0,
+        "client_id": 87
     },
     {
         "id": 196,
-        "numero": "77448154369",
+        "numero": "62054664766",
         "solde": 0,
         "type": 1,
-        "client_id": 98
+        "droit_decouvert": 200,
+        "client_id": 88
     },
     {
         "id": 197,
-        "numero": "31446970779",
+        "numero": "26586164302",
         "solde": 0,
-        "type": 2,
-        "client_id": 98
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 89
     },
     {
         "id": 198,
-        "numero": "51252632309",
+        "numero": "14067500447",
         "solde": 0,
-        "type": 1,
-        "client_id": 99
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 89
     },
     {
         "id": 199,
-        "numero": "07027005554",
+        "numero": "72618693231",
         "solde": 0,
         "type": 1,
-        "client_id": 100
+        "droit_decouvert": 0,
+        "client_id": 90
     },
     {
         "id": 200,
-        "numero": "82938813845",
+        "numero": "04607527438",
         "solde": 0,
         "type": 2,
-        "client_id": 100
+        "droit_decouvert": 0,
+        "client_id": 90
     },
     {
         "id": 201,
-        "numero": "99511174584",
+        "numero": "43794206929",
         "solde": 0,
         "type": 1,
-        "client_id": 101
+        "droit_decouvert": 100,
+        "client_id": 91
     },
     {
         "id": 202,
-        "numero": "67474555219",
+        "numero": "96954170058",
         "solde": 0,
-        "type": 12,
-        "client_id": 101
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 91
     },
     {
         "id": 203,
-        "numero": "26763954882",
+        "numero": "61134998183",
         "solde": 0,
         "type": 1,
-        "client_id": 102
+        "droit_decouvert": 50,
+        "client_id": 92
     },
     {
         "id": 204,
-        "numero": "97459240766",
+        "numero": "89985025925",
         "solde": 0,
-        "type": 7,
-        "client_id": 102
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 92
     },
     {
         "id": 205,
-        "numero": "23453226149",
+        "numero": "14280526647",
         "solde": 0,
         "type": 1,
-        "client_id": 103
+        "droit_decouvert": 20,
+        "client_id": 93
     },
     {
         "id": 206,
-        "numero": "07450415065",
+        "numero": "26935326787",
         "solde": 0,
         "type": 2,
-        "client_id": 103
+        "droit_decouvert": 0,
+        "client_id": 93
     },
     {
         "id": 207,
-        "numero": "49097638482",
+        "numero": "23238562968",
         "solde": 0,
-        "type": 1,
-        "client_id": 104
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 93
     },
     {
         "id": 208,
-        "numero": "17970574135",
+        "numero": "21091394207",
         "solde": 0,
-        "type": 2,
-        "client_id": 104
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 93
     },
     {
         "id": 209,
-        "numero": "87595937682",
+        "numero": "29854069339",
         "solde": 0,
         "type": 1,
-        "client_id": 105
+        "droit_decouvert": 500,
+        "client_id": 94
     },
     {
         "id": 210,
-        "numero": "74346149811",
+        "numero": "61500865646",
         "solde": 0,
-        "type": 1,
-        "client_id": 106
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 94
     },
     {
         "id": 211,
-        "numero": "88954306534",
+        "numero": "69221810277",
         "solde": 0,
-        "type": 2,
-        "client_id": 106
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 94
     },
     {
         "id": 212,
-        "numero": "64683242551",
+        "numero": "14207103219",
         "solde": 0,
-        "type": 8,
-        "client_id": 106
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 95
     },
     {
         "id": 213,
-        "numero": "96305776800",
+        "numero": "89196521864",
         "solde": 0,
-        "type": 1,
-        "client_id": 107
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 95
     },
     {
         "id": 214,
-        "numero": "43389466949",
+        "numero": "40161575058",
         "solde": 0,
         "type": 1,
-        "client_id": 108
+        "droit_decouvert": 300,
+        "client_id": 96
     },
     {
         "id": 215,
-        "numero": "38345100940",
+        "numero": "74763797608",
         "solde": 0,
         "type": 2,
-        "client_id": 108
+        "droit_decouvert": 0,
+        "client_id": 96
     },
     {
         "id": 216,
-        "numero": "55719998758",
+        "numero": "51384295095",
         "solde": 0,
-        "type": 7,
-        "client_id": 108
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 97
     },
     {
         "id": 217,
-        "numero": "69967540218",
+        "numero": "10357752966",
         "solde": 0,
-        "type": 1,
-        "client_id": 109
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 97
     },
     {
         "id": 218,
-        "numero": "32831779591",
+        "numero": "24659648518",
         "solde": 0,
-        "type": 2,
-        "client_id": 109
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 97
     },
     {
         "id": 219,
-        "numero": "97777873007",
+        "numero": "84876442463",
         "solde": 0,
-        "type": 1,
-        "client_id": 110
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 97
     },
     {
         "id": 220,
-        "numero": "95444594106",
+        "numero": "86380616809",
         "solde": 0,
-        "type": 3,
-        "client_id": 110
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 98
     },
     {
         "id": 221,
-        "numero": "98014772554",
+        "numero": "78600137211",
         "solde": 0,
-        "type": 11,
-        "client_id": 110
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 99
     },
     {
         "id": 222,
-        "numero": "82532969118",
+        "numero": "63328405715",
         "solde": 0,
-        "type": 1,
-        "client_id": 111
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 99
     },
     {
         "id": 223,
-        "numero": "95950525192",
+        "numero": "90032604830",
         "solde": 0,
-        "type": 9,
-        "client_id": 111
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 99
     },
     {
         "id": 224,
-        "numero": "58393714428",
+        "numero": "96501791330",
         "solde": 0,
         "type": 1,
-        "client_id": 112
+        "droit_decouvert": 250,
+        "client_id": 100
     },
     {
         "id": 225,
-        "numero": "74936062871",
+        "numero": "40440252672",
         "solde": 0,
-        "type": 4,
-        "client_id": 112
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 100
     },
     {
         "id": 226,
-        "numero": "36671395765",
+        "numero": "25092222979",
         "solde": 0,
-        "type": 1,
-        "client_id": 113
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 100
     },
     {
         "id": 227,
-        "numero": "14715578063",
+        "numero": "39578256497",
         "solde": 0,
-        "type": 9,
-        "client_id": 113
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 101
     },
     {
         "id": 228,
-        "numero": "25233076384",
+        "numero": "11977984867",
         "solde": 0,
-        "type": 12,
-        "client_id": 113
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 102
     },
     {
         "id": 229,
-        "numero": "15442005304",
+        "numero": "69264855265",
         "solde": 0,
-        "type": 1,
-        "client_id": 114
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 102
     },
     {
         "id": 230,
-        "numero": "46195609327",
+        "numero": "77146212789",
         "solde": 0,
-        "type": 2,
-        "client_id": 114
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 103
     },
     {
         "id": 231,
-        "numero": "80196813437",
+        "numero": "69281229606",
         "solde": 0,
         "type": 1,
-        "client_id": 115
+        "droit_decouvert": 250,
+        "client_id": 104
     },
     {
         "id": 232,
-        "numero": "45683319034",
+        "numero": "51990659950",
         "solde": 0,
-        "type": 10,
-        "client_id": 115
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 104
     },
     {
         "id": 233,
-        "numero": "17997196679",
+        "numero": "65915383030",
         "solde": 0,
         "type": 1,
-        "client_id": 116
+        "droit_decouvert": 0,
+        "client_id": 105
     },
     {
         "id": 234,
-        "numero": "65168574511",
+        "numero": "13366623222",
         "solde": 0,
         "type": 2,
-        "client_id": 116
+        "droit_decouvert": 0,
+        "client_id": 105
     },
     {
         "id": 235,
-        "numero": "80289692413",
+        "numero": "51419099403",
         "solde": 0,
         "type": 1,
-        "client_id": 117
+        "droit_decouvert": 500,
+        "client_id": 106
     },
     {
         "id": 236,
-        "numero": "41299050612",
+        "numero": "52134229572",
         "solde": 0,
         "type": 2,
-        "client_id": 117
+        "droit_decouvert": 0,
+        "client_id": 106
     },
     {
         "id": 237,
-        "numero": "09091665483",
+        "numero": "80282246294",
         "solde": 0,
         "type": 1,
-        "client_id": 118
+        "droit_decouvert": 0,
+        "client_id": 107
     },
     {
         "id": 238,
-        "numero": "12527199309",
+        "numero": "94594719617",
         "solde": 0,
         "type": 2,
-        "client_id": 118
+        "droit_decouvert": 0,
+        "client_id": 107
     },
     {
         "id": 239,
-        "numero": "75807326471",
+        "numero": "48961396924",
         "solde": 0,
-        "type": 1,
-        "client_id": 119
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 107
     },
     {
         "id": 240,
-        "numero": "62680513899",
+        "numero": "69086945103",
         "solde": 0,
-        "type": 2,
-        "client_id": 119
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 108
     },
     {
         "id": 241,
-        "numero": "95675247328",
+        "numero": "92221429853",
         "solde": 0,
-        "type": 1,
-        "client_id": 120
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 108
     },
     {
         "id": 242,
-        "numero": "40843007878",
+        "numero": "41699622407",
         "solde": 0,
-        "type": 3,
-        "client_id": 120
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 109
     },
     {
         "id": 243,
-        "numero": "44530407773",
+        "numero": "82513303727",
         "solde": 0,
-        "type": 1,
-        "client_id": 121
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 109
     },
     {
         "id": 244,
-        "numero": "00755181485",
+        "numero": "13117742084",
         "solde": 0,
-        "type": 2,
-        "client_id": 121
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 110
     },
     {
         "id": 245,
-        "numero": "96926220884",
+        "numero": "54164035235",
         "solde": 0,
-        "type": 1,
-        "client_id": 122
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 110
     },
     {
         "id": 246,
-        "numero": "33697888686",
+        "numero": "90383705718",
         "solde": 0,
-        "type": 2,
-        "client_id": 122
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 111
     },
     {
         "id": 247,
-        "numero": "43161402837",
+        "numero": "11087029904",
         "solde": 0,
-        "type": 1,
-        "client_id": 123
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 111
     },
     {
         "id": 248,
-        "numero": "22244610796",
+        "numero": "09342807699",
         "solde": 0,
-        "type": 1,
-        "client_id": 124
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 111
     },
     {
         "id": 249,
-        "numero": "02856301759",
+        "numero": "25416261620",
         "solde": 0,
         "type": 1,
-        "client_id": 125
+        "droit_decouvert": 500,
+        "client_id": 112
     },
     {
         "id": 250,
-        "numero": "67735890704",
+        "numero": "76120002084",
         "solde": 0,
-        "type": 4,
-        "client_id": 125
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 112
     },
     {
         "id": 251,
-        "numero": "41781171242",
+        "numero": "78114275649",
         "solde": 0,
-        "type": 1,
-        "client_id": 126
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 112
     },
     {
         "id": 252,
-        "numero": "97468140187",
+        "numero": "02212431172",
         "solde": 0,
-        "type": 2,
-        "client_id": 126
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 113
     },
     {
         "id": 253,
-        "numero": "82172153350",
+        "numero": "84248677605",
         "solde": 0,
         "type": 4,
-        "client_id": 126
+        "droit_decouvert": 0,
+        "client_id": 113
     },
     {
         "id": 254,
-        "numero": "69641996276",
+        "numero": "01177495759",
         "solde": 0,
-        "type": 8,
-        "client_id": 126
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 114
     },
     {
         "id": 255,
-        "numero": "06473117805",
+        "numero": "94786685623",
         "solde": 0,
         "type": 1,
-        "client_id": 127
+        "droit_decouvert": 500,
+        "client_id": 115
     },
     {
         "id": 256,
-        "numero": "79390814506",
+        "numero": "57052461723",
         "solde": 0,
-        "type": 2,
-        "client_id": 127
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 116
     },
     {
         "id": 257,
-        "numero": "53463598319",
+        "numero": "76866202305",
         "solde": 0,
-        "type": 3,
-        "client_id": 127
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 116
     },
     {
         "id": 258,
-        "numero": "56239725778",
+        "numero": "94726139985",
         "solde": 0,
         "type": 1,
-        "client_id": 128
+        "droit_decouvert": 50,
+        "client_id": 117
     },
     {
         "id": 259,
-        "numero": "10842689808",
+        "numero": "57323404084",
         "solde": 0,
         "type": 2,
-        "client_id": 128
+        "droit_decouvert": 0,
+        "client_id": 117
     },
     {
         "id": 260,
-        "numero": "89837249994",
+        "numero": "25431512112",
         "solde": 0,
-        "type": 4,
-        "client_id": 128
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 117
     },
     {
         "id": 261,
-        "numero": "77942086647",
+        "numero": "62977673992",
         "solde": 0,
         "type": 1,
-        "client_id": 129
+        "droit_decouvert": 200,
+        "client_id": 118
     },
     {
         "id": 262,
-        "numero": "99696966990",
+        "numero": "55474594910",
         "solde": 0,
-        "type": 2,
-        "client_id": 129
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 118
     },
     {
         "id": 263,
-        "numero": "60044259537",
+        "numero": "40905426164",
         "solde": 0,
         "type": 1,
-        "client_id": 130
+        "droit_decouvert": 300,
+        "client_id": 119
     },
     {
         "id": 264,
-        "numero": "66269659625",
+        "numero": "67481044733",
         "solde": 0,
         "type": 1,
-        "client_id": 131
+        "droit_decouvert": 250,
+        "client_id": 120
     },
     {
         "id": 265,
-        "numero": "28628231435",
+        "numero": "03475958883",
         "solde": 0,
         "type": 2,
-        "client_id": 131
+        "droit_decouvert": 0,
+        "client_id": 120
     },
     {
         "id": 266,
-        "numero": "86571795467",
+        "numero": "86845280779",
         "solde": 0,
-        "type": 11,
-        "client_id": 131
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 121
     },
     {
         "id": 267,
-        "numero": "58728938468",
+        "numero": "97171957570",
         "solde": 0,
-        "type": 1,
-        "client_id": 132
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 121
     },
     {
         "id": 268,
-        "numero": "20044498783",
+        "numero": "56042962052",
         "solde": 0,
-        "type": 2,
-        "client_id": 132
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 121
     },
     {
         "id": 269,
-        "numero": "27265621482",
+        "numero": "36066053831",
         "solde": 0,
         "type": 1,
-        "client_id": 133
+        "droit_decouvert": 50,
+        "client_id": 122
     },
     {
         "id": 270,
-        "numero": "97982620391",
+        "numero": "49050505626",
         "solde": 0,
-        "type": 2,
-        "client_id": 133
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 122
     },
     {
         "id": 271,
-        "numero": "51968476755",
+        "numero": "87421918904",
         "solde": 0,
         "type": 1,
-        "client_id": 134
+        "droit_decouvert": 500,
+        "client_id": 123
     },
     {
         "id": 272,
-        "numero": "99298922710",
+        "numero": "82384074895",
         "solde": 0,
         "type": 2,
-        "client_id": 134
+        "droit_decouvert": 0,
+        "client_id": 123
     },
     {
         "id": 273,
-        "numero": "62381025328",
+        "numero": "33177822996",
         "solde": 0,
-        "type": 9,
-        "client_id": 134
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 124
     },
     {
         "id": 274,
-        "numero": "08051403056",
+        "numero": "37024655810",
         "solde": 0,
-        "type": 1,
-        "client_id": 135
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 124
     },
     {
         "id": 275,
-        "numero": "88167841790",
+        "numero": "97900447303",
         "solde": 0,
-        "type": 2,
-        "client_id": 135
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 125
     },
     {
         "id": 276,
-        "numero": "26705215590",
+        "numero": "39830774784",
         "solde": 0,
-        "type": 1,
-        "client_id": 136
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 125
     },
     {
         "id": 277,
-        "numero": "88452078251",
+        "numero": "77081150991",
         "solde": 0,
-        "type": 2,
-        "client_id": 136
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 126
     },
     {
         "id": 278,
-        "numero": "65459497296",
+        "numero": "64377215895",
         "solde": 0,
-        "type": 8,
-        "client_id": 136
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 126
     },
     {
         "id": 279,
-        "numero": "57778766553",
+        "numero": "85332552631",
         "solde": 0,
         "type": 1,
-        "client_id": 137
+        "droit_decouvert": 300,
+        "client_id": 127
     },
     {
         "id": 280,
-        "numero": "70520265548",
+        "numero": "69957711111",
         "solde": 0,
         "type": 1,
-        "client_id": 138
+        "droit_decouvert": 300,
+        "client_id": 128
     },
     {
         "id": 281,
-        "numero": "21854638659",
+        "numero": "64259643386",
         "solde": 0,
         "type": 2,
-        "client_id": 138
+        "droit_decouvert": 0,
+        "client_id": 128
     },
     {
         "id": 282,
-        "numero": "25908859047",
+        "numero": "58875691386",
         "solde": 0,
-        "type": 1,
-        "client_id": 139
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 128
     },
     {
         "id": 283,
-        "numero": "49184096427",
+        "numero": "69825911330",
         "solde": 0,
         "type": 1,
-        "client_id": 140
+        "droit_decouvert": 250,
+        "client_id": 129
     },
     {
         "id": 284,
-        "numero": "48774806943",
+        "numero": "46116894370",
         "solde": 0,
         "type": 2,
-        "client_id": 140
+        "droit_decouvert": 0,
+        "client_id": 129
     },
     {
         "id": 285,
-        "numero": "27205918094",
+        "numero": "47725875821",
         "solde": 0,
         "type": 1,
-        "client_id": 141
+        "droit_decouvert": 0,
+        "client_id": 130
     },
     {
         "id": 286,
-        "numero": "09272380528",
+        "numero": "38176261196",
         "solde": 0,
-        "type": 2,
-        "client_id": 141
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 131
     },
     {
         "id": 287,
-        "numero": "03966361127",
+        "numero": "69227176470",
         "solde": 0,
-        "type": 9,
-        "client_id": 141
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 131
     },
     {
         "id": 288,
-        "numero": "45378572758",
+        "numero": "65090124303",
         "solde": 0,
         "type": 1,
-        "client_id": 142
+        "droit_decouvert": 250,
+        "client_id": 132
     },
     {
         "id": 289,
-        "numero": "82320559974",
+        "numero": "29302867114",
         "solde": 0,
-        "type": 2,
-        "client_id": 142
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 133
     },
     {
         "id": 290,
-        "numero": "73004422942",
+        "numero": "70127740480",
         "solde": 0,
-        "type": 3,
-        "client_id": 142
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 133
     },
     {
         "id": 291,
-        "numero": "09175162479",
+        "numero": "78060994713",
         "solde": 0,
         "type": 7,
-        "client_id": 142
+        "droit_decouvert": 0,
+        "client_id": 133
     },
     {
         "id": 292,
-        "numero": "18172962783",
+        "numero": "70973002677",
         "solde": 0,
-        "type": 1,
-        "client_id": 143
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 133
     },
     {
         "id": 293,
-        "numero": "99341991878",
+        "numero": "38507162249",
         "solde": 0,
-        "type": 2,
-        "client_id": 143
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 134
     },
     {
         "id": 294,
-        "numero": "39524330096",
+        "numero": "85161564344",
         "solde": 0,
-        "type": 1,
-        "client_id": 144
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 134
     },
     {
         "id": 295,
-        "numero": "89645873945",
+        "numero": "14748910433",
         "solde": 0,
-        "type": 2,
-        "client_id": 144
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 135
     },
     {
         "id": 296,
-        "numero": "57908472448",
+        "numero": "02521125228",
         "solde": 0,
-        "type": 9,
-        "client_id": 144
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 135
     },
     {
         "id": 297,
-        "numero": "63022994510",
+        "numero": "56221749957",
         "solde": 0,
-        "type": 1,
-        "client_id": 145
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 135
     },
     {
         "id": 298,
-        "numero": "94021676463",
+        "numero": "29291079315",
         "solde": 0,
-        "type": 2,
-        "client_id": 145
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 136
     },
     {
         "id": 299,
-        "numero": "92799934522",
+        "numero": "86244783726",
         "solde": 0,
-        "type": 9,
-        "client_id": 145
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 136
     },
     {
         "id": 300,
-        "numero": "68312741072",
+        "numero": "07090304868",
         "solde": 0,
         "type": 1,
-        "client_id": 146
+        "droit_decouvert": 0,
+        "client_id": 137
     },
     {
         "id": 301,
-        "numero": "79609543138",
+        "numero": "16160515450",
         "solde": 0,
         "type": 2,
-        "client_id": 146
+        "droit_decouvert": 0,
+        "client_id": 137
     },
     {
         "id": 302,
-        "numero": "16348545177",
+        "numero": "42593714880",
         "solde": 0,
-        "type": 7,
-        "client_id": 146
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 138
     },
     {
         "id": 303,
-        "numero": "78575422036",
+        "numero": "24802523323",
         "solde": 0,
-        "type": 1,
-        "client_id": 147
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 138
     },
     {
         "id": 304,
-        "numero": "33018606306",
+        "numero": "64692425156",
         "solde": 0,
-        "type": 2,
-        "client_id": 147
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 138
     },
     {
         "id": 305,
-        "numero": "66241443361",
+        "numero": "56059236814",
         "solde": 0,
-        "type": 10,
-        "client_id": 147
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 139
     },
     {
         "id": 306,
-        "numero": "74247975337",
+        "numero": "22199888256",
         "solde": 0,
-        "type": 1,
-        "client_id": 148
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 139
     },
     {
         "id": 307,
-        "numero": "64574889255",
+        "numero": "79283589600",
         "solde": 0,
-        "type": 2,
-        "client_id": 148
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 139
     },
     {
         "id": 308,
-        "numero": "68720974168",
+        "numero": "36849606835",
         "solde": 0,
-        "type": 1,
-        "client_id": 149
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 139
     },
     {
         "id": 309,
-        "numero": "54425147038",
+        "numero": "16455113584",
         "solde": 0,
-        "type": 2,
-        "client_id": 149
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 140
     },
     {
         "id": 310,
-        "numero": "28885106312",
+        "numero": "65584399378",
         "solde": 0,
-        "type": 1,
-        "client_id": 150
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 140
     },
     {
         "id": 311,
-        "numero": "12697193859",
+        "numero": "34665557219",
         "solde": 0,
-        "type": 2,
-        "client_id": 150
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 141
     },
     {
         "id": 312,
-        "numero": "41144503551",
+        "numero": "45053305971",
         "solde": 0,
-        "type": 1,
-        "client_id": 151
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 141
     },
     {
         "id": 313,
-        "numero": "21813659194",
+        "numero": "54444161331",
         "solde": 0,
-        "type": 2,
-        "client_id": 151
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 142
     },
     {
         "id": 314,
-        "numero": "04700107594",
+        "numero": "06383599738",
         "solde": 0,
         "type": 1,
-        "client_id": 152
+        "droit_decouvert": 0,
+        "client_id": 143
     },
     {
         "id": 315,
-        "numero": "84433322446",
+        "numero": "40958372094",
         "solde": 0,
-        "type": 2,
-        "client_id": 152
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 143
     },
     {
         "id": 316,
-        "numero": "54656860065",
+        "numero": "63723060354",
         "solde": 0,
-        "type": 9,
-        "client_id": 152
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 144
     },
     {
         "id": 317,
-        "numero": "88068151804",
+        "numero": "82988748522",
         "solde": 0,
-        "type": 1,
-        "client_id": 153
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 144
     },
     {
         "id": 318,
-        "numero": "71348393251",
+        "numero": "51508559189",
         "solde": 0,
-        "type": 2,
-        "client_id": 153
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 145
     },
     {
         "id": 319,
-        "numero": "12761552931",
+        "numero": "42165551391",
         "solde": 0,
-        "type": 6,
-        "client_id": 153
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 145
     },
     {
         "id": 320,
-        "numero": "56164491644",
+        "numero": "61719455782",
         "solde": 0,
-        "type": 11,
-        "client_id": 153
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 145
     },
     {
         "id": 321,
-        "numero": "73563174826",
+        "numero": "96659831634",
         "solde": 0,
-        "type": 1,
-        "client_id": 154
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 145
     },
     {
         "id": 322,
-        "numero": "74090158943",
+        "numero": "13007552839",
         "solde": 0,
         "type": 1,
-        "client_id": 155
+        "droit_decouvert": 250,
+        "client_id": 146
     },
     {
         "id": 323,
-        "numero": "54964308138",
+        "numero": "38011963186",
         "solde": 0,
         "type": 2,
-        "client_id": 155
+        "droit_decouvert": 0,
+        "client_id": 146
     },
     {
         "id": 324,
-        "numero": "59052458584",
+        "numero": "39821287981",
         "solde": 0,
         "type": 1,
-        "client_id": 156
+        "droit_decouvert": 100,
+        "client_id": 147
     },
     {
         "id": 325,
-        "numero": "89112653472",
+        "numero": "17567987428",
         "solde": 0,
-        "type": 2,
-        "client_id": 156
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 147
     },
     {
         "id": 326,
-        "numero": "24185098143",
+        "numero": "55173731558",
         "solde": 0,
-        "type": 1,
-        "client_id": 157
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 147
     },
     {
         "id": 327,
-        "numero": "07492533645",
+        "numero": "50815560426",
         "solde": 0,
-        "type": 2,
-        "client_id": 157
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 148
     },
     {
         "id": 328,
-        "numero": "76139653767",
+        "numero": "83647364277",
         "solde": 0,
-        "type": 5,
-        "client_id": 157
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 148
     },
     {
         "id": 329,
-        "numero": "69709062779",
+        "numero": "16180963996",
         "solde": 0,
-        "type": 1,
-        "client_id": 158
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 148
     },
     {
         "id": 330,
-        "numero": "26119817794",
+        "numero": "61087004472",
         "solde": 0,
         "type": 1,
-        "client_id": 159
+        "droit_decouvert": 250,
+        "client_id": 149
     },
     {
         "id": 331,
-        "numero": "39189412884",
+        "numero": "24084558134",
         "solde": 0,
-        "type": 1,
-        "client_id": 160
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 149
     },
     {
         "id": 332,
-        "numero": "18119652896",
+        "numero": "23367921678",
         "solde": 0,
-        "type": 2,
-        "client_id": 160
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 150
     },
     {
         "id": 333,
-        "numero": "58426545148",
+        "numero": "84102940957",
         "solde": 0,
-        "type": 5,
-        "client_id": 160
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 150
     },
     {
         "id": 334,
-        "numero": "89472015354",
+        "numero": "31506306306",
         "solde": 0,
         "type": 1,
-        "client_id": 161
+        "droit_decouvert": 500,
+        "client_id": 151
     },
     {
         "id": 335,
-        "numero": "23784246983",
+        "numero": "50975425017",
         "solde": 0,
         "type": 2,
-        "client_id": 161
+        "droit_decouvert": 0,
+        "client_id": 151
     },
     {
         "id": 336,
-        "numero": "14961164202",
+        "numero": "96436796756",
         "solde": 0,
-        "type": 4,
-        "client_id": 161
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 151
     },
     {
         "id": 337,
-        "numero": "49276212186",
+        "numero": "19780785813",
         "solde": 0,
         "type": 1,
-        "client_id": 162
+        "droit_decouvert": 50,
+        "client_id": 152
     },
     {
         "id": 338,
-        "numero": "99040492810",
+        "numero": "71994973317",
         "solde": 0,
         "type": 2,
-        "client_id": 162
+        "droit_decouvert": 0,
+        "client_id": 152
     },
     {
         "id": 339,
-        "numero": "76634287482",
+        "numero": "30135328419",
         "solde": 0,
-        "type": 1,
-        "client_id": 163
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 152
     },
     {
         "id": 340,
-        "numero": "45042600395",
+        "numero": "56886681858",
         "solde": 0,
-        "type": 2,
-        "client_id": 163
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 153
     },
     {
         "id": 341,
-        "numero": "37027862186",
+        "numero": "60295167786",
         "solde": 0,
-        "type": 1,
-        "client_id": 164
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 153
     },
     {
         "id": 342,
-        "numero": "91917795632",
+        "numero": "52585874143",
         "solde": 0,
-        "type": 2,
-        "client_id": 164
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 153
     },
     {
         "id": 343,
-        "numero": "73799981416",
+        "numero": "36915932730",
         "solde": 0,
         "type": 1,
-        "client_id": 165
+        "droit_decouvert": 0,
+        "client_id": 154
     },
     {
         "id": 344,
-        "numero": "07114823184",
+        "numero": "72748468630",
         "solde": 0,
-        "type": 1,
-        "client_id": 166
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 154
     },
     {
         "id": 345,
-        "numero": "68692965851",
+        "numero": "90377446459",
         "solde": 0,
-        "type": 2,
-        "client_id": 166
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 154
     },
     {
         "id": 346,
-        "numero": "86390697272",
+        "numero": "39285110497",
         "solde": 0,
         "type": 1,
-        "client_id": 167
+        "droit_decouvert": 0,
+        "client_id": 155
     },
     {
         "id": 347,
-        "numero": "79091297247",
+        "numero": "39205033118",
         "solde": 0,
         "type": 2,
-        "client_id": 167
+        "droit_decouvert": 0,
+        "client_id": 155
     },
     {
         "id": 348,
-        "numero": "50720604576",
+        "numero": "51790684688",
         "solde": 0,
-        "type": 12,
-        "client_id": 167
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 156
     },
     {
         "id": 349,
-        "numero": "33154241177",
+        "numero": "18728827588",
         "solde": 0,
         "type": 1,
-        "client_id": 168
+        "droit_decouvert": 250,
+        "client_id": 157
     },
     {
         "id": 350,
-        "numero": "03884913058",
+        "numero": "27165951620",
         "solde": 0,
         "type": 2,
-        "client_id": 168
+        "droit_decouvert": 0,
+        "client_id": 157
     },
     {
         "id": 351,
-        "numero": "00371748993",
+        "numero": "73477600678",
         "solde": 0,
-        "type": 1,
-        "client_id": 169
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 157
     },
     {
         "id": 352,
-        "numero": "59614164074",
+        "numero": "01616573639",
         "solde": 0,
-        "type": 1,
-        "client_id": 170
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 157
     },
     {
         "id": 353,
-        "numero": "29337527521",
+        "numero": "63625433003",
         "solde": 0,
-        "type": 2,
-        "client_id": 170
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 158
     },
     {
         "id": 354,
-        "numero": "91768042090",
+        "numero": "96147668899",
         "solde": 0,
-        "type": 10,
-        "client_id": 170
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 158
     },
     {
         "id": 355,
-        "numero": "51132027096",
+        "numero": "87303743984",
         "solde": 0,
-        "type": 11,
-        "client_id": 170
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 159
     },
     {
         "id": 356,
-        "numero": "36003025815",
+        "numero": "19639518851",
         "solde": 0,
-        "type": 1,
-        "client_id": 171
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 159
     },
     {
         "id": 357,
-        "numero": "16045759117",
+        "numero": "82336495807",
         "solde": 0,
-        "type": 1,
-        "client_id": 172
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 159
     },
     {
         "id": 358,
-        "numero": "99789809539",
+        "numero": "16395298505",
         "solde": 0,
-        "type": 2,
-        "client_id": 172
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 159
     },
     {
         "id": 359,
-        "numero": "50792686727",
+        "numero": "22693658588",
         "solde": 0,
-        "type": 7,
-        "client_id": 172
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 160
     },
     {
         "id": 360,
-        "numero": "21686559427",
+        "numero": "84053802801",
         "solde": 0,
-        "type": 8,
-        "client_id": 172
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 160
     },
     {
         "id": 361,
-        "numero": "59801334638",
+        "numero": "58306867506",
         "solde": 0,
         "type": 1,
-        "client_id": 173
+        "droit_decouvert": 50,
+        "client_id": 161
     },
     {
         "id": 362,
-        "numero": "74513662773",
+        "numero": "31261183432",
         "solde": 0,
-        "type": 2,
-        "client_id": 173
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 162
     },
     {
         "id": 363,
-        "numero": "48250777958",
+        "numero": "32499922514",
         "solde": 0,
-        "type": 1,
-        "client_id": 174
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 162
     },
     {
         "id": 364,
-        "numero": "88575788546",
+        "numero": "09407930879",
         "solde": 0,
-        "type": 2,
-        "client_id": 174
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 163
     },
     {
         "id": 365,
-        "numero": "47917508702",
+        "numero": "15688679656",
         "solde": 0,
-        "type": 1,
-        "client_id": 175
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 163
     },
     {
         "id": 366,
-        "numero": "50525878819",
+        "numero": "86300838558",
         "solde": 0,
-        "type": 2,
-        "client_id": 175
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 163
     },
     {
         "id": 367,
-        "numero": "62272847830",
+        "numero": "55315347870",
         "solde": 0,
-        "type": 1,
-        "client_id": 176
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 163
     },
     {
         "id": 368,
-        "numero": "85348415186",
+        "numero": "34345955416",
         "solde": 0,
-        "type": 10,
-        "client_id": 176
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 163
     },
     {
         "id": 369,
-        "numero": "99206916756",
+        "numero": "77976052237",
         "solde": 0,
         "type": 1,
-        "client_id": 177
+        "droit_decouvert": 20,
+        "client_id": 164
     },
     {
         "id": 370,
-        "numero": "10628130994",
+        "numero": "31853005793",
         "solde": 0,
-        "type": 2,
-        "client_id": 177
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 165
     },
     {
         "id": 371,
-        "numero": "00358258401",
+        "numero": "45957823723",
         "solde": 0,
-        "type": 1,
-        "client_id": 178
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 165
     },
     {
         "id": 372,
-        "numero": "34922788531",
+        "numero": "41187271160",
         "solde": 0,
-        "type": 2,
-        "client_id": 178
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 166
     },
     {
         "id": 373,
-        "numero": "20485607156",
+        "numero": "88416431704",
         "solde": 0,
         "type": 1,
-        "client_id": 179
+        "droit_decouvert": 50,
+        "client_id": 167
     },
     {
         "id": 374,
-        "numero": "55357990229",
+        "numero": "88524486140",
         "solde": 0,
-        "type": 2,
-        "client_id": 179
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 168
     },
     {
         "id": 375,
-        "numero": "86454066534",
+        "numero": "73307129255",
         "solde": 0,
-        "type": 1,
-        "client_id": 180
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 168
     },
     {
         "id": 376,
-        "numero": "66401832902",
+        "numero": "98663458387",
         "solde": 0,
-        "type": 1,
-        "client_id": 181
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 168
     },
     {
         "id": 377,
-        "numero": "00050690922",
+        "numero": "82655352661",
         "solde": 0,
-        "type": 4,
-        "client_id": 181
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 169
     },
     {
         "id": 378,
-        "numero": "77069101806",
+        "numero": "22260088586",
         "solde": 0,
-        "type": 11,
-        "client_id": 181
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 169
     },
     {
         "id": 379,
-        "numero": "74480734984",
+        "numero": "40231069073",
         "solde": 0,
-        "type": 1,
-        "client_id": 182
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 169
     },
     {
         "id": 380,
-        "numero": "61313610497",
+        "numero": "53787276648",
         "solde": 0,
-        "type": 2,
-        "client_id": 182
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 170
     },
     {
         "id": 381,
-        "numero": "36272559576",
+        "numero": "67193875117",
         "solde": 0,
-        "type": 1,
-        "client_id": 183
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 170
     },
     {
         "id": 382,
-        "numero": "62210762361",
+        "numero": "41984453264",
         "solde": 0,
-        "type": 2,
-        "client_id": 183
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 171
     },
     {
         "id": 383,
-        "numero": "14800603545",
+        "numero": "05065400850",
         "solde": 0,
-        "type": 3,
-        "client_id": 183
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 172
     },
     {
         "id": 384,
-        "numero": "88567561993",
+        "numero": "53024689273",
         "solde": 0,
-        "type": 10,
-        "client_id": 183
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 172
     },
     {
         "id": 385,
-        "numero": "01916042171",
+        "numero": "78261114027",
         "solde": 0,
         "type": 1,
-        "client_id": 184
+        "droit_decouvert": 200,
+        "client_id": 173
     },
     {
         "id": 386,
-        "numero": "19794113294",
+        "numero": "36568281078",
         "solde": 0,
         "type": 2,
-        "client_id": 184
+        "droit_decouvert": 0,
+        "client_id": 173
     },
     {
         "id": 387,
-        "numero": "63714396958",
+        "numero": "38983696428",
         "solde": 0,
         "type": 1,
-        "client_id": 185
+        "droit_decouvert": 0,
+        "client_id": 174
     },
     {
         "id": 388,
-        "numero": "45231648893",
+        "numero": "57069584106",
         "solde": 0,
-        "type": 2,
-        "client_id": 185
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 175
     },
     {
         "id": 389,
-        "numero": "45542488825",
+        "numero": "67562908031",
         "solde": 0,
-        "type": 1,
-        "client_id": 186
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 175
     },
     {
         "id": 390,
-        "numero": "02150538543",
+        "numero": "18604951605",
         "solde": 0,
-        "type": 2,
-        "client_id": 186
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 175
     },
     {
         "id": 391,
-        "numero": "25105034790",
+        "numero": "58842547618",
         "solde": 0,
         "type": 1,
-        "client_id": 187
+        "droit_decouvert": 0,
+        "client_id": 176
     },
     {
         "id": 392,
-        "numero": "63831443361",
+        "numero": "63243768999",
         "solde": 0,
-        "type": 10,
-        "client_id": 187
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 176
     },
     {
         "id": 393,
-        "numero": "11271105791",
+        "numero": "50820641328",
         "solde": 0,
         "type": 1,
-        "client_id": 188
+        "droit_decouvert": 20,
+        "client_id": 177
     },
     {
         "id": 394,
-        "numero": "18425683583",
+        "numero": "76125200829",
         "solde": 0,
-        "type": 2,
-        "client_id": 188
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 178
     },
     {
         "id": 395,
-        "numero": "83676740352",
+        "numero": "33635172217",
         "solde": 0,
-        "type": 6,
-        "client_id": 188
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 178
     },
     {
         "id": 396,
-        "numero": "79142758704",
+        "numero": "39035451917",
         "solde": 0,
         "type": 1,
-        "client_id": 189
+        "droit_decouvert": 0,
+        "client_id": 179
     },
     {
         "id": 397,
-        "numero": "68905557861",
+        "numero": "12167207689",
         "solde": 0,
         "type": 1,
-        "client_id": 190
+        "droit_decouvert": 20,
+        "client_id": 180
     },
     {
         "id": 398,
-        "numero": "92447381753",
+        "numero": "99926975340",
         "solde": 0,
-        "type": 2,
-        "client_id": 190
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 181
     },
     {
         "id": 399,
-        "numero": "20389828973",
+        "numero": "50373938567",
         "solde": 0,
-        "type": 1,
-        "client_id": 191
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 181
     },
     {
         "id": 400,
-        "numero": "45912053779",
+        "numero": "50716923409",
         "solde": 0,
-        "type": 2,
-        "client_id": 191
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 181
     },
     {
         "id": 401,
-        "numero": "15108537016",
+        "numero": "92548152618",
         "solde": 0,
         "type": 1,
-        "client_id": 192
+        "droit_decouvert": 20,
+        "client_id": 182
     },
     {
         "id": 402,
-        "numero": "19541233369",
+        "numero": "33070872846",
         "solde": 0,
         "type": 2,
-        "client_id": 192
+        "droit_decouvert": 0,
+        "client_id": 182
     },
     {
         "id": 403,
-        "numero": "54036462939",
+        "numero": "49751823932",
         "solde": 0,
-        "type": 1,
-        "client_id": 193
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 182
     },
     {
         "id": 404,
-        "numero": "13084548296",
+        "numero": "09844470400",
         "solde": 0,
-        "type": 2,
-        "client_id": 193
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 183
     },
     {
         "id": 405,
-        "numero": "32735797494",
+        "numero": "53710092074",
         "solde": 0,
-        "type": 8,
-        "client_id": 193
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 183
     },
     {
         "id": 406,
-        "numero": "92906440505",
+        "numero": "07102371686",
         "solde": 0,
         "type": 1,
-        "client_id": 194
+        "droit_decouvert": 200,
+        "client_id": 184
     },
     {
         "id": 407,
-        "numero": "85993227844",
+        "numero": "33562581886",
         "solde": 0,
-        "type": 7,
-        "client_id": 194
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 184
     },
     {
         "id": 408,
-        "numero": "32634363589",
+        "numero": "54138088420",
         "solde": 0,
-        "type": 8,
-        "client_id": 194
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 185
     },
     {
         "id": 409,
-        "numero": "26565360294",
+        "numero": "79731148129",
         "solde": 0,
-        "type": 1,
-        "client_id": 195
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 185
     },
     {
         "id": 410,
-        "numero": "29230027833",
+        "numero": "54990854182",
         "solde": 0,
-        "type": 2,
-        "client_id": 195
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 186
     },
     {
         "id": 411,
-        "numero": "20417033017",
+        "numero": "16886613286",
         "solde": 0,
-        "type": 5,
-        "client_id": 195
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 186
     },
     {
         "id": 412,
-        "numero": "56543976309",
+        "numero": "86140490319",
         "solde": 0,
         "type": 1,
-        "client_id": 196
+        "droit_decouvert": 20,
+        "client_id": 187
     },
     {
         "id": 413,
-        "numero": "38343435774",
+        "numero": "49957660321",
         "solde": 0,
-        "type": 1,
-        "client_id": 197
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 187
     },
     {
         "id": 414,
-        "numero": "99251558870",
+        "numero": "15776001594",
         "solde": 0,
-        "type": 1,
-        "client_id": 198
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 187
     },
     {
         "id": 415,
-        "numero": "15106262712",
+        "numero": "12560667534",
         "solde": 0,
-        "type": 2,
-        "client_id": 198
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 188
     },
     {
         "id": 416,
-        "numero": "72788228791",
+        "numero": "36177543190",
         "solde": 0,
-        "type": 7,
-        "client_id": 198
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 188
     },
     {
         "id": 417,
-        "numero": "26394446905",
+        "numero": "55281085921",
         "solde": 0,
-        "type": 1,
-        "client_id": 199
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 188
     },
     {
         "id": 418,
-        "numero": "03807712149",
+        "numero": "06464639510",
         "solde": 0,
-        "type": 2,
-        "client_id": 199
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 189
     },
     {
         "id": 419,
-        "numero": "57798516570",
+        "numero": "46966006460",
         "solde": 0,
-        "type": 1,
-        "client_id": 200
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 189
     },
     {
         "id": 420,
-        "numero": "24666004507",
+        "numero": "00973037544",
         "solde": 0,
-        "type": 2,
-        "client_id": 200
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 190
     },
     {
         "id": 421,
-        "numero": "33061662056",
+        "numero": "77365033317",
         "solde": 0,
-        "type": 12,
-        "client_id": 200
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 190
     },
     {
         "id": 422,
-        "numero": "94593811623",
+        "numero": "55363205615",
         "solde": 0,
         "type": 1,
-        "client_id": 201
+        "droit_decouvert": 300,
+        "client_id": 191
     },
     {
         "id": 423,
-        "numero": "34027966737",
+        "numero": "02701578962",
         "solde": 0,
         "type": 2,
-        "client_id": 201
+        "droit_decouvert": 0,
+        "client_id": 191
     },
     {
         "id": 424,
-        "numero": "11578158683",
+        "numero": "42746817311",
         "solde": 0,
-        "type": 3,
-        "client_id": 201
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 192
     },
     {
         "id": 425,
-        "numero": "54261280577",
+        "numero": "08407961117",
         "solde": 0,
-        "type": 6,
-        "client_id": 201
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 192
     },
     {
         "id": 426,
-        "numero": "14486473137",
+        "numero": "28314400112",
         "solde": 0,
         "type": 1,
-        "client_id": 202
+        "droit_decouvert": 200,
+        "client_id": 193
     },
     {
         "id": 427,
-        "numero": "76666088547",
+        "numero": "01660497919",
         "solde": 0,
         "type": 2,
-        "client_id": 202
+        "droit_decouvert": 0,
+        "client_id": 193
     },
     {
         "id": 428,
-        "numero": "57491387554",
+        "numero": "74488089461",
         "solde": 0,
         "type": 1,
-        "client_id": 203
+        "droit_decouvert": 100,
+        "client_id": 194
     },
     {
         "id": 429,
-        "numero": "66253077090",
+        "numero": "97372994360",
         "solde": 0,
-        "type": 8,
-        "client_id": 203
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 194
     },
     {
         "id": 430,
-        "numero": "99005504201",
+        "numero": "34882177026",
         "solde": 0,
         "type": 1,
-        "client_id": 204
+        "droit_decouvert": 50,
+        "client_id": 195
     },
     {
         "id": 431,
-        "numero": "02363195856",
+        "numero": "41693938329",
         "solde": 0,
         "type": 2,
-        "client_id": 204
+        "droit_decouvert": 0,
+        "client_id": 195
     },
     {
         "id": 432,
-        "numero": "74139281371",
+        "numero": "47262730147",
         "solde": 0,
-        "type": 1,
-        "client_id": 205
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 195
     },
     {
         "id": 433,
-        "numero": "17710295099",
+        "numero": "04535906076",
         "solde": 0,
-        "type": 2,
-        "client_id": 205
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 196
     },
     {
         "id": 434,
-        "numero": "10356626242",
+        "numero": "66493346316",
         "solde": 0,
-        "type": 5,
-        "client_id": 205
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 196
     },
     {
         "id": 435,
-        "numero": "70369456814",
+        "numero": "06961021043",
         "solde": 0,
-        "type": 1,
-        "client_id": 206
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 196
     },
     {
         "id": 436,
-        "numero": "38327059984",
+        "numero": "04584535742",
         "solde": 0,
-        "type": 2,
-        "client_id": 206
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 197
     },
     {
         "id": 437,
-        "numero": "53378906224",
+        "numero": "73040307380",
         "solde": 0,
-        "type": 10,
-        "client_id": 206
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 197
     },
     {
         "id": 438,
-        "numero": "94236941996",
+        "numero": "85338381608",
         "solde": 0,
-        "type": 1,
-        "client_id": 207
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 197
     },
     {
         "id": 439,
-        "numero": "26397317922",
+        "numero": "50602945694",
         "solde": 0,
-        "type": 2,
-        "client_id": 207
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 198
     },
     {
         "id": 440,
-        "numero": "55320628681",
+        "numero": "41521141419",
         "solde": 0,
-        "type": 9,
-        "client_id": 207
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 198
     },
     {
         "id": 441,
-        "numero": "41500411450",
+        "numero": "14306599431",
         "solde": 0,
         "type": 1,
-        "client_id": 208
+        "droit_decouvert": 300,
+        "client_id": 199
     },
     {
         "id": 442,
-        "numero": "57991690905",
+        "numero": "72232803842",
         "solde": 0,
-        "type": 1,
-        "client_id": 209
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 199
     },
     {
         "id": 443,
-        "numero": "19419153652",
+        "numero": "38943004321",
         "solde": 0,
-        "type": 2,
-        "client_id": 209
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 200
     },
     {
         "id": 444,
-        "numero": "82602823184",
+        "numero": "09922093913",
         "solde": 0,
-        "type": 1,
-        "client_id": 210
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 200
     },
     {
         "id": 445,
-        "numero": "12139071891",
+        "numero": "85818160126",
         "solde": 0,
-        "type": 2,
-        "client_id": 210
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 200
     },
     {
         "id": 446,
-        "numero": "46176412918",
+        "numero": "03195021778",
         "solde": 0,
-        "type": 7,
-        "client_id": 210
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 201
     },
     {
         "id": 447,
-        "numero": "41306352815",
+        "numero": "98968576966",
         "solde": 0,
-        "type": 1,
-        "client_id": 211
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 201
     },
     {
         "id": 448,
-        "numero": "24730895745",
+        "numero": "63104741033",
         "solde": 0,
-        "type": 1,
-        "client_id": 212
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 201
     },
     {
         "id": 449,
-        "numero": "37335606200",
+        "numero": "41093538811",
         "solde": 0,
-        "type": 2,
-        "client_id": 212
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 202
     },
     {
         "id": 450,
-        "numero": "26936118874",
+        "numero": "20865297651",
         "solde": 0,
-        "type": 1,
-        "client_id": 213
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 202
     },
     {
         "id": 451,
-        "numero": "38918218319",
+        "numero": "70929153098",
         "solde": 0,
-        "type": 8,
-        "client_id": 213
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 203
     },
     {
         "id": 452,
-        "numero": "97327762884",
+        "numero": "27978419673",
         "solde": 0,
-        "type": 1,
-        "client_id": 214
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 203
     },
     {
         "id": 453,
-        "numero": "42625376889",
+        "numero": "93628315187",
         "solde": 0,
-        "type": 2,
-        "client_id": 214
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 203
     },
     {
         "id": 454,
-        "numero": "88930314609",
+        "numero": "00286788205",
         "solde": 0,
-        "type": 5,
-        "client_id": 214
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 204
     },
     {
         "id": 455,
-        "numero": "23495998169",
+        "numero": "24989804895",
         "solde": 0,
-        "type": 1,
-        "client_id": 215
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 204
     },
     {
         "id": 456,
-        "numero": "88071027767",
+        "numero": "23618864385",
         "solde": 0,
-        "type": 2,
-        "client_id": 215
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 204
     },
     {
         "id": 457,
-        "numero": "89660048021",
+        "numero": "35571051589",
         "solde": 0,
-        "type": 6,
-        "client_id": 215
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 205
     },
     {
         "id": 458,
-        "numero": "13432389459",
+        "numero": "10332068507",
         "solde": 0,
-        "type": 1,
-        "client_id": 216
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 205
     },
     {
         "id": 459,
-        "numero": "70741080577",
+        "numero": "87964828763",
         "solde": 0,
         "type": 1,
-        "client_id": 217
+        "droit_decouvert": 300,
+        "client_id": 206
     },
     {
         "id": 460,
-        "numero": "66265030079",
+        "numero": "65566497556",
         "solde": 0,
-        "type": 4,
-        "client_id": 217
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 207
     },
     {
         "id": 461,
-        "numero": "96158687888",
+        "numero": "64053907071",
         "solde": 0,
-        "type": 1,
-        "client_id": 218
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 207
     },
     {
         "id": 462,
-        "numero": "77564887296",
+        "numero": "13382743716",
         "solde": 0,
-        "type": 2,
-        "client_id": 218
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 207
     },
     {
         "id": 463,
-        "numero": "08476482046",
+        "numero": "33678445384",
         "solde": 0,
         "type": 1,
-        "client_id": 219
+        "droit_decouvert": 50,
+        "client_id": 208
     },
     {
         "id": 464,
-        "numero": "63511256883",
+        "numero": "96976165186",
         "solde": 0,
         "type": 2,
-        "client_id": 219
+        "droit_decouvert": 0,
+        "client_id": 208
     },
     {
         "id": 465,
-        "numero": "90465862424",
+        "numero": "07325652320",
         "solde": 0,
         "type": 1,
-        "client_id": 220
+        "droit_decouvert": 50,
+        "client_id": 209
     },
     {
         "id": 466,
-        "numero": "00334362516",
+        "numero": "24218867425",
         "solde": 0,
-        "type": 2,
-        "client_id": 220
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 210
     },
     {
         "id": 467,
-        "numero": "69459315968",
+        "numero": "00287353053",
         "solde": 0,
-        "type": 11,
-        "client_id": 220
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 210
     },
     {
         "id": 468,
-        "numero": "68346667318",
+        "numero": "57781789069",
         "solde": 0,
         "type": 1,
-        "client_id": 221
+        "droit_decouvert": 250,
+        "client_id": 211
     },
     {
         "id": 469,
-        "numero": "31112276248",
+        "numero": "96562320415",
         "solde": 0,
-        "type": 10,
-        "client_id": 221
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 212
     },
     {
         "id": 470,
-        "numero": "96260599653",
+        "numero": "82230034187",
         "solde": 0,
-        "type": 1,
-        "client_id": 222
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 212
     },
     {
         "id": 471,
-        "numero": "61612719857",
+        "numero": "41225088382",
         "solde": 0,
-        "type": 3,
-        "client_id": 222
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 213
     },
     {
         "id": 472,
-        "numero": "79279381059",
+        "numero": "59792380451",
         "solde": 0,
-        "type": 1,
-        "client_id": 223
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 213
     },
     {
         "id": 473,
-        "numero": "35248283949",
+        "numero": "52549215268",
         "solde": 0,
-        "type": 2,
-        "client_id": 223
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 213
     },
     {
         "id": 474,
-        "numero": "28801784971",
+        "numero": "04939552827",
         "solde": 0,
-        "type": 7,
-        "client_id": 223
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 213
     },
     {
         "id": 475,
-        "numero": "95511028734",
+        "numero": "54878703079",
         "solde": 0,
         "type": 1,
-        "client_id": 224
+        "droit_decouvert": 50,
+        "client_id": 214
     },
     {
         "id": 476,
-        "numero": "45140904435",
+        "numero": "88570594707",
         "solde": 0,
         "type": 2,
-        "client_id": 224
+        "droit_decouvert": 0,
+        "client_id": 214
     },
     {
         "id": 477,
-        "numero": "27454153980",
+        "numero": "44901550003",
         "solde": 0,
-        "type": 1,
-        "client_id": 225
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 214
     },
     {
         "id": 478,
-        "numero": "35986771907",
+        "numero": "39417134095",
         "solde": 0,
-        "type": 2,
-        "client_id": 225
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 215
     },
     {
         "id": 479,
-        "numero": "06215038921",
+        "numero": "77794827693",
         "solde": 0,
-        "type": 4,
-        "client_id": 225
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 215
     },
     {
         "id": 480,
-        "numero": "86465682372",
+        "numero": "77314368412",
         "solde": 0,
-        "type": 5,
-        "client_id": 225
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 215
     },
     {
         "id": 481,
-        "numero": "50823901246",
+        "numero": "42640790004",
         "solde": 0,
-        "type": 12,
-        "client_id": 225
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 216
     },
     {
         "id": 482,
-        "numero": "78148418572",
+        "numero": "65603700043",
         "solde": 0,
         "type": 1,
-        "client_id": 226
+        "droit_decouvert": 20,
+        "client_id": 217
     },
     {
         "id": 483,
-        "numero": "28104935850",
+        "numero": "99825025328",
         "solde": 0,
-        "type": 2,
-        "client_id": 226
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 217
     },
     {
         "id": 484,
-        "numero": "67624215995",
+        "numero": "34480468701",
         "solde": 0,
         "type": 1,
-        "client_id": 227
+        "droit_decouvert": 500,
+        "client_id": 218
     },
     {
         "id": 485,
-        "numero": "24380178138",
+        "numero": "76412941074",
         "solde": 0,
-        "type": 2,
-        "client_id": 227
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 219
     },
     {
         "id": 486,
-        "numero": "36044784373",
+        "numero": "98616163866",
         "solde": 0,
-        "type": 1,
-        "client_id": 228
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 219
     },
     {
         "id": 487,
-        "numero": "56779323464",
+        "numero": "54990604891",
         "solde": 0,
-        "type": 2,
-        "client_id": 228
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 220
     },
     {
         "id": 488,
-        "numero": "83490618532",
+        "numero": "83957724917",
         "solde": 0,
         "type": 1,
-        "client_id": 229
+        "droit_decouvert": 250,
+        "client_id": 221
     },
     {
         "id": 489,
-        "numero": "94138285741",
+        "numero": "12891941611",
         "solde": 0,
         "type": 2,
-        "client_id": 229
+        "droit_decouvert": 0,
+        "client_id": 221
     },
     {
         "id": 490,
-        "numero": "49520318299",
+        "numero": "44605677605",
         "solde": 0,
-        "type": 3,
-        "client_id": 229
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 222
     },
     {
         "id": 491,
-        "numero": "69101743712",
+        "numero": "78636679841",
         "solde": 0,
-        "type": 1,
-        "client_id": 230
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 222
     },
     {
         "id": 492,
-        "numero": "42629647401",
+        "numero": "07726032175",
         "solde": 0,
-        "type": 2,
-        "client_id": 230
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 222
     },
     {
         "id": 493,
-        "numero": "26448443630",
+        "numero": "87426444952",
         "solde": 0,
         "type": 1,
-        "client_id": 231
+        "droit_decouvert": 250,
+        "client_id": 223
     },
     {
         "id": 494,
-        "numero": "85916329601",
+        "numero": "02523327610",
         "solde": 0,
-        "type": 1,
-        "client_id": 232
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 223
     },
     {
         "id": 495,
-        "numero": "25655801263",
+        "numero": "76349675778",
         "solde": 0,
-        "type": 1,
-        "client_id": 233
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 223
     },
     {
         "id": 496,
-        "numero": "68725326178",
+        "numero": "96715958975",
         "solde": 0,
-        "type": 2,
-        "client_id": 233
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 224
     },
     {
         "id": 497,
-        "numero": "71818277473",
+        "numero": "18431587051",
         "solde": 0,
         "type": 1,
-        "client_id": 234
+        "droit_decouvert": 50,
+        "client_id": 225
     },
     {
         "id": 498,
-        "numero": "06204954380",
+        "numero": "90391709946",
         "solde": 0,
         "type": 2,
-        "client_id": 234
+        "droit_decouvert": 0,
+        "client_id": 225
     },
     {
         "id": 499,
-        "numero": "57367602757",
+        "numero": "44084277682",
         "solde": 0,
-        "type": 1,
-        "client_id": 235
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 225
     },
     {
         "id": 500,
-        "numero": "34756432287",
+        "numero": "34883481333",
         "solde": 0,
-        "type": 2,
-        "client_id": 235
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 226
     },
     {
         "id": 501,
-        "numero": "08549070694",
+        "numero": "24330229535",
         "solde": 0,
-        "type": 6,
-        "client_id": 235
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 226
     },
     {
         "id": 502,
-        "numero": "81749618684",
+        "numero": "70066622013",
         "solde": 0,
-        "type": 10,
-        "client_id": 235
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 227
     },
     {
         "id": 503,
-        "numero": "11121687847",
+        "numero": "95047056507",
         "solde": 0,
         "type": 1,
-        "client_id": 236
+        "droit_decouvert": 50,
+        "client_id": 228
     },
     {
         "id": 504,
-        "numero": "74637684001",
+        "numero": "96975196865",
         "solde": 0,
-        "type": 5,
-        "client_id": 236
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 228
     },
     {
         "id": 505,
-        "numero": "96121568035",
+        "numero": "13798096328",
         "solde": 0,
-        "type": 10,
-        "client_id": 236
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 229
     },
     {
         "id": 506,
-        "numero": "07077585749",
+        "numero": "08265898633",
         "solde": 0,
-        "type": 1,
-        "client_id": 237
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 229
     },
     {
         "id": 507,
-        "numero": "51227953905",
+        "numero": "61628339976",
         "solde": 0,
-        "type": 2,
-        "client_id": 237
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 230
     },
     {
         "id": 508,
-        "numero": "42525293088",
+        "numero": "00208294517",
         "solde": 0,
         "type": 1,
-        "client_id": 238
+        "droit_decouvert": 20,
+        "client_id": 231
     },
     {
         "id": 509,
-        "numero": "90314256613",
+        "numero": "89886148448",
         "solde": 0,
         "type": 2,
-        "client_id": 238
+        "droit_decouvert": 0,
+        "client_id": 231
     },
     {
         "id": 510,
-        "numero": "20885256385",
+        "numero": "21558585389",
         "solde": 0,
         "type": 8,
-        "client_id": 238
+        "droit_decouvert": 0,
+        "client_id": 231
     },
     {
         "id": 511,
-        "numero": "54232100845",
+        "numero": "11319324226",
         "solde": 0,
-        "type": 12,
-        "client_id": 238
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 232
     },
     {
         "id": 512,
-        "numero": "90916745013",
+        "numero": "83978842935",
         "solde": 0,
-        "type": 1,
-        "client_id": 239
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 232
     },
     {
         "id": 513,
-        "numero": "18046859877",
+        "numero": "62770684124",
         "solde": 0,
-        "type": 2,
-        "client_id": 239
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 233
     },
     {
         "id": 514,
-        "numero": "98500560693",
+        "numero": "84795379707",
         "solde": 0,
         "type": 1,
-        "client_id": 240
+        "droit_decouvert": 200,
+        "client_id": 234
     },
     {
         "id": 515,
-        "numero": "54100145737",
+        "numero": "21431030893",
         "solde": 0,
-        "type": 2,
-        "client_id": 240
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 235
     },
     {
         "id": 516,
-        "numero": "85834306017",
+        "numero": "21375202622",
         "solde": 0,
-        "type": 1,
-        "client_id": 241
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 235
     },
     {
         "id": 517,
-        "numero": "89817047162",
+        "numero": "34535942249",
         "solde": 0,
         "type": 1,
-        "client_id": 242
+        "droit_decouvert": 250,
+        "client_id": 236
     },
     {
         "id": 518,
-        "numero": "94297454855",
+        "numero": "86040262033",
         "solde": 0,
         "type": 2,
-        "client_id": 242
+        "droit_decouvert": 0,
+        "client_id": 236
     },
     {
         "id": 519,
-        "numero": "65526464049",
+        "numero": "96920582704",
         "solde": 0,
-        "type": 9,
-        "client_id": 242
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 236
     },
     {
         "id": 520,
-        "numero": "57333133089",
+        "numero": "58471484375",
         "solde": 0,
         "type": 1,
-        "client_id": 243
+        "droit_decouvert": 200,
+        "client_id": 237
     },
     {
         "id": 521,
-        "numero": "70329338692",
+        "numero": "71455979457",
         "solde": 0,
         "type": 2,
-        "client_id": 243
+        "droit_decouvert": 0,
+        "client_id": 237
     },
     {
         "id": 522,
-        "numero": "33380699622",
+        "numero": "81894447114",
         "solde": 0,
-        "type": 3,
-        "client_id": 243
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 238
     },
     {
         "id": 523,
-        "numero": "01146884197",
+        "numero": "17299349932",
         "solde": 0,
         "type": 5,
-        "client_id": 243
+        "droit_decouvert": 0,
+        "client_id": 238
     },
     {
         "id": 524,
-        "numero": "01929192883",
+        "numero": "93820626891",
         "solde": 0,
         "type": 1,
-        "client_id": 244
+        "droit_decouvert": 100,
+        "client_id": 239
     },
     {
         "id": 525,
-        "numero": "07693694241",
+        "numero": "86321631000",
         "solde": 0,
-        "type": 1,
-        "client_id": 245
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 239
     },
     {
         "id": 526,
-        "numero": "32361339912",
+        "numero": "86527603903",
         "solde": 0,
-        "type": 2,
-        "client_id": 245
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 240
     },
     {
         "id": 527,
-        "numero": "79423261235",
+        "numero": "66760730024",
         "solde": 0,
         "type": 1,
-        "client_id": 246
+        "droit_decouvert": 0,
+        "client_id": 241
     },
     {
         "id": 528,
-        "numero": "32333944084",
+        "numero": "64499163526",
         "solde": 0,
         "type": 2,
-        "client_id": 246
+        "droit_decouvert": 0,
+        "client_id": 241
     },
     {
         "id": 529,
-        "numero": "60815981659",
+        "numero": "25694780526",
         "solde": 0,
-        "type": 1,
-        "client_id": 247
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 241
     },
     {
         "id": 530,
-        "numero": "47449411285",
+        "numero": "78614957391",
         "solde": 0,
-        "type": 2,
-        "client_id": 247
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 241
     },
     {
         "id": 531,
-        "numero": "16151054715",
+        "numero": "98493794349",
         "solde": 0,
-        "type": 10,
-        "client_id": 247
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 242
     },
     {
         "id": 532,
-        "numero": "91979842211",
+        "numero": "48607790490",
         "solde": 0,
         "type": 1,
-        "client_id": 248
+        "droit_decouvert": 20,
+        "client_id": 243
     },
     {
         "id": 533,
-        "numero": "36926943418",
+        "numero": "66603755447",
         "solde": 0,
         "type": 2,
-        "client_id": 248
+        "droit_decouvert": 0,
+        "client_id": 243
     },
     {
         "id": 534,
-        "numero": "87485849345",
+        "numero": "49547340531",
         "solde": 0,
         "type": 1,
-        "client_id": 249
+        "droit_decouvert": 100,
+        "client_id": 244
     },
     {
         "id": 535,
-        "numero": "20154669064",
+        "numero": "75599347230",
         "solde": 0,
-        "type": 2,
-        "client_id": 249
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 245
     },
     {
         "id": 536,
-        "numero": "54313622098",
+        "numero": "20512231521",
         "solde": 0,
-        "type": 1,
-        "client_id": 250
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 245
     },
     {
         "id": 537,
-        "numero": "07840691945",
+        "numero": "93875374167",
         "solde": 0,
-        "type": 2,
-        "client_id": 250
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 246
     },
     {
         "id": 538,
-        "numero": "66148217119",
+        "numero": "27475406752",
         "solde": 0,
-        "type": 4,
-        "client_id": 250
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 246
     },
     {
         "id": 539,
-        "numero": "36665337766",
+        "numero": "97397287379",
         "solde": 0,
         "type": 1,
-        "client_id": 251
+        "droit_decouvert": 300,
+        "client_id": 247
     },
     {
         "id": 540,
-        "numero": "41120631342",
+        "numero": "46285859267",
         "solde": 0,
         "type": 2,
-        "client_id": 251
+        "droit_decouvert": 0,
+        "client_id": 247
     },
     {
         "id": 541,
-        "numero": "84719573229",
+        "numero": "39168771765",
         "solde": 0,
         "type": 1,
-        "client_id": 252
+        "droit_decouvert": 200,
+        "client_id": 248
     },
     {
         "id": 542,
-        "numero": "52063040055",
+        "numero": "07892672916",
         "solde": 0,
         "type": 2,
-        "client_id": 252
+        "droit_decouvert": 0,
+        "client_id": 248
     },
     {
         "id": 543,
-        "numero": "39121908893",
+        "numero": "52728459755",
         "solde": 0,
         "type": 1,
-        "client_id": 253
+        "droit_decouvert": 100,
+        "client_id": 249
     },
     {
         "id": 544,
-        "numero": "11151575549",
+        "numero": "73231553412",
         "solde": 0,
-        "type": 2,
-        "client_id": 253
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 250
     },
     {
         "id": 545,
-        "numero": "48710285690",
+        "numero": "72579332152",
         "solde": 0,
         "type": 1,
-        "client_id": 254
+        "droit_decouvert": 0,
+        "client_id": 251
     },
     {
         "id": 546,
-        "numero": "68186271352",
+        "numero": "92403975397",
         "solde": 0,
-        "type": 1,
-        "client_id": 255
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 251
     },
     {
         "id": 547,
-        "numero": "00300622840",
+        "numero": "52441482122",
         "solde": 0,
-        "type": 2,
-        "client_id": 255
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 251
     },
     {
         "id": 548,
-        "numero": "24447513836",
+        "numero": "38892724420",
         "solde": 0,
-        "type": 4,
-        "client_id": 255
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 252
     },
     {
         "id": 549,
-        "numero": "42265275892",
+        "numero": "49729098524",
         "solde": 0,
-        "type": 1,
-        "client_id": 256
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 252
     },
     {
         "id": 550,
-        "numero": "67316597816",
+        "numero": "70607146437",
         "solde": 0,
-        "type": 2,
-        "client_id": 256
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 252
     },
     {
         "id": 551,
-        "numero": "99728457378",
+        "numero": "81204095819",
         "solde": 0,
         "type": 1,
-        "client_id": 257
+        "droit_decouvert": 250,
+        "client_id": 253
     },
     {
         "id": 552,
-        "numero": "34719966202",
+        "numero": "16073100028",
         "solde": 0,
         "type": 2,
-        "client_id": 257
+        "droit_decouvert": 0,
+        "client_id": 253
     },
     {
         "id": 553,
-        "numero": "22539348743",
+        "numero": "83127479311",
         "solde": 0,
         "type": 1,
-        "client_id": 258
+        "droit_decouvert": 20,
+        "client_id": 254
     },
     {
         "id": 554,
-        "numero": "04712121009",
+        "numero": "82330670640",
         "solde": 0,
         "type": 2,
-        "client_id": 258
+        "droit_decouvert": 0,
+        "client_id": 254
     },
     {
         "id": 555,
-        "numero": "48994310693",
+        "numero": "05522354229",
         "solde": 0,
-        "type": 11,
-        "client_id": 258
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 254
     },
     {
         "id": 556,
-        "numero": "78940159360",
+        "numero": "63253658755",
         "solde": 0,
         "type": 1,
-        "client_id": 259
+        "droit_decouvert": 0,
+        "client_id": 255
     },
     {
         "id": 557,
-        "numero": "54010924686",
+        "numero": "01045608997",
         "solde": 0,
         "type": 2,
-        "client_id": 259
+        "droit_decouvert": 0,
+        "client_id": 255
     },
     {
         "id": 558,
-        "numero": "81719014971",
+        "numero": "50272039084",
         "solde": 0,
-        "type": 9,
-        "client_id": 259
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 255
     },
     {
         "id": 559,
-        "numero": "73329993268",
+        "numero": "15513158886",
         "solde": 0,
         "type": 1,
-        "client_id": 260
+        "droit_decouvert": 100,
+        "client_id": 256
     },
     {
         "id": 560,
-        "numero": "04031185299",
+        "numero": "50510429098",
         "solde": 0,
         "type": 2,
-        "client_id": 260
+        "droit_decouvert": 0,
+        "client_id": 256
     },
     {
         "id": 561,
-        "numero": "38623682705",
+        "numero": "29819915242",
         "solde": 0,
         "type": 1,
-        "client_id": 261
+        "droit_decouvert": 250,
+        "client_id": 257
     },
     {
         "id": 562,
-        "numero": "80862957367",
+        "numero": "43567958236",
         "solde": 0,
         "type": 2,
-        "client_id": 261
+        "droit_decouvert": 0,
+        "client_id": 257
     },
     {
         "id": 563,
-        "numero": "81166423809",
+        "numero": "13881480028",
         "solde": 0,
-        "type": 1,
-        "client_id": 262
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 257
     },
     {
         "id": 564,
-        "numero": "61646784900",
+        "numero": "46256919551",
         "solde": 0,
-        "type": 2,
-        "client_id": 262
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 258
     },
     {
         "id": 565,
-        "numero": "66824423828",
+        "numero": "45783200100",
         "solde": 0,
-        "type": 1,
-        "client_id": 263
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 258
     },
     {
         "id": 566,
-        "numero": "79094072260",
+        "numero": "45977059989",
         "solde": 0,
-        "type": 2,
-        "client_id": 263
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 259
     },
     {
         "id": 567,
-        "numero": "86265428181",
+        "numero": "50276088944",
         "solde": 0,
-        "type": 1,
-        "client_id": 264
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 259
     },
     {
         "id": 568,
-        "numero": "33841951183",
+        "numero": "84881218455",
         "solde": 0,
         "type": 1,
-        "client_id": 265
+        "droit_decouvert": 300,
+        "client_id": 260
     },
     {
         "id": 569,
-        "numero": "80013734976",
+        "numero": "66068524778",
         "solde": 0,
-        "type": 1,
-        "client_id": 266
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 260
     },
     {
         "id": 570,
-        "numero": "62678628899",
+        "numero": "35985468254",
         "solde": 0,
-        "type": 2,
-        "client_id": 266
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 261
     },
     {
         "id": 571,
-        "numero": "13172864158",
+        "numero": "27291963853",
         "solde": 0,
-        "type": 8,
-        "client_id": 266
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 261
     },
     {
         "id": 572,
-        "numero": "75444282968",
+        "numero": "82529614068",
         "solde": 0,
-        "type": 1,
-        "client_id": 267
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 261
     },
     {
         "id": 573,
-        "numero": "96710134961",
+        "numero": "71243182418",
         "solde": 0,
         "type": 1,
-        "client_id": 268
+        "droit_decouvert": 100,
+        "client_id": 262
     },
     {
         "id": 574,
-        "numero": "23528298439",
+        "numero": "35177300411",
         "solde": 0,
-        "type": 9,
-        "client_id": 268
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 263
     },
     {
         "id": 575,
-        "numero": "76264045971",
+        "numero": "55314879351",
         "solde": 0,
-        "type": 12,
-        "client_id": 268
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 263
     },
     {
         "id": 576,
-        "numero": "41656522539",
+        "numero": "39925200213",
         "solde": 0,
-        "type": 1,
-        "client_id": 269
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 263
     },
     {
         "id": 577,
-        "numero": "68187372846",
+        "numero": "74571121112",
         "solde": 0,
-        "type": 2,
-        "client_id": 269
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 263
     },
     {
         "id": 578,
-        "numero": "95092453818",
+        "numero": "21377765431",
         "solde": 0,
-        "type": 5,
-        "client_id": 269
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 264
     },
     {
         "id": 579,
-        "numero": "42223298073",
+        "numero": "68529770176",
         "solde": 0,
-        "type": 1,
-        "client_id": 270
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 264
     },
     {
         "id": 580,
-        "numero": "48493757641",
+        "numero": "09108196237",
         "solde": 0,
-        "type": 2,
-        "client_id": 270
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 265
     },
     {
         "id": 581,
-        "numero": "95655504421",
+        "numero": "87177782806",
         "solde": 0,
-        "type": 1,
-        "client_id": 271
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 265
     },
     {
         "id": 582,
-        "numero": "28441583282",
+        "numero": "71878312322",
         "solde": 0,
-        "type": 2,
-        "client_id": 271
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 266
     },
     {
         "id": 583,
-        "numero": "92214903896",
+        "numero": "79380770134",
         "solde": 0,
-        "type": 6,
-        "client_id": 271
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 266
     },
     {
         "id": 584,
-        "numero": "26017531501",
+        "numero": "00415995659",
         "solde": 0,
-        "type": 9,
-        "client_id": 271
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 266
     },
     {
         "id": 585,
-        "numero": "93370193303",
+        "numero": "96666884519",
         "solde": 0,
         "type": 11,
-        "client_id": 271
+        "droit_decouvert": 0,
+        "client_id": 266
     },
     {
         "id": 586,
-        "numero": "95912273376",
+        "numero": "13632684542",
         "solde": 0,
         "type": 1,
-        "client_id": 272
+        "droit_decouvert": 250,
+        "client_id": 267
     },
     {
         "id": 587,
-        "numero": "35839537618",
+        "numero": "68792635114",
         "solde": 0,
-        "type": 2,
-        "client_id": 272
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 268
     },
     {
         "id": 588,
-        "numero": "54301234542",
+        "numero": "20384387798",
         "solde": 0,
-        "type": 1,
-        "client_id": 273
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 268
     },
     {
         "id": 589,
-        "numero": "89135127341",
+        "numero": "92060696464",
         "solde": 0,
-        "type": 2,
-        "client_id": 273
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 268
     },
     {
         "id": 590,
-        "numero": "42754550534",
+        "numero": "23792645050",
         "solde": 0,
-        "type": 4,
-        "client_id": 273
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 269
     },
     {
         "id": 591,
-        "numero": "70755977920",
+        "numero": "65828865802",
         "solde": 0,
-        "type": 9,
-        "client_id": 273
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 269
     },
     {
         "id": 592,
-        "numero": "69006224849",
+        "numero": "50743926674",
         "solde": 0,
         "type": 1,
-        "client_id": 274
+        "droit_decouvert": 20,
+        "client_id": 270
     },
     {
         "id": 593,
-        "numero": "49958304673",
+        "numero": "58723374786",
         "solde": 0,
         "type": 2,
-        "client_id": 274
+        "droit_decouvert": 0,
+        "client_id": 270
     },
     {
         "id": 594,
-        "numero": "10620385267",
+        "numero": "91466542931",
         "solde": 0,
         "type": 1,
-        "client_id": 275
+        "droit_decouvert": 200,
+        "client_id": 271
     },
     {
         "id": 595,
-        "numero": "28103959041",
+        "numero": "06250419532",
         "solde": 0,
-        "type": 2,
-        "client_id": 275
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 271
     },
     {
         "id": 596,
-        "numero": "94851899501",
+        "numero": "12124001833",
         "solde": 0,
-        "type": 1,
-        "client_id": 276
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 271
     },
     {
         "id": 597,
-        "numero": "67316611968",
+        "numero": "67698060391",
         "solde": 0,
-        "type": 7,
-        "client_id": 276
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 272
     },
     {
         "id": 598,
-        "numero": "11576335950",
+        "numero": "05313670342",
         "solde": 0,
-        "type": 1,
-        "client_id": 277
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 272
     },
     {
         "id": 599,
-        "numero": "65185071805",
+        "numero": "77005228331",
         "solde": 0,
-        "type": 4,
-        "client_id": 277
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 273
     },
     {
         "id": 600,
-        "numero": "43171663996",
+        "numero": "10521245791",
         "solde": 0,
-        "type": 5,
-        "client_id": 277
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 274
     },
     {
         "id": 601,
-        "numero": "69590309194",
+        "numero": "64388740487",
         "solde": 0,
-        "type": 8,
-        "client_id": 277
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 274
     },
     {
         "id": 602,
-        "numero": "01880711168",
+        "numero": "70987383121",
         "solde": 0,
         "type": 1,
-        "client_id": 278
+        "droit_decouvert": 300,
+        "client_id": 275
     },
     {
         "id": 603,
-        "numero": "08079777773",
+        "numero": "05018539265",
         "solde": 0,
-        "type": 2,
-        "client_id": 278
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 275
     },
     {
         "id": 604,
-        "numero": "31049674687",
+        "numero": "62289952153",
         "solde": 0,
         "type": 1,
-        "client_id": 279
+        "droit_decouvert": 0,
+        "client_id": 276
     },
     {
         "id": 605,
-        "numero": "43995914956",
+        "numero": "56212010243",
         "solde": 0,
-        "type": 4,
-        "client_id": 279
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 276
     },
     {
         "id": 606,
-        "numero": "11674278699",
+        "numero": "27575830478",
         "solde": 0,
-        "type": 1,
-        "client_id": 280
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 276
     },
     {
         "id": 607,
-        "numero": "26323018949",
+        "numero": "86275490118",
         "solde": 0,
-        "type": 2,
-        "client_id": 280
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 276
     },
     {
         "id": 608,
-        "numero": "74243462752",
+        "numero": "80223905968",
         "solde": 0,
-        "type": 4,
-        "client_id": 280
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 277
     },
     {
         "id": 609,
-        "numero": "17765938199",
+        "numero": "65172784054",
         "solde": 0,
-        "type": 6,
-        "client_id": 280
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 277
     },
     {
         "id": 610,
-        "numero": "20440733553",
+        "numero": "87243809349",
         "solde": 0,
-        "type": 1,
-        "client_id": 281
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 277
     },
     {
         "id": 611,
-        "numero": "09708633719",
+        "numero": "66310661167",
         "solde": 0,
-        "type": 2,
-        "client_id": 281
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 277
     },
     {
         "id": 612,
-        "numero": "03034615638",
+        "numero": "22803000969",
         "solde": 0,
-        "type": 7,
-        "client_id": 281
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 277
     },
     {
         "id": 613,
-        "numero": "40121169746",
+        "numero": "00482263951",
         "solde": 0,
         "type": 1,
-        "client_id": 282
+        "droit_decouvert": 100,
+        "client_id": 278
     },
     {
         "id": 614,
-        "numero": "59747100254",
+        "numero": "61113593316",
         "solde": 0,
         "type": 2,
-        "client_id": 282
+        "droit_decouvert": 0,
+        "client_id": 278
     },
     {
         "id": 615,
-        "numero": "54930898485",
+        "numero": "69258377378",
         "solde": 0,
         "type": 1,
-        "client_id": 283
+        "droit_decouvert": 100,
+        "client_id": 279
     },
     {
         "id": 616,
-        "numero": "16694712163",
+        "numero": "64835200482",
         "solde": 0,
         "type": 2,
-        "client_id": 283
+        "droit_decouvert": 0,
+        "client_id": 279
     },
     {
         "id": 617,
-        "numero": "44755601743",
+        "numero": "23015451733",
         "solde": 0,
-        "type": 1,
-        "client_id": 284
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 279
     },
     {
         "id": 618,
-        "numero": "77935897098",
+        "numero": "78422920362",
         "solde": 0,
-        "type": 5,
-        "client_id": 284
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 279
     },
     {
         "id": 619,
-        "numero": "22472238665",
+        "numero": "80390338512",
         "solde": 0,
-        "type": 11,
-        "client_id": 284
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 280
     },
     {
         "id": 620,
-        "numero": "07662628569",
+        "numero": "44177369846",
         "solde": 0,
-        "type": 1,
-        "client_id": 285
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 280
     },
     {
         "id": 621,
-        "numero": "33671197105",
+        "numero": "18423426532",
         "solde": 0,
-        "type": 2,
-        "client_id": 285
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 280
     },
     {
         "id": 622,
-        "numero": "67276063578",
+        "numero": "10256079017",
         "solde": 0,
         "type": 1,
-        "client_id": 286
+        "droit_decouvert": 0,
+        "client_id": 281
     },
     {
         "id": 623,
-        "numero": "42910268290",
+        "numero": "87809759187",
         "solde": 0,
-        "type": 2,
-        "client_id": 286
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 281
     },
     {
         "id": 624,
-        "numero": "98517770384",
+        "numero": "10523500869",
         "solde": 0,
-        "type": 7,
-        "client_id": 286
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 282
     },
     {
         "id": 625,
-        "numero": "13704752205",
+        "numero": "60904948590",
         "solde": 0,
-        "type": 8,
-        "client_id": 286
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 282
     },
     {
         "id": 626,
-        "numero": "16110358398",
+        "numero": "44760103573",
         "solde": 0,
-        "type": 1,
-        "client_id": 287
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 282
     },
     {
         "id": 627,
-        "numero": "94351285513",
+        "numero": "87259067160",
         "solde": 0,
-        "type": 2,
-        "client_id": 287
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 283
     },
     {
         "id": 628,
-        "numero": "03697644724",
+        "numero": "44097097803",
         "solde": 0,
-        "type": 1,
-        "client_id": 288
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 283
     },
     {
         "id": 629,
-        "numero": "82935126680",
+        "numero": "64172308624",
         "solde": 0,
-        "type": 2,
-        "client_id": 288
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 283
     },
     {
         "id": 630,
-        "numero": "06144675999",
+        "numero": "13654554459",
         "solde": 0,
-        "type": 8,
-        "client_id": 288
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 284
     },
     {
         "id": 631,
-        "numero": "98429503386",
+        "numero": "53501496132",
         "solde": 0,
-        "type": 9,
-        "client_id": 288
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 284
     },
     {
         "id": 632,
-        "numero": "70033498622",
+        "numero": "98407717194",
         "solde": 0,
         "type": 1,
-        "client_id": 289
+        "droit_decouvert": 250,
+        "client_id": 285
     },
     {
         "id": 633,
-        "numero": "15443595025",
+        "numero": "80219691619",
         "solde": 0,
         "type": 1,
-        "client_id": 290
+        "droit_decouvert": 100,
+        "client_id": 286
     },
     {
         "id": 634,
-        "numero": "73174921714",
+        "numero": "92325263946",
         "solde": 0,
         "type": 2,
-        "client_id": 290
+        "droit_decouvert": 0,
+        "client_id": 286
     },
     {
         "id": 635,
-        "numero": "53170492920",
+        "numero": "49555181689",
         "solde": 0,
         "type": 1,
-        "client_id": 291
+        "droit_decouvert": 100,
+        "client_id": 287
     },
     {
         "id": 636,
-        "numero": "28939310528",
+        "numero": "63291380227",
         "solde": 0,
-        "type": 2,
-        "client_id": 291
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 288
     },
     {
         "id": 637,
-        "numero": "14204127151",
+        "numero": "26200674952",
         "solde": 0,
-        "type": 5,
-        "client_id": 291
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 288
     },
     {
         "id": 638,
-        "numero": "25284252054",
+        "numero": "63289725780",
         "solde": 0,
-        "type": 1,
-        "client_id": 292
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 288
     },
     {
         "id": 639,
-        "numero": "10816767639",
+        "numero": "20234157840",
         "solde": 0,
-        "type": 2,
-        "client_id": 292
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 289
     },
     {
         "id": 640,
-        "numero": "38700911602",
+        "numero": "48123193453",
         "solde": 0,
-        "type": 1,
-        "client_id": 293
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 289
     },
     {
         "id": 641,
-        "numero": "63556568790",
+        "numero": "02622723591",
         "solde": 0,
-        "type": 2,
-        "client_id": 293
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 289
     },
     {
         "id": 642,
-        "numero": "60478720663",
+        "numero": "46109869678",
         "solde": 0,
         "type": 1,
-        "client_id": 294
+        "droit_decouvert": 100,
+        "client_id": 290
     },
     {
         "id": 643,
-        "numero": "83538445371",
+        "numero": "38111372652",
         "solde": 0,
-        "type": 4,
-        "client_id": 294
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 290
     },
     {
         "id": 644,
-        "numero": "10578673131",
+        "numero": "27502949421",
         "solde": 0,
         "type": 1,
-        "client_id": 295
+        "droit_decouvert": 300,
+        "client_id": 291
     },
     {
         "id": 645,
-        "numero": "98965549384",
+        "numero": "51141000232",
         "solde": 0,
-        "type": 1,
-        "client_id": 296
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 291
     },
     {
         "id": 646,
-        "numero": "69537743139",
+        "numero": "14592078389",
         "solde": 0,
-        "type": 2,
-        "client_id": 296
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 291
     },
     {
         "id": 647,
-        "numero": "70424666328",
+        "numero": "24209627409",
         "solde": 0,
         "type": 1,
-        "client_id": 297
+        "droit_decouvert": 300,
+        "client_id": 292
     },
     {
         "id": 648,
-        "numero": "66577845380",
+        "numero": "53341468554",
         "solde": 0,
         "type": 2,
-        "client_id": 297
+        "droit_decouvert": 0,
+        "client_id": 292
     },
     {
         "id": 649,
-        "numero": "02135314369",
+        "numero": "03969283957",
         "solde": 0,
-        "type": 1,
-        "client_id": 298
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 292
     },
     {
         "id": 650,
-        "numero": "40919188563",
+        "numero": "66270986454",
         "solde": 0,
-        "type": 2,
-        "client_id": 298
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 292
     },
     {
         "id": 651,
-        "numero": "85067440468",
+        "numero": "39131606060",
         "solde": 0,
         "type": 1,
-        "client_id": 299
+        "droit_decouvert": 0,
+        "client_id": 293
     },
     {
         "id": 652,
-        "numero": "38779698463",
+        "numero": "79553352873",
         "solde": 0,
-        "type": 4,
-        "client_id": 299
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 293
     },
     {
         "id": 653,
-        "numero": "16991342985",
+        "numero": "83145312056",
         "solde": 0,
         "type": 1,
-        "client_id": 300
+        "droit_decouvert": 50,
+        "client_id": 294
     },
     {
         "id": 654,
-        "numero": "41167370258",
+        "numero": "51992601233",
         "solde": 0,
         "type": 2,
-        "client_id": 300
+        "droit_decouvert": 0,
+        "client_id": 294
     },
     {
         "id": 655,
-        "numero": "66443879006",
+        "numero": "10316330997",
         "solde": 0,
-        "type": 10,
-        "client_id": 300
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 294
     },
     {
         "id": 656,
-        "numero": "25408284429",
+        "numero": "88762279075",
         "solde": 0,
         "type": 1,
-        "client_id": 301
+        "droit_decouvert": 0,
+        "client_id": 295
     },
     {
         "id": 657,
-        "numero": "66776164896",
+        "numero": "71115423696",
         "solde": 0,
         "type": 2,
-        "client_id": 301
+        "droit_decouvert": 0,
+        "client_id": 295
     },
     {
         "id": 658,
-        "numero": "26790010635",
+        "numero": "85783449392",
         "solde": 0,
         "type": 1,
-        "client_id": 302
+        "droit_decouvert": 50,
+        "client_id": 296
     },
     {
         "id": 659,
-        "numero": "71708929965",
+        "numero": "60161031210",
         "solde": 0,
-        "type": 9,
-        "client_id": 302
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 296
     },
     {
         "id": 660,
-        "numero": "60313251180",
+        "numero": "80988020430",
         "solde": 0,
-        "type": 1,
-        "client_id": 303
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 296
     },
     {
         "id": 661,
-        "numero": "38405139983",
+        "numero": "89773954107",
         "solde": 0,
-        "type": 2,
-        "client_id": 303
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 297
     },
     {
         "id": 662,
-        "numero": "54852319292",
+        "numero": "06000547677",
         "solde": 0,
-        "type": 1,
-        "client_id": 304
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 297
     },
     {
         "id": 663,
-        "numero": "07265603311",
+        "numero": "29090411990",
         "solde": 0,
-        "type": 2,
-        "client_id": 304
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 298
     },
     {
         "id": 664,
-        "numero": "76528338567",
+        "numero": "67980597054",
         "solde": 0,
-        "type": 4,
-        "client_id": 304
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 298
     },
     {
         "id": 665,
-        "numero": "73749124420",
+        "numero": "76958240648",
         "solde": 0,
-        "type": 6,
-        "client_id": 304
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 299
     },
     {
         "id": 666,
-        "numero": "73722122968",
+        "numero": "09908184228",
         "solde": 0,
         "type": 1,
-        "client_id": 305
+        "droit_decouvert": 500,
+        "client_id": 300
     },
     {
         "id": 667,
-        "numero": "64446467995",
+        "numero": "60407843542",
         "solde": 0,
         "type": 2,
-        "client_id": 305
+        "droit_decouvert": 0,
+        "client_id": 300
     },
     {
         "id": 668,
-        "numero": "19693091044",
+        "numero": "14510213926",
         "solde": 0,
-        "type": 9,
-        "client_id": 305
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 301
     },
     {
         "id": 669,
-        "numero": "46955512917",
+        "numero": "35914456167",
         "solde": 0,
-        "type": 1,
-        "client_id": 306
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 301
     },
     {
         "id": 670,
-        "numero": "19580862169",
+        "numero": "80875417241",
         "solde": 0,
-        "type": 2,
-        "client_id": 306
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 301
     },
     {
         "id": 671,
-        "numero": "65608094640",
+        "numero": "19676799552",
         "solde": 0,
         "type": 1,
-        "client_id": 307
+        "droit_decouvert": 300,
+        "client_id": 302
     },
     {
         "id": 672,
-        "numero": "49087149269",
+        "numero": "14828422290",
         "solde": 0,
         "type": 2,
-        "client_id": 307
+        "droit_decouvert": 0,
+        "client_id": 302
     },
     {
         "id": 673,
-        "numero": "54682149355",
+        "numero": "96912467792",
         "solde": 0,
-        "type": 10,
-        "client_id": 307
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 303
     },
     {
         "id": 674,
-        "numero": "23835407457",
+        "numero": "27478886910",
         "solde": 0,
-        "type": 1,
-        "client_id": 308
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 303
     },
     {
         "id": 675,
-        "numero": "42532869564",
+        "numero": "01259127085",
         "solde": 0,
-        "type": 1,
-        "client_id": 309
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 303
     },
     {
         "id": 676,
-        "numero": "41759842937",
+        "numero": "22886259372",
         "solde": 0,
-        "type": 12,
-        "client_id": 309
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 304
     },
     {
         "id": 677,
-        "numero": "96142923178",
+        "numero": "01656798282",
         "solde": 0,
         "type": 1,
-        "client_id": 310
+        "droit_decouvert": 200,
+        "client_id": 305
     },
     {
         "id": 678,
-        "numero": "23926414491",
+        "numero": "55536555358",
         "solde": 0,
         "type": 1,
-        "client_id": 311
+        "droit_decouvert": 0,
+        "client_id": 306
     },
     {
         "id": 679,
-        "numero": "39525824546",
+        "numero": "93497434083",
         "solde": 0,
         "type": 2,
-        "client_id": 311
+        "droit_decouvert": 0,
+        "client_id": 306
     },
     {
         "id": 680,
-        "numero": "00578370487",
+        "numero": "52563663654",
         "solde": 0,
-        "type": 1,
-        "client_id": 312
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 306
     },
     {
         "id": 681,
-        "numero": "76438559700",
+        "numero": "06491735272",
         "solde": 0,
-        "type": 2,
-        "client_id": 312
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 306
     },
     {
         "id": 682,
-        "numero": "07243335256",
+        "numero": "88871205442",
         "solde": 0,
-        "type": 1,
-        "client_id": 313
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 306
     },
     {
         "id": 683,
-        "numero": "35150383829",
+        "numero": "62209498826",
         "solde": 0,
-        "type": 2,
-        "client_id": 313
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 307
     },
     {
         "id": 684,
-        "numero": "96626336621",
+        "numero": "69752419820",
         "solde": 0,
-        "type": 11,
-        "client_id": 313
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 308
     },
     {
         "id": 685,
-        "numero": "29554191044",
+        "numero": "24743990233",
         "solde": 0,
-        "type": 1,
-        "client_id": 314
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 308
     },
     {
         "id": 686,
-        "numero": "01561994280",
+        "numero": "18692923179",
         "solde": 0,
-        "type": 2,
-        "client_id": 314
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 309
     },
     {
         "id": 687,
-        "numero": "75521106881",
+        "numero": "85940677887",
         "solde": 0,
-        "type": 11,
-        "client_id": 314
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 309
     },
     {
         "id": 688,
-        "numero": "16531925735",
+        "numero": "58644210915",
         "solde": 0,
         "type": 12,
-        "client_id": 314
+        "droit_decouvert": 0,
+        "client_id": 309
     },
     {
         "id": 689,
-        "numero": "01296266764",
+        "numero": "17308566940",
         "solde": 0,
         "type": 1,
-        "client_id": 315
+        "droit_decouvert": 50,
+        "client_id": 310
     },
     {
         "id": 690,
-        "numero": "25962412144",
+        "numero": "63260145026",
         "solde": 0,
         "type": 2,
-        "client_id": 315
+        "droit_decouvert": 0,
+        "client_id": 310
     },
     {
         "id": 691,
-        "numero": "59697095057",
+        "numero": "46524227746",
         "solde": 0,
-        "type": 3,
-        "client_id": 315
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 311
     },
     {
         "id": 692,
-        "numero": "19238422910",
+        "numero": "73814558336",
+        "solde": 0,
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 311
+    },
+    {
+        "id": 693,
+        "numero": "69038854470",
+        "solde": 0,
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 311
+    },
+    {
+        "id": 694,
+        "numero": "40455496743",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 312
+    },
+    {
+        "id": 695,
+        "numero": "73057255802",
+        "solde": 0,
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 312
+    },
+    {
+        "id": 696,
+        "numero": "90675215105",
+        "solde": 0,
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 312
+    },
+    {
+        "id": 697,
+        "numero": "21971525246",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 313
+    },
+    {
+        "id": 698,
+        "numero": "50584721296",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 313
+    },
+    {
+        "id": 699,
+        "numero": "05925719035",
+        "solde": 0,
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 313
+    },
+    {
+        "id": 700,
+        "numero": "49903498534",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 314
+    },
+    {
+        "id": 701,
+        "numero": "43043664596",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 315
+    },
+    {
+        "id": 702,
+        "numero": "55755241003",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 315
+    },
+    {
+        "id": 703,
+        "numero": "39317340760",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 316
+    },
+    {
+        "id": 704,
+        "numero": "24693675794",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 316
+    },
+    {
+        "id": 705,
+        "numero": "61887108570",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 317
+    },
+    {
+        "id": 706,
+        "numero": "75850127256",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 318
+    },
+    {
+        "id": 707,
+        "numero": "47930528669",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 318
+    },
+    {
+        "id": 708,
+        "numero": "70151466525",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 319
+    },
+    {
+        "id": 709,
+        "numero": "10528218242",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 319
+    },
+    {
+        "id": 710,
+        "numero": "63227012849",
+        "solde": 0,
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 319
+    },
+    {
+        "id": 711,
+        "numero": "01472954701",
+        "solde": 0,
+        "type": 10,
+        "droit_decouvert": 0,
+        "client_id": 319
+    },
+    {
+        "id": 712,
+        "numero": "44999972184",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 320
+    },
+    {
+        "id": 713,
+        "numero": "49005444405",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 320
+    },
+    {
+        "id": 714,
+        "numero": "44660045184",
+        "solde": 0,
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 320
+    },
+    {
+        "id": 715,
+        "numero": "78295543435",
+        "solde": 0,
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 320
+    },
+    {
+        "id": 716,
+        "numero": "46897397611",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 321
+    },
+    {
+        "id": 717,
+        "numero": "84166412046",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 321
+    },
+    {
+        "id": 718,
+        "numero": "10853090715",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 322
+    },
+    {
+        "id": 719,
+        "numero": "54173748495",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 323
+    },
+    {
+        "id": 720,
+        "numero": "46095072119",
+        "solde": 0,
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 323
+    },
+    {
+        "id": 721,
+        "numero": "40123851062",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 324
+    },
+    {
+        "id": 722,
+        "numero": "23022169974",
+        "solde": 0,
+        "type": 4,
+        "droit_decouvert": 0,
+        "client_id": 324
+    },
+    {
+        "id": 723,
+        "numero": "10816754847",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 20,
+        "client_id": 325
+    },
+    {
+        "id": 724,
+        "numero": "02813645186",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 325
+    },
+    {
+        "id": 725,
+        "numero": "21475727004",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 326
+    },
+    {
+        "id": 726,
+        "numero": "75775358214",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 327
+    },
+    {
+        "id": 727,
+        "numero": "66207386663",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 327
+    },
+    {
+        "id": 728,
+        "numero": "20262448290",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 328
+    },
+    {
+        "id": 729,
+        "numero": "31737080231",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 328
+    },
+    {
+        "id": 730,
+        "numero": "84597866771",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 329
+    },
+    {
+        "id": 731,
+        "numero": "39370719973",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 329
+    },
+    {
+        "id": 732,
+        "numero": "49588170087",
+        "solde": 0,
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 329
+    },
+    {
+        "id": 733,
+        "numero": "38550553632",
+        "solde": 0,
+        "type": 11,
+        "droit_decouvert": 0,
+        "client_id": 329
+    },
+    {
+        "id": 734,
+        "numero": "96713040105",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 330
+    },
+    {
+        "id": 735,
+        "numero": "33987622481",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 330
+    },
+    {
+        "id": 736,
+        "numero": "34737274927",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 331
+    },
+    {
+        "id": 737,
+        "numero": "18551478353",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 332
+    },
+    {
+        "id": 738,
+        "numero": "47270255051",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 332
+    },
+    {
+        "id": 739,
+        "numero": "59362999360",
+        "solde": 0,
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 332
+    },
+    {
+        "id": 740,
+        "numero": "63120662509",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 333
+    },
+    {
+        "id": 741,
+        "numero": "45695985115",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 333
+    },
+    {
+        "id": 742,
+        "numero": "23622954237",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 334
+    },
+    {
+        "id": 743,
+        "numero": "91447174815",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 334
+    },
+    {
+        "id": 744,
+        "numero": "66795269012",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 335
+    },
+    {
+        "id": 745,
+        "numero": "74116217408",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 336
+    },
+    {
+        "id": 746,
+        "numero": "86033992556",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 336
+    },
+    {
+        "id": 747,
+        "numero": "31192371817",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 337
+    },
+    {
+        "id": 748,
+        "numero": "45138587082",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 337
+    },
+    {
+        "id": 749,
+        "numero": "38574696819",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 338
+    },
+    {
+        "id": 750,
+        "numero": "02760254059",
         "solde": 0,
         "type": 8,
-        "client_id": 315
+        "droit_decouvert": 0,
+        "client_id": 338
+    },
+    {
+        "id": 751,
+        "numero": "91822003564",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 339
+    },
+    {
+        "id": 752,
+        "numero": "56796282280",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 340
+    },
+    {
+        "id": 753,
+        "numero": "86080291814",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 340
+    },
+    {
+        "id": 754,
+        "numero": "86465142572",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 341
+    },
+    {
+        "id": 755,
+        "numero": "31000205402",
+        "solde": 0,
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 341
+    },
+    {
+        "id": 756,
+        "numero": "15285900938",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 342
+    },
+    {
+        "id": 757,
+        "numero": "32216876262",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 342
+    },
+    {
+        "id": 758,
+        "numero": "95661796653",
+        "solde": 0,
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 342
+    },
+    {
+        "id": 759,
+        "numero": "30319368339",
+        "solde": 0,
+        "type": 9,
+        "droit_decouvert": 0,
+        "client_id": 342
+    },
+    {
+        "id": 760,
+        "numero": "14152453186",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 343
+    },
+    {
+        "id": 761,
+        "numero": "90351257778",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 50,
+        "client_id": 344
+    },
+    {
+        "id": 762,
+        "numero": "56393049209",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 345
+    },
+    {
+        "id": 763,
+        "numero": "15640907410",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 345
+    },
+    {
+        "id": 764,
+        "numero": "44146594488",
+        "solde": 0,
+        "type": 8,
+        "droit_decouvert": 0,
+        "client_id": 345
+    },
+    {
+        "id": 765,
+        "numero": "41756014599",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 346
+    },
+    {
+        "id": 766,
+        "numero": "94927243842",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 346
+    },
+    {
+        "id": 767,
+        "numero": "44103114498",
+        "solde": 0,
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 346
+    },
+    {
+        "id": 768,
+        "numero": "98196513942",
+        "solde": 0,
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 346
+    },
+    {
+        "id": 769,
+        "numero": "81435483671",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 0,
+        "client_id": 347
+    },
+    {
+        "id": 770,
+        "numero": "78557585259",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 347
+    },
+    {
+        "id": 771,
+        "numero": "67113468393",
+        "solde": 0,
+        "type": 7,
+        "droit_decouvert": 0,
+        "client_id": 347
+    },
+    {
+        "id": 772,
+        "numero": "12988068356",
+        "solde": 0,
+        "type": 12,
+        "droit_decouvert": 0,
+        "client_id": 347
+    },
+    {
+        "id": 773,
+        "numero": "23781325452",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 348
+    },
+    {
+        "id": 774,
+        "numero": "13585003806",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 500,
+        "client_id": 349
+    },
+    {
+        "id": 775,
+        "numero": "22172955731",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 349
+    },
+    {
+        "id": 776,
+        "numero": "39720310269",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 350
+    },
+    {
+        "id": 777,
+        "numero": "09129949969",
+        "solde": 0,
+        "type": 3,
+        "droit_decouvert": 0,
+        "client_id": 350
+    },
+    {
+        "id": 778,
+        "numero": "25381692892",
+        "solde": 0,
+        "type": 5,
+        "droit_decouvert": 0,
+        "client_id": 350
+    },
+    {
+        "id": 779,
+        "numero": "32830272635",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 351
+    },
+    {
+        "id": 780,
+        "numero": "05847880486",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 351
+    },
+    {
+        "id": 781,
+        "numero": "36202876310",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 250,
+        "client_id": 352
+    },
+    {
+        "id": 782,
+        "numero": "75842835751",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 100,
+        "client_id": 353
+    },
+    {
+        "id": 783,
+        "numero": "80280774248",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 353
+    },
+    {
+        "id": 784,
+        "numero": "78093494116",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 300,
+        "client_id": 354
+    },
+    {
+        "id": 785,
+        "numero": "23791470555",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 354
+    },
+    {
+        "id": 786,
+        "numero": "22524680121",
+        "solde": 0,
+        "type": 6,
+        "droit_decouvert": 0,
+        "client_id": 354
+    },
+    {
+        "id": 787,
+        "numero": "44990241568",
+        "solde": 0,
+        "type": 1,
+        "droit_decouvert": 200,
+        "client_id": 355
+    },
+    {
+        "id": 788,
+        "numero": "93162117224",
+        "solde": 0,
+        "type": 2,
+        "droit_decouvert": 0,
+        "client_id": 355
     }
 ]

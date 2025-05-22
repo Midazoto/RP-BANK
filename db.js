@@ -49,6 +49,7 @@ db.serialize(() => {
             numero TEXT NOT NULL UNIQUE,
             solde REAL NOT NULL DEFAULT 0,
             type INTEGER NOT NULL,
+            droit_decouvert REAL NOT NULL DEFAULT 0,
             client_id INTEGER NOT NULL,
             FOREIGN KEY (client_id) REFERENCES client(id),
             FOREIGN KEY (type) REFERENCES type_compte(id)

@@ -13,8 +13,8 @@ function importCompte(db) {
     db.serialize(() => {
         db.run("BEGIN TRANSACTION");
         const stmt = db.prepare(`
-            INSERT OR IGNORE INTO compte (id, numero, solde, type, client_id)
-            VALUES (?, ?, ?, ?, ?)
+            INSERT OR IGNORE INTO compte (id, numero, solde, type, droit_decouvert, client_id)
+            VALUES (?, ?, ?, ?, ?, ?)
         `);
 
         for (const compte of comptes) {
@@ -23,6 +23,7 @@ function importCompte(db) {
                 compte.numero,
                 compte.solde,
                 compte.type,
+                compte.droit_decouvert,
                 compte.client_id
             );
         }
