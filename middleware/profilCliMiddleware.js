@@ -16,8 +16,7 @@ function verifierToken(req, res, next) {
     try {
         const decoded = jwt.verify(token, JWT_SECRET);
         req.user = decoded;
-        // Récuper le banquier auquel est rattaché le client
-        if (req.user.type === 'banquier'){
+        if (req.user.type === 'employe'){
             db.get('SELECT banquier FROM client WHERE id = ?', [req.params.id_client], (err, row) => {
                 if (err) {
                     return res.status(500).json({ error: err.message });
@@ -25,7 +24,9 @@ function verifierToken(req, res, next) {
                 id_banquier = row.banquier;
             })
         }
-        if(req.user.type === 'client' && req.user.id === req.params.id_client || req.user.type === 'employe' && req.user.id === id_banquier){
+        if(req.user.type === 'client' && req.user.id === req.params.id_client){
+            next();
+        }else if (req.user.type === 'employe' && req.user.id === id_banquier){
             next();
         }else {
             return res.status(403).json({ message: 'Accès refusé' });
