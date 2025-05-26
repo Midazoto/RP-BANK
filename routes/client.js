@@ -3,13 +3,26 @@ const router = express.Router();
 const db = require("../db");
 const verifierToken = require("../middleware/authMiddleware");
 const verifierEmploye = require("../middleware/EmpMiddleware");
+const verifierClient = require("../middleware/profilCliMiddleware");
 
-router.get("/:id_client/compte",verifierToken,(req,res)=>{
-    return res.status(500).json({message:"Route non disponible"});
+router.get("/:id_client/compte",verifierToken,verifierClient,async (req,res)=>{
+    const id_client = req.params.id_client;
+    if(!id_client){
+        return res.status(400).json({message:"ID client manquant"});
+    }
+    db.all('SELECT * FROM compte WHERE client_id = ?',[id_client],(err,rows)=>{
+        if(err){
+            return res.status(500).json({error:err.message});
+        }
+        if(rows.length === 0){
+            return res.status(404).json({message:"Aucun compte trouvé"});
+        }
+        return res.status(200).json(rows);
+    })
 })
 
 router.get("/:id_client/compte/:id_compte",verifierToken,(req,res)=>{
-    return res.status(500).json({message:"Route non disponible"});
+
 })
 
 router.post("/:client_id/compte/add",verifierToken,verifierEmploye,async (req,res)=>{
