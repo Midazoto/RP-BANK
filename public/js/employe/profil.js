@@ -9,41 +9,47 @@ const token = localStorage.getItem('token');
 const parts = window.location.pathname.split('/');
 const id = parts[parts.indexOf('employe') + 1];
 
-fetch('/api/employe/profil/' + id, {
-    headers: {
-        'Authorization': `Bearer ${token}`
-    }
-    /*
-    example of response:
-    {
-        "id": 4,
-        "email": "alagane@rpbank.lol",
-        "nom": "Lagane",
-        "prenom": "Antoine",
-        "poste": "Stagiaire Café",
-        "resp_id": 3,
-        "r_email": "eheulot@rpbank.lol",
-        "r_nom": "Heulot",
-        "r_prenom": "Evan",
-        "r_poste": "DRH"
-    }
+Promise.all([
+    fetch(`/api/employe/profil/${id}/isSuperieur`, {
+        headers: {
+            'Authorization': `Bearer ${token}`
+        }
+    }).then(res => res.json()),
 
-    */
-})
-.then(res => res.json())
-.then(data => {
+    fetch(`/api/employe/profil/${id}`, {
+        headers: {
+            'Authorization': `Bearer ${token}`
+        }
+    }).then(res => res.json())
+])
+.then(([isSuperieurData, profileData]) => {
+    const isSuperieur = isSuperieurData.isSuperieur;
+    const data = profileData;
+
     const userInfo = document.getElementById("user-info");
     userInfo.innerHTML = `
         <h2>${data.prenom} ${data.nom}</h2>
         <p>Email: ${data.email}</p>
         <p>Poste: ${data.poste}</p>
     `;
-    if (data.resp_id !== null){
+
+    if (isSuperieur) {
+        userInfo.innerHTML += `
+        <a href="/employe/${id}/profil/modifier" class="button">Modifier</a>
+        `;
+    }
+
+    if (data.resp_id !== null) {
         const responsableInfo = document.getElementById("responsable-info");
         responsableInfo.innerHTML = `
             <h3>Responsable : ${data.r_prenom} ${data.r_nom}</h3>
             <p>Email: ${data.r_email}</p>
             <p>Poste: ${data.r_poste}</p>
+        `;
+    } else {
+        const responsableInfo = document.getElementById("responsable-info");
+        responsableInfo.innerHTML = `
+            <p>Aucun responsable assigné.</p>
         `;
     }
 })

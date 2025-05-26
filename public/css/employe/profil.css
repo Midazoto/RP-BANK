@@ -24,3 +24,9 @@ main {
     backdrop-filter: blur(10px);
     box-shadow: var(--box-shadow);
 }
+
+.button{
+    justify-self: center;
+    margin-top: 20px;
+    width: 50%;
+}

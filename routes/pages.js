@@ -56,6 +56,15 @@ router.get('/employe/:id/profil', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/employe/profil.html'));
 });
 
+router.get('/employe/:id/profil/modifier', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID d’employé manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/employe/profil_modifier.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });
