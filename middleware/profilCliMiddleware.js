@@ -24,9 +24,9 @@ function verifierToken(req, res, next) {
                 id_banquier = row.banquier;
             })
         }
-        if(req.user.type === 'client' && req.user.id === req.params.id_client){
+        if(req.user.type === 'client' && req.user.id == req.params.id_client){
             next();
-        }else if (req.user.type === 'employe' && req.user.id === id_banquier){
+        }else if (req.user.type === 'employe' && req.user.id == id_banquier){
             next();
         }else {
             return res.status(403).json({ message: 'Accès refusé' });
