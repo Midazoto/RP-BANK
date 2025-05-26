@@ -37,8 +37,15 @@ fetch('/api/employe/profil/' + id, {
         <h2>${data.prenom} ${data.nom}</h2>
         <p>Email: ${data.email}</p>
         <p>Poste: ${data.poste}</p>
-        <p>Responsable: ${data.r_prenom} ${data.r_nom} (${data.r_poste})</p>
     `;
+    if (data.resp_id !== null){
+        const responsableInfo = document.getElementById("responsable-info");
+        responsableInfo.innerHTML = `
+            <h3>Responsable : ${data.r_prenom} ${data.r_nom}</h3>
+            <p>Email: ${data.r_email}</p>
+            <p>Poste: ${data.r_poste}</p>
+        `;
+    }
 })
 .catch(err => {
     console.error("Erreur lors de la récupération des données de l'employé :", err);

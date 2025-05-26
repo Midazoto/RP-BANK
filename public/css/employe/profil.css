@@ -6,7 +6,14 @@ main {
     padding: 40px 20px;
 }
 
-#user-info {
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#user-info, #responsable-info {
     width: 100%;
     max-width: 420px;
     background:var(--box-bg);
