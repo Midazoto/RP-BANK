@@ -6,6 +6,8 @@ const importClient = require('./sample_data/Script/importClient.js').importClien
 const importCompte = require('./sample_data/Script/importCompte.js').importCompte;
 const importOperation = require('./sample_data/Script/importOperation.js').importOperation;
 const importVirement = require('./sample_data/Script/importVirement.js').importVirement;
+const importCarte = require('./sample_data/Script/importCarte.js').importCarte;
+const importBeneficiaire = require('./sample_data/Script/importBeneficiaire.js').importBeneficiaire;
 
 db.serialize(() => {
 
@@ -85,6 +87,16 @@ db.serialize(() => {
         type TEXT NOT NULL,
         compte_id INTEGER NOT NULL,
         FOREIGN KEY (compte_id) REFERENCES compte(id)
+    )`);
+
+    db.run(`
+        CREATE TABLE IF NOT EXISTS beneficiaire(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id_client INTEGER NOT NULL,
+            nom TEXT NOT NULL,
+            compte_id INTEGER NOT NULL,
+            FOREIGN KEY (id_client) REFERENCES client(id),
+            FOREIGN KEY (compte_id) REFERENCES compte(id)
     )`);
 
     db.run(`
@@ -180,6 +192,30 @@ db.serialize(() => {
             importVirement(db);
         }else {
             console.log('Base de données déjà initialisée avec les virements.');
+        }
+    });
+
+    db.get('SELECT * FROM carte', (err, row) => {
+        if (err) {
+            console.error(err.message);
+            return;
+        }
+        if (!row) {
+            importCarte(db);
+        }else {
+            console.log('Base de données déjà initialisée avec les cartes.');
+        }
+    });
+
+    db.get('SELECT * FROM beneficiaire', (err, row) => {
+        if (err) {
+            console.error(err.message);
+            return;
+        }
+        if (!row) {
+            importBeneficiaire(db);
+        }else {
+            console.log('Base de données déjà initialisée avec les bénéficiaires.');
         }
     });
 
