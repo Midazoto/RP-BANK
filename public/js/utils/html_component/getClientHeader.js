@@ -1,7 +1,7 @@
 export function getClientHeader(){
     return `
             <div class="logo-container">
-                <a href="/" class="logo-container">
+                <a href="/client/home" class="logo-container">
                     <img src="/img/logo.webp" alt="Logo" class="logo">
                     <h1>RP Bank - Espace Client</h1>
                 </a>

@@ -11,6 +11,11 @@ router.get('/employe/home', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/employe/home.html'));
 });
 
+router.get('/client/home', (req, res) => {
+
+   res.sendFile(path.join(__dirname, '../public/html/client/redirect_home.html'));
+});
+
 
 router.get('/login',(req,res) => {
     res.sendFile(path.join(__dirname, '../public/html/login.html'));

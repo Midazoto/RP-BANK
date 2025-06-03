@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirection...</title>
+  <script>
+    (function() {
+      const token = localStorage.getItem('token');
+      if (!token) {
+        alert('Veuillez vous connecter.');
+        window.location.href = '/login';
+        return;
+      }
+      
+      try {
+        // Décoder le token (partie payload)
+        const payloadBase64 = token.split('.')[1];
+        const payloadJson = atob(payloadBase64);
+        const payload = JSON.parse(payloadJson);
+        
+        if (payload.type !== 'client') {
+          alert('Accès réservé aux clients.');
+          window.location.href = '/';
+          return;
+        }
+
+        const id = payload.id || payload.user_id || payload.sub;
+        if (!id) {
+          alert('ID client introuvable.');
+          window.location.href = '/login';
+          return;
+        }
+
+        // Redirection vers la page profil
+        window.location.href = `/client/${id}/profil`;
+      } catch(e) {
+        alert('Token invalide.');
+        window.location.href = '/login';
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirection en cours...</p>
+</body>
+</html>
