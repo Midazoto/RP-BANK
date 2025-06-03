@@ -92,10 +92,10 @@ db.serialize(() => {
     db.run(`
         CREATE TABLE IF NOT EXISTS beneficiaire(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            id_client INTEGER NOT NULL,
+            client_id INTEGER NOT NULL,
             nom TEXT NOT NULL,
             compte_id INTEGER NOT NULL,
-            FOREIGN KEY (id_client) REFERENCES client(id),
+            FOREIGN KEY (client_id) REFERENCES client(id),
             FOREIGN KEY (compte_id) REFERENCES compte(id)
     )`);
 

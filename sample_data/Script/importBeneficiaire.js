@@ -16,7 +16,7 @@ function importBeneficiaire(db) {
 
         const stmt = db.prepare(`
             INSERT OR IGNORE INTO beneficiaire
-                (id, id_client, nom, compte_id)
+                (id, client_id, nom, compte_id)
             VALUES
                 (?,  ?,  ?,  ?)
         `);
