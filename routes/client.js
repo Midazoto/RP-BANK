@@ -5,12 +5,12 @@ const verifierToken = require("../middleware/authMiddleware");
 const verifierEmploye = require("../middleware/empMiddleware");
 const verifierClient = require("../middleware/profilCliMiddleware");
 
-router.get("/:id_client/compte",verifierToken,verifierClient,async (req,res)=>{
+router.get("/:id_client/compte",verifierToken,async (req,res)=>{
     const id_client = req.params.id_client;
     if(!id_client){
         return res.status(400).json({message:"ID client manquant"});
     }
-    db.all('SELECT * FROM compte WHERE client_id = ?',[id_client],(err,rows)=>{
+    db.all('SELECT compte.*, type_compte.libelle AS type_nom FROM compte JOIN type_compte ON compte.type = type_compte.id WHERE client_id = ?',[id_client],(err,rows)=>{
         if(err){
             return res.status(500).json({error:err.message});
         }

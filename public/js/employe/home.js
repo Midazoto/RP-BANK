@@ -27,7 +27,7 @@ Promise.all([
         tr.innerHTML = `
             <td>${client.nom}</td>
             <td>${client.prenom}</td>
-            <td>${client.nb_compte}</td>
+            <td class="hide-on-small">${client.nb_compte}</td>
             <td>
                 <div class="button-row">
                     <a href="/client/${client.id}/profil" class="button">Consulter</a>

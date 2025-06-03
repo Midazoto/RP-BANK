@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil Client</title>
+  <link rel="icon" href="/img/logo.webp" type="image/webp" />
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="/css/theme.css" />
+  <link rel="stylesheet" href="/css/header.css" />
+  <link rel="stylesheet" href="/css/popup.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+  <link rel="stylesheet" href="/css/client/home.css" />
+</head>
+<body>
+  <header id="main-header">
+    <div class="logo-container">
+      <a href="/" class="logo-container">
+        <img src="/img/logo.webp" alt="Logo" class="logo" />
+        <h1>RP Bank</h1>
+      </a>
+    </div>
+    <nav><ul id="nav-links"></ul></nav>
+  </header>
+  <div id="popup-container" class="popup-container"></div>
+
+  <main>
+    <div class="title">
+        <h1>Bienvenue dans votre espace client</h1>
+        <br />
+        <h3>Voici un aperçu de vos informations bancaires :</h3>
+    </div>
+
+    <div class="app-grid">
+        <!-- Première ligne : 3 éléments côte à côte -->
+        <div class="element">
+        <div class="icon"><i class='bx bx-id-card'></i></div>
+        <h2>Mes Informations</h2>
+        <div class="button-row">
+            <a href="#" class="button" id="consulter_profil">Consulter</a>
+            <a href="#" class="button" id="modifier_profil">Modifier</a>
+        </div>
+        </div>
+
+        <div class="element">
+        <div>
+        <div class="icon"><i class='bx bx-wallet'></i></div>
+        <h2>Solde Total</h2>
+        </div>
+        <div class="solde-wrapper">
+            <p id="solde_total"></p>
+        </div>
+        </div>
+
+        <div class="element">
+        <div class="icon"><i class='bx bx-credit-card'></i></div>
+        <h2>Mes Cartes</h2>
+        <div id="liste_cartes"></div>
+        </div>
+
+        <div class="element large">
+        <div class="icon"><i class='bx bx-line-chart'></i></div>
+        <h2>Évolution du Solde (30 jours)</h2>
+        <canvas id="graph_soldes"></canvas>
+        </div>
+
+        <!-- Comptes : large -->
+        <div class="element large">
+        <div class="icon"><i class='bx bxs-bank'></i></div>
+        <h2>Mes Comptes</h2>
+        <table id="table_comptes">
+            <thead>
+            <tr>
+                <th>Numéro</th>
+                <th>Solde</th>
+                <th class="hide-on-small">Type</th>
+                <th class="hide-on-small">Découvert autorisé</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="liste_comptes"></tbody>
+        </table>
+        </div>
+
+        <!-- Bénéficiaires : large -->
+        <div class="element large">
+        <div class="icon"><i class='bx bx-user-check'></i></div>
+        <h2>Mes Bénéficiaires</h2>
+        <table id="table_beneficiaires">
+            <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Relation</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="liste_beneficiaires"></tbody>
+        </table>
+        </div>
+
+        <!-- Dernières opérations : large -->
+        <div class="element large">
+        <div class="icon"><i class='bx bx-list-ul'></i></div>
+        <h2>Dernières opérations</h2>
+        <table id="table_operations">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Compte</th>
+                <th>Description</th>
+                <th>Montant</th>
+                <th>Type</th>
+            </tr>
+            </thead>
+            <tbody id="dernieres_ops"></tbody>
+        </table>
+        </div>
+
+    </div>
+    </main>
+  <script type="module" src="/js/client/home.js"></script>
+</body>
+</html>

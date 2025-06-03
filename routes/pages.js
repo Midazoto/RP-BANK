@@ -65,6 +65,15 @@ router.get('/employe/:id/profil/modifier', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/employe/profil_modifier.html'));
 });
 
+router.get('/client/:id/profil', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID de client manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/client/home.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });
