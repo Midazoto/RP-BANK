@@ -117,43 +117,46 @@ Promise.all([
 
     opsTbody.appendChild(tr);
   });
-  // tri au cas où (dates dans l'ordre croissant)
-histo.sort((a, b) => new Date(a.jour) - new Date(b.jour));
 
-// solde cumulé jour par jour
 const cumule = [];
-let total = 0;
-histo.forEach(({ jour, total_montant_jour }) => {
-  total += total_montant_jour;
+let total = soldeTotal; // Commence à aujourd'hui
+// Copie du tableau pour éviter de muter l’original
+const reversedHisto = [...histo].reverse(); // On parcourt du plus récent au plus ancien
+
+reversedHisto.forEach(({ jour, total_montant_jour }) => {
+  total -= total_montant_jour; // On soustrait pour remonter dans le passé
   cumule.push({ jour, solde: total });
 });
 
-// labels et data pour le graphique
+// On inverse pour afficher les dates dans l'ordre croissant
+cumule.reverse();
+
+// Labels & data pour le graphique
 const labels = cumule.map(item => {
   const d = new Date(item.jour);
   return d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: '2-digit' });
 });
 const dataSolde = cumule.map(item => item.solde);
 
-// Optionnel : si soldeTotal (solde actuel) diffère du dernier point, on peut l’ajouter
-const derniereDate = cumule.length ? new Date(cumule[cumule.length - 1].jour) : null;
+// Ajouter le point d’aujourd’hui si nécessaire
 const today = new Date();
-if (derniereDate && Math.abs(soldeTotal - cumule[cumule.length - 1].solde) > 1) {
-  labels.push(today.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: '2-digit' }));
-  dataSolde.push(soldeTotal);
-}
+labels.push(today.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: '2-digit' }));
+dataSolde.push(soldeTotal);
 
 // ensuite on génère le graphique avec Chart.js comme avant
 const ctx = document.getElementById('graph_soldes').getContext('2d');
-new Chart(ctx, {
+const styles = getComputedStyle(document.documentElement);
+const colorPrimary = styles.getPropertyValue('--color-primary').trim();
+const colorPrimaryBg = styles.getPropertyValue('--box-border-color').trim();
+let chart = new Chart(ctx, {
   type: 'line',
   data: {
     labels,
     datasets: [{
       label: 'Solde (€)',
       data: dataSolde,
-      borderColor: 'rgba(75, 192, 192, 1)',
-      backgroundColor: 'rgba(75, 192, 192, 0.2)',
+      borderColor: colorPrimary,
+      backgroundColor: colorPrimaryBg,
       fill: true,
       tension: 0.3,
       pointRadius: 3,
@@ -177,4 +180,24 @@ new Chart(ctx, {
     }
   }
 });
+function updateChartColors(chart) {
+  const styles = getComputedStyle(document.documentElement);
+  const colorPrimary = styles.getPropertyValue('--color-primary').trim();
+  const colorPrimaryBg = styles.getPropertyValue('--box-border-color').trim();
+
+  chart.data.datasets[0].borderColor = colorPrimary;
+  chart.data.datasets[0].backgroundColor = colorPrimaryBg;
+  chart.update();
+}
+
+// Observer les changements d’attributs sur <html> (ou document.body si tu préfères)
+const observer = new MutationObserver(mutations => {
+  mutations.forEach(mutation => {
+    if (mutation.attributeName === 'data-theme') {
+      updateChartColors(chart);
+    }
+  });
+});
+
+observer.observe(document.documentElement, { attributes: true });
 });

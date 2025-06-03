@@ -44,30 +44,31 @@ router.get("/:id_client/histo",verifierToken,async (req,res)=>{
     }
     db.all(`
         SELECT
-            jour,
-            SUM(montant_jour) AS total_montant_jour
-        FROM (
-            SELECT
-            date(date) AS jour,
-            montant AS montant_jour
-            FROM operation
-            WHERE compte_id IN (SELECT id FROM compte WHERE client_id = :id_client)
+    jour,
+    SUM(montant_jour) AS total_montant_jour
+FROM (
+    SELECT
+        date(date) AS jour,
+        montant AS montant_jour
+    FROM operation
+    WHERE compte_id IN (SELECT id FROM compte WHERE client_id = :id_client)
 
-            UNION ALL
+    UNION ALL
 
-            SELECT
-            date(date) AS jour,
-            CASE
-                WHEN compte_source_id IN (SELECT id FROM compte WHERE client_id = :id_client) THEN -montant
-                WHEN compte_destination_id IN (SELECT id FROM compte WHERE client_id = :id_client) THEN montant
-                ELSE 0
-            END AS montant_jour
-            FROM virement
-            WHERE compte_source_id IN (SELECT id FROM compte WHERE client_id = :id_client)
-            OR compte_destination_id IN (SELECT id FROM compte WHERE client_id = :id_client)
-        ) t
-        GROUP BY jour
-        ORDER BY jour;
+    SELECT
+        date(date) AS jour,
+        CASE
+            WHEN compte_source_id IN (SELECT id FROM compte WHERE client_id = :id_client) THEN -montant
+            WHEN compte_destination_id IN (SELECT id FROM compte WHERE client_id = :id_client) THEN montant
+            ELSE 0
+        END AS montant_jour
+    FROM virement
+    WHERE compte_source_id IN (SELECT id FROM compte WHERE client_id = :id_client)
+       OR compte_destination_id IN (SELECT id FROM compte WHERE client_id = :id_client)
+) t
+WHERE jour >= date('now', '-3 month')
+GROUP BY jour
+ORDER BY jour asc;
         `, { ':id_client': id_client }, (err,rows)=>{
         if(err){
             return res.status(500).json({error:err.message});
