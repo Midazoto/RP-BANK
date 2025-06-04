@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/css/header.css" />
   <link rel="stylesheet" href="/css/popup.css" />
   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
-  <link rel="stylesheet" href="/css/client/home.css" />
+  <link rel="stylesheet" href="/css/client/compte_consulter.css" />
 </head>
 <body>
   <header id="main-header">
@@ -31,29 +31,50 @@
 
   <main>
     <div class="title">
-        <h1>Bienvenue dans votre espace client</h1>
+        <h1>Information du compte</h1>
         <br />
         <h3>Voici un aperçu de vos informations bancaires :</h3>
     </div>
 
     <div class="app-grid">
-        <!-- Première ligne : 3 éléments côte à côte -->
+
         <div class="element">
-        <div class="icon"><i class='bx bx-id-card'></i></div>
-        <h2>Informations</h2>
-        <div class="button-row">
-            <a href="#" class="button" id="consulter_profil">Consulter</a>
-            <a href="#" class="button" id="modifier_profil">Modifier</a>
+        <div>
+            <div class="icon"><i class='bx bx-id-card'></i></div>
+            <h2>N° Compte</h2>
+        </div>
+        <div class="solde-wrapper">
+            <p id="num_compte"></p>
         </div>
         </div>
 
         <div class="element">
         <div>
-        <div class="icon"><i class='bx bx-wallet'></i></div>
-        <h2>Solde Total</h2>
+            <div class="icon"><i class='bx bx-category'></i></div>
+            <h2>Type Compte</h2>
+        </div>
+        <div class="solde-wrapper">
+            <p id="type_compte"></p>
+        </div>
+        </div>
+
+        <div class="element">
+        <div>
+            <div class="icon"><i class='bx bx-wallet'></i></div>
+            <h2>Solde</h2>
         </div>
         <div class="solde-wrapper">
             <p id="solde_total"></p>
+        </div>
+        </div>
+
+        <div class="element">
+        <div>
+            <div class="icon"><i class='bx bx-minus-circle'></i></div>
+            <h2>Droit découvert</h2>
+        </div>
+        <div class="solde-wrapper">
+            <p id="droit_decouvert"></p>
         </div>
         </div>
 
@@ -67,43 +88,6 @@
         <div class="icon"><i class='bx bx-line-chart'></i></div>
         <h2>Évolution du Solde sur les 3 derniers mois</h2>
         <canvas id="graph_soldes"></canvas>
-        </div>
-
-        <!-- Comptes : large -->
-        <div class="element large">
-        <div class="icon"><i class='bx bxs-bank'></i></div>
-        <h2>Comptes</h2>
-        <table id="table_comptes">
-            <thead>
-            <tr>
-                <th>Numéro</th>
-                <th>Solde</th>
-                <th class="hide-on-small">Type</th>
-                <th class="hide-on-small">Découvert autorisé</th>
-                <th>Actions</th>
-            </tr>
-            </thead>
-            <tbody id="liste_comptes"></tbody>
-        </table>
-        </div>
-
-        <!-- Bénéficiaires : large -->
-        <div class="element large benef">
-        <div class="icon"><i class='bx bx-user-check'></i></div>
-        <h2>Bénéficiaires</h2>
-        <div class="button-row">
-            <a href="#" class="button" id="ajouter_beneficiaire">Ajouter un Bénéficiaire</a>
-        </div>
-        <table id="table_beneficiaires">
-            <thead>
-            <tr>
-                <th>Nom</th>
-                <th class="hide-on-small">Num Compte</th>
-                <th>Actions</th>
-            </tr>
-            </thead>
-            <tbody id="liste_beneficiaires"></tbody>
-        </table>
         </div>
 
         <!-- Dernières opérations : large -->
@@ -127,6 +111,6 @@
     </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script type="module" src="/js/client/home.js"></script>
+    <script type="module" src="/js/client/compte_consulter.js"></script>
 </body>
 </html>

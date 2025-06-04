@@ -1,6 +1,7 @@
-import { setHeader } from "../utils/index.js";
+import { setHeader,requireAuth } from "../utils/index.js";
 
 setHeader();
+requireAuth();
 
 const token = localStorage.getItem('token');
 const clientId = window.location.pathname.split('/')[2];
@@ -42,8 +43,7 @@ Promise.all([
         <td class="hide-on-small">${c.droit_decouvert}€</td>
         <td>
             <div class="button-row">
-                <a href="/client/${client.id}/compte/${c.id}/Consulter" class="button">Consulter</a>
-                <a href="/client/${client.id}/compte/${c.id}/Modifier" class="button hide-on-small">Modifier</a>
+                <a href="/client/${clientId}/compte/${c.id}/consulter" class="button">Consulter</a>
             </div>
         </tr>
     `;
@@ -86,8 +86,8 @@ Promise.all([
         <td class="hide-on-small">${b.numero_compte}</td>
         <td>
           <div class="button-row">
-            <a href="/client/${client.id}/beneficiaire/${b.id}/virement" class="button">Virement</a>
-            <a href="/client/${client.id}/beneficiaire/${b.id}/supprimer" class="button">Supprimer</a>
+            <a href="/client/${clientId}/beneficiaire/${b.id}/virement" class="button">Virement</a>
+            <a href="/client/${clientId}/beneficiaire/${b.id}/supprimer" class="button">Supprimer</a>
           </div>
         </td>
       </tr>
@@ -102,17 +102,13 @@ Promise.all([
     const date = new Date(op.date).toLocaleDateString('fr-FR');
 
     tr.innerHTML = `
-      <td>${date}</td>
-      <td>${op.numero_compte}</td>
+      <td class="hide-on-small">${date}</td>
+      <td class="hide-on-small">${op.numero_compte}</td>
       <td>${op.libelle}</td>
       <td>
         ${op.montant.toFixed(2)} €
       </td>
-      <td>${{
-        operation: "Opération",
-        virement_envoye: "Virement émis",
-        virement_recu: "Virement reçu"
-      }[op.type] || op.type}</td>
+      <td class="hide-on-small">${op.type}</td>
     `;
 
     opsTbody.appendChild(tr);

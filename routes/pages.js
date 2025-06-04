@@ -79,6 +79,15 @@ router.get('/client/:id/profil', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/client/home.html'));
 });
 
+router.get('/client/:id/compte/:compteId/consulter', (req, res) => {
+    const { id, compteId } = req.params;
+    if (!id || !compteId) {
+        return res.status(404).send('ID de client ou de compte manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/client/compte_consulter.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });

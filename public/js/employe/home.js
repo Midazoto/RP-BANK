@@ -31,7 +31,6 @@ Promise.all([
             <td>
                 <div class="button-row">
                     <a href="/client/${client.id}/profil" class="button">Consulter</a>
-                    <a href="/client/${client.id}/profil/modifier" class="button hide-on-small">Modifier</a>
                 </div>
             </td>
         `;
