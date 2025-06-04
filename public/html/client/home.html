@@ -40,7 +40,7 @@
         <!-- Première ligne : 3 éléments côte à côte -->
         <div class="element">
         <div class="icon"><i class='bx bx-id-card'></i></div>
-        <h2>Mes Informations</h2>
+        <h2>Informations</h2>
         <div class="button-row">
             <a href="#" class="button" id="consulter_profil">Consulter</a>
             <a href="#" class="button" id="modifier_profil">Modifier</a>
@@ -59,11 +59,11 @@
 
         <div class="element large">
         <div class="icon"><i class='bx bx-credit-card'></i></div>
-        <h2>Mes Cartes</h2>
+        <h2>Cartes</h2>
         <div id="liste_cartes"></div>
         </div>
 
-        <div class="element large">
+        <div class="element large graph">
         <div class="icon"><i class='bx bx-line-chart'></i></div>
         <h2>Évolution du Solde sur les 3 derniers mois</h2>
         <canvas id="graph_soldes"></canvas>
@@ -72,7 +72,7 @@
         <!-- Comptes : large -->
         <div class="element large">
         <div class="icon"><i class='bx bxs-bank'></i></div>
-        <h2>Mes Comptes</h2>
+        <h2>Comptes</h2>
         <table id="table_comptes">
             <thead>
             <tr>
@@ -88,9 +88,12 @@
         </div>
 
         <!-- Bénéficiaires : large -->
-        <div class="element large">
+        <div class="element large benef">
         <div class="icon"><i class='bx bx-user-check'></i></div>
-        <h2>Mes Bénéficiaires</h2>
+        <h2>Bénéficiaires</h2>
+        <div class="button-row">
+            <a href="#" class="button" id="ajouter_beneficiaire">Ajouter un Bénéficiaire</a>
+        </div>
         <table id="table_beneficiaires">
             <thead>
             <tr>

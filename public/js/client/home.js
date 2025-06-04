@@ -26,8 +26,8 @@ Promise.all([
   }).then(r => r.json())
 ]).then(([client, comptes, cartes, beneficiaires, operations,histo]) => {
   // Profil
-  document.getElementById('consulter_profil').href = `/client/${client.id}/profil/info`;
-  document.getElementById('modifier_profil').href = `/client/${client.id}/profil/info/modifier`;
+  document.getElementById('consulter_profil').href = `/client/${clientId}/profil/info`;
+  document.getElementById('modifier_profil').href = `/client/${clientId}/profil/info/modifier`;
 
   // Comptes (table)
   const compteTbody = document.getElementById('liste_comptes');
