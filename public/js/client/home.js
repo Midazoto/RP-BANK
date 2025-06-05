@@ -27,6 +27,7 @@ Promise.all([
   document.getElementById('consulter_profil').href = `/client/${clientId}/profil/info`;
   document.getElementById('modifier_profil').href = `/client/${clientId}/profil/info/modifier`;
   document.getElementById('ajouter_beneficiaire').href = `/client/${clientId}/beneficiaire/ajouter`;
+  document.getElementById('effectuer_virement').href = `/client/${clientId}/virement`;
 
   // Comptes (table)
   const compteTbody = document.getElementById('liste_comptes');

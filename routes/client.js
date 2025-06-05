@@ -302,6 +302,38 @@ router.post("/:client_id/beneficiaire/ajouter",verifierToken,async (req,res)=>{
     })
 })
 
+router.post("/:client_id/virement",verifierToken,async (req,res)=>{
+    const {client_id} = req.params;
+    const {compte_source,compte_dest,montant,reference,date} = req.body;
+    if(!client_id || !compte_source || !compte_dest || !montant || !reference || !date){
+        return res.status(400).json({message:"Tous les champs sont obligatoires"});
+    }
+    db.get('SELECT id FROM compte WHERE id = ? AND client_id = ?', [compte_source, client_id], (err,row)=>{
+        if(err){
+            return res.status(500).json({error:err.message});
+        }
+        if(!row){
+            return res.status(404).json({message:"Compte source non trouvé"});
+        }
+        const compte_source_id = row.id;
+        db.get('SELECT compte_id FROM beneficiaire WHERE compte_id = ? AND client_id = ?', [compte_dest, client_id], (err,row)=>{
+            if(err){
+                return res.status(500).json({error:err.message});
+            }
+            if(!row){
+                return res.status(404).json({message:"Compte destination non trouvé"});
+            }
+            const compte_dest_id = row.compte_id;
+            db.run('INSERT INTO virement (compte_source_id,compte_destination_id,montant,libelle,date) VALUES (?,?,?,?,?)',[compte_source_id,compte_dest_id,montant,reference,date],function(err){
+                if(err){
+                    return res.status(500).json({error:err.message});
+                }
+                return res.status(201).json({id_virement:this.lastID});
+            })
+        })
+    })
+})
+
 router.post("/:client_id/compte/add",verifierToken,verifierEmploye,async (req,res)=>{
     const {client_id} = req.params;
     const type_compte = req.body.type_compte;
