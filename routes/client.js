@@ -279,6 +279,29 @@ router.delete("/:client_id/beneficiaire/:id_beneficiaire/supprimer",verifierToke
     })
 })
 
+router.post("/:client_id/beneficiaire/ajouter",verifierToken,async (req,res)=>{
+    const {client_id} = req.params;
+    const {nom,numero_compte} = req.body;
+    if(!client_id || !nom || !numero_compte){
+        return res.status(400).json({message:"Tous les champs sont obligatoires"});
+    }
+    db.get('SELECT id FROM compte WHERE numero = ?', [numero_compte], (err,row)=>{
+        if(err){
+            return res.status(500).json({error:err.message});
+        }
+        if(!row){
+            return res.status(404).json({message:"Compte non trouvé"});
+        }
+        const compte_id = row.id;
+        db.run('INSERT INTO beneficiaire (nom,compte_id,client_id) VALUES (?,?,?)',[nom,compte_id,client_id],function(err){
+            if(err){
+                return res.status(500).json({error:err.message});
+            }
+            return res.status(201).json({id_beneficiaire:this.lastID});
+        })
+    })
+})
+
 router.post("/:client_id/compte/add",verifierToken,verifierEmploye,async (req,res)=>{
     const {client_id} = req.params;
     const type_compte = req.body.type_compte;

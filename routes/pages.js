@@ -96,6 +96,14 @@ router.get('/client/:id/beneficiaire/:idBeneficiaire/supprimer', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/client/delete_benef.html'));
 });
 
+router.get('/client/:id/beneficiaire/ajouter', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID de client manquant');
+    }
+    res.sendFile(path.join(__dirname, '../public/html/client/add_benef.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });

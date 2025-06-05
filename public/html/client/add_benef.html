@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajout Bénéficiaire</title>
+  <link rel="icon" href="/img/logo.webp" type="image/webp" />
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="/css/theme.css" />
+  <link rel="stylesheet" href="/css/header.css" />
+  <link rel="stylesheet" href="/css/popup.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+  <link rel="stylesheet" href="/css/client/add_benef.css" />
+</head>
+<body>
+  <header id="main-header">
+    <div class="logo-container">
+      <a href="/" class="logo-container">
+        <img src="/img/logo.webp" alt="Logo" class="logo" />
+        <h1>RP Bank</h1>
+      </a>
+    </div>
+    <nav><ul id="nav-links"></ul></nav>
+  </header>
+  <div id="popup-container" class="popup-container"></div>
+
+    <main>
+        <main>
+        <div class ="wrapper">
+            <form id="add-benef-form">
+                <h1>Ajout d'un bénéficiaire</h1>
+                
+                <div class="input-box">
+                    <input type="text" name="num_compte" placeholder="N° de Compte" required>
+                    <i class='bx bxs-bank'></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <button type="submit" class="button">Ajouter</button>
+            </form>
+        </div>
+    </main>
+    </main>
+    <script type="module" src="/js/client/add_benef.js""></script>
+</body>
+</html>
