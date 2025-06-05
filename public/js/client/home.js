@@ -7,9 +7,6 @@ const token = localStorage.getItem('token');
 const clientId = window.location.pathname.split('/')[2];
 
 Promise.all([
-  fetch(`/api/client/${clientId}`, {
-    headers: { 'Authorization': `Bearer ${token}` }
-  }).then(r => r.json()),
   fetch(`/api/client/${clientId}/compte`, {
     headers: { 'Authorization': `Bearer ${token}` }
   }).then(r => r.json()),
@@ -25,7 +22,7 @@ Promise.all([
   fetch(`/api/client/${clientId}/histo`, {
     headers: { 'Authorization': `Bearer ${token}` }
   }).then(r => r.json())
-]).then(([client, comptes, cartes, beneficiaires, operations,histo]) => {
+]).then(([comptes, cartes, beneficiaires, operations,histo]) => {
   // Profil
   document.getElementById('consulter_profil').href = `/client/${clientId}/profil/info`;
   document.getElementById('modifier_profil').href = `/client/${clientId}/profil/info/modifier`;

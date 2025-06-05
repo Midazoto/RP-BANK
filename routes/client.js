@@ -247,6 +247,38 @@ router.get("/:client_id/compte/:id_compte/info",verifierToken,async (req,res)=>{
     })
 })
 
+router.get("/:client_id/beneficiaire/:id_beneficiaire/info",verifierToken,async (req,res)=>{
+    const {client_id, id_beneficiaire} = req.params;
+    if(!client_id || !id_beneficiaire){
+        return res.status(400).json({message:"ID client ou bénéficiaire manquant"});
+    }
+    db.get('SELECT beneficiaire.*, compte.numero AS numero_compte FROM beneficiaire JOIN compte ON beneficiaire.compte_id = compte.id WHERE beneficiaire.id = ? AND beneficiaire.client_id = ?',[id_beneficiaire,client_id],(err,row)=>{
+        if(err){
+            return res.status(500).json({error:err.message});
+        }
+        if(!row){
+            return res.status(404).json({message:"Bénéficiaire non trouvé"});
+        }
+        return res.status(200).json(row);
+    })
+})
+
+router.delete("/:client_id/beneficiaire/:id_beneficiaire/supprimer",verifierToken,async (req,res)=>{
+    const {client_id, id_beneficiaire} = req.params;
+    if(!client_id || !id_beneficiaire){
+        return res.status(400).json({message:"ID client ou bénéficiaire manquant"});
+    }
+    db.run('DELETE FROM beneficiaire WHERE id = ? AND client_id = ?', [id_beneficiaire, client_id], function(err){
+        if(err){
+            return res.status(500).json({error:err.message});
+        }
+        if(this.changes === 0){
+            return res.status(404).json({message:"Bénéficiaire non trouvé"});
+        }
+        return res.status(200).json({message:"Bénéficiaire supprimé avec succès"});
+    })
+})
+
 router.post("/:client_id/compte/add",verifierToken,verifierEmploye,async (req,res)=>{
     const {client_id} = req.params;
     const type_compte = req.body.type_compte;

@@ -88,6 +88,14 @@ router.get('/client/:id/compte/:compteId/consulter', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/client/compte_consulter.html'));
 });
 
+router.get('/client/:id/beneficiaire/:idBeneficiaire/supprimer', (req, res) => {
+    const { id, idBeneficiaire } = req.params;
+    if (!id || !idBeneficiaire) {
+        return res.status(404).send('ID de client ou de bénéficiaire manquant');
+    }
+    res.sendFile(path.join(__dirname, '../public/html/client/delete_benef.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });
