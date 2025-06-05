@@ -38,6 +38,17 @@ document.addEventListener('DOMContentLoaded', () => {
         beneficiaires.forEach(b => {
             beneficiaireSelect.innerHTML += `<option value="${b.compte_id}">${b.nom} - ${b.numero_compte}</option>`;
         });
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const beneficiaireId = urlParams.get("beneficiaire_id");
+        if (beneficiaireId) {
+            const option = beneficiaireSelect.querySelector(`option[value="${beneficiaireId}"]`);
+            if (option) {
+                option.selected = true;
+            } else {
+                console.warn(`Aucun bénéficiaire trouvé avec l'ID ${beneficiaireId}`);
+            }
+        }
     })
 
     const form = document.getElementById('virement-form');

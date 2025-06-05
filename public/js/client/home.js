@@ -85,7 +85,7 @@ Promise.all([
         <td class="hide-on-small">${b.numero_compte}</td>
         <td>
           <div class="button-row">
-            <a href="/client/${clientId}/beneficiaire/${b.id}/virement" class="button">Virement</a>
+            <a href="/client/${clientId}/virement?beneficiaire_id=${b.compte_id}" class="button">Virement</a>
             <a href="/client/${clientId}/beneficiaire/${b.id}/supprimer" class="button">Supprimer</a>
           </div>
         </td>
