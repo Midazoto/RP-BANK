@@ -8,8 +8,7 @@ export function getClientHeader(){
             </div>
             <nav>
                 <ul id="nav-links">
-                    <li><a href="/produits">Produits</a></li>
-                    <li><a href="/profil">Mon compte</a></li>
+                    <li><a href="/client/home">Accueil</a></li>
                     <li><a href="/logout">Déconnexion</a></li>
                     <li>
                         <button id="theme-toggle" title="Changer de thème">
