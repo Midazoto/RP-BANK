@@ -68,7 +68,6 @@ Promise.all([
 
         tr.innerHTML = `
         <td class="hide-on-small">${date}</td>
-        <td class="hide-on-small">${op.numero_compte}</td>
         <td>${op.libelle}</td>
         <td>
             ${op.montant.toFixed(2)} €

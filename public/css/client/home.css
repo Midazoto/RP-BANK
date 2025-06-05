@@ -54,6 +54,9 @@ main {
 
 .button{
   max-width: 50%;
+  min-width: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .element .icon {
