@@ -112,6 +112,24 @@ router.get('/client/:id/virement', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/client/virement.html'));
 });
 
+router.get('/client/:id/profil/info', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID d’employé manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/client/profil.html'));
+});
+
+router.get('/client/:id/profil/info/modifier', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID d’employé manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/client/profil_modifier.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });

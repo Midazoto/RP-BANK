@@ -4,6 +4,7 @@ const db = require("../db");
 const verifierToken = require("../middleware/authMiddleware");
 const verifierEmploye = require("../middleware/empMiddleware");
 const verifierClient = require("../middleware/profilCliMiddleware");
+const bcrypt = require("bcryptjs");
 
 router.get("/:id_client/compte",verifierToken,async (req,res)=>{
     const id_client = req.params.id_client;
@@ -20,6 +21,58 @@ router.get("/:id_client/compte",verifierToken,async (req,res)=>{
         return res.status(200).json(rows);
     })
 })
+
+router.get("/:id_client/info",verifierToken,async (req,res)=>{
+    const id_client = req.params.id_client;
+    if(!id_client){
+        return res.status(400).json({message:"ID client manquant"});
+    }
+    db.get('SELECT client.*, employe.email as banquier_email,employe.nom as banquier_nom,employe.prenom as banquier_prenom,employe.poste as banquier_poste FROM client LEFT JOIN employe on client.banquier = employe.id where client.id = ?',[id_client],(err,row)=>{
+        if(err){
+            return res.status(500).json({error:err.message});
+        }
+        if(!row){
+            return res.status(404).json({message:"Client non trouvé"});
+        }
+        return res.status(200).json(row);
+    })
+})
+
+router.put('/:id/info/modifier', verifierToken, verifierEmploye, async (req, res) => {
+  const cibleId = req.params.id;
+  const userId = req.user.id;
+  const { nom, prenom, email, adresse, telephone, modif_mdp, password } = req.body;
+  const hash = modif_mdp && password ? await bcrypt.hash(password, 10) : null;
+  
+  if (!cibleId || !userId) {
+    return res.status(400).json({ message: "ID manquant" });
+  }
+
+
+    if (!nom || !prenom || !email || !adresse || !telephone) {
+        return res.status(400).json({ message: "Champs requis manquants." });
+    }
+
+    let sql = `UPDATE client SET nom = ?, prenom = ?, email = ?, adresse = ?, telephone = ?`;
+    const params = [nom, prenom, email, adresse, telephone];
+
+    if (modif_mdp && password && password.trim() !== '') {
+        sql += `, password = ?`;
+        params.push(hash);
+    }
+
+    sql += ` WHERE id = ?`;
+    params.push(cibleId);
+
+    db.run(sql, params, function (err) {
+        if (err) {
+        return res.status(500).json({ error: err.message });
+        }
+
+        res.json({ message: "Profil mis à jour avec succès." });
+    }
+  );
+});
 
 router.get("/:id_client/carte",verifierToken,async (req,res)=>{
     const id_client = req.params.id_client;
