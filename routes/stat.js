@@ -57,6 +57,15 @@ router.get('/totalSolde', (req, res) => {
     });
 });
 
+router.get('/type_compte', (req, res) => {
+    db.all('SELECT * FROM type_compte', [], (err, rows) => {
+        if (err) {
+            return res.status(500).json({ error: err.message });
+        }
+        res.json(rows);
+    });
+});
+
 
 
 

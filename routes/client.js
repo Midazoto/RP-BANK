@@ -390,6 +390,7 @@ router.post("/:client_id/virement",verifierToken,async (req,res)=>{
 router.post("/:client_id/compte/add",verifierToken,verifierEmploye,async (req,res)=>{
     const {client_id} = req.params;
     const type_compte = req.body.type_compte;
+    const decouvert = req.body.decouvert || 0; // valeur par défaut si non fourni
     let numero = '';
     for (let i = 0; i < 11; i++) {
         numero += Math.floor(Math.random() * 10); // chiffre de 0 à 9
@@ -397,7 +398,7 @@ router.post("/:client_id/compte/add",verifierToken,verifierEmploye,async (req,re
     if(!client_id || !type_compte){
         return res.status(400).json({message:"Tous les champs sont obligatoires"});
     }
-    db.run('INSERT INTO compte (numero,client_id,type) VALUES (?,?,?)',[numero,client_id,type_compte],function(err){
+    db.run('INSERT INTO compte (numero,client_id,type,droit_decouvert) VALUES (?,?,?,?)',[numero,client_id,type_compte,decouvert],function(err){
         if(err){
             return res.status(500).json({error:err.message});
         }

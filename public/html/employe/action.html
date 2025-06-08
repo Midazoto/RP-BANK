@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Action</title>
     <link rel="icon" href="/img/logo.webp" type="image/webp">
     <!--Gestion du theme-->
     <script>
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/css/popup.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 
-    <link rel="stylesheet" href="/css/employe/home.css">
+    <link rel="stylesheet" href="/css/employe/action.css">
 </head>
 <body>
     <header id="main-header">
@@ -41,59 +41,41 @@
         <div class="title">
             <h1>Bienvenue sur votre espace employé</h1>
             <br>
-            <h3>Voici les différentes fonctionnalité à votre disposition :</h3>
+            <h3>Voici les différentes action à votre disposition pour le client suivant :</h3>
+            <br>
+            <h2 id="client_name">Nom du client</h2>
         </div>
         <div class="app-grid">
             <div class="element">
                 <div class="icon">
                     <i class='bx bxs-user-plus' ></i>
                 </div>
-                <h2>Ajouter des comptes :</h2>
+                <h2>Ajouter un compte au client :</h2>
                 <div class="button-row">
-                    <a href="/employe/register/client" class="button">Client</a>
-                    <a href="/employe/register/employe" class="button">Employé</a>
+                    <a id="add_account" href="#" class="button">Ajouter un compte</a>
                 </div>
             </div>
             <div class="element">
                 <div class="icon">
                     <i class='bx bx-sitemap'></i>
                 </div>
-                <h2>Mon Organigramme :</h2>
+                <h2>Ajouter une carte à un compte du client :</h2>
                 <div class="button-row">
-                    <a href="/employe/organigramme" class="button">Accéder</a>
+                    <a id="add_card" href="#" class="button">Ajouter une carte</a>
                 </div>
             </div>
             <div class="element">
                 <div class="icon">
                     <i class='bx bxs-user-plus' ></i>
                 </div>
-                <h2>Mes Informations :</h2>
+                <h2>Ses Informations :</h2>
                 <div class="button-row">
                     <a href="#" class="button" id="consulter_profil">Consulter</a>
                     <a href="#" class="button" id="modifier_profil">Modifier</a>
                 </div>
             </div>
-            <div class="element large">
-                <div class="icon">
-                    <i class='bx bxs-spreadsheet' ></i>
-                </div>
-                <h2>Mes Clients :</h2>
-                <table id="table_clients">
-                    <thead>
-                        <tr>
-                            <th style="width: 20%;">Nom</th>
-                            <th style="width: 20%;">Prénom</th>
-                            <th class="hide-on-small" style="width: 20%;">Nombre de compte</th>
-                            <th style="width: 40%;">Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody id="client_list">
-                        <!-- Liste de Générer dynamiquement -->
-                    </tbody>
-                </table>
-            </div>
         </div>
     </main>
-    <script type="module" src="/js/employe/home.js"></script>
+    <script type="module" src="/js/employe/action.js"></script>
 </body>
 </html>

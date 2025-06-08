@@ -130,6 +130,24 @@ router.get('/client/:id/profil/info/modifier', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/client/profil_modifier.html'));
 });
 
+router.get('/employe/action/client/:id', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID de client manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/employe/action.html'));
+});
+
+router.get('/employe/action/client/:id/ajouter_compte', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID de client manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/employe/ajouter_compte.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });
