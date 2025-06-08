@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "email": "augernathalie@example.org",
+        "email": "nathanlefol@example.com",
         "password": "mdp123",
-        "nom": "Goncalves",
-        "prenom": "Françoise",
+        "nom": "Le Fol",
+        "prenom": "Nathan",
         "adresse": "79, rue Anouk Jean, 97459 Lemoine",
         "telephone": "+33 (0)5 35 22 15 45",
         "banquier": 1
     },
     {
         "id": 2,
-        "email": "uthibault@example.com",
+        "email": "evanheulot@example.com",
         "password": "mdp123",
-        "nom": "Jacob",
-        "prenom": "Pauline",
+        "nom": "Heulot",
+        "prenom": "Evan",
         "adresse": "51, avenue de Leroux, 05840 Hubert",
         "telephone": "0472716384",
         "banquier": 1

@@ -148,6 +148,15 @@ router.get('/employe/action/client/:id/ajouter_compte', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/html/employe/ajouter_compte.html'));
 });
 
+router.get('/employe/action/client/:id/ajouter_carte', (req, res) => {
+    const { id } = req.params;
+    if (!id) {
+        return res.status(404).send('ID de client manquant');
+    }
+
+    res.sendFile(path.join(__dirname, '../public/html/employe/ajouter_carte.html'));
+});
+
 router.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, '../public/html/404.html'));
 });

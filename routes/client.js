@@ -406,5 +406,30 @@ router.post("/:client_id/compte/add",verifierToken,verifierEmploye,async (req,re
     })
 })
 
+router.post("/:client_id/compte/:id_compte/carte/add",verifierToken,verifierEmploye,async (req,res)=>{
+    const {client_id, id_compte} = req.params;
+    if(!client_id || !id_compte){
+        return res.status(400).json({message:"ID client ou compte manquant"});
+    }
+    db.get('SELECT id FROM compte WHERE id = ? AND client_id = ?', [id_compte, client_id], (err,row)=>{
+        if(err){
+            return res.status(500).json({error:err.message});
+        }
+        if(!row){
+            return res.status(404).json({message:"Compte non trouvé"});
+        }
+        let numero = "" // Génère un numéro de carte aléatoire
+        for (let i = 0; i < 16; i++) {
+            numero += Math.floor(Math.random() * 10); // chiffre de 0 à 9
+        }
+        db.run('INSERT INTO carte (numero,compte_id,type,date_expiration) VALUES (?,?,?,?)',[numero,id_compte,"Visa", new Date(new Date().setFullYear(new Date().getFullYear() + 5)).toISOString().split('T')[0]],function(err){
+            if(err){
+                return res.status(500).json({error:err.message});
+            }
+            return res.status(201).json({id_carte:this.lastID,numero:numero});
+        })
+    })
+})
+
 
 module.exports = router;
