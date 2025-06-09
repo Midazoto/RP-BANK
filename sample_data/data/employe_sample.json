@@ -212,16 +212,16 @@
     "password": "mdp123",
     "nom": "Leclerc",
     "prenom": "Simon",
-    "poste": "Директор Советской Родины",
+    "poste": "Directeur Communications et Relations Publiques",
     "resp_id": 1
   },
   {
     "id": 25,
-    "email": "vpoutine@rpbank.lol",
+    "email": "jlebreton@rpbank.lol",
     "password": "mdp123",
-    "nom": "Poutine",
-    "prenom": "Vladimir",
-    "poste": "Советник по специальным военным операциям",
+    "nom": "Lebreton",
+    "prenom": "John",
+    "poste": "Responsable Advertising",
     "resp_id": 24
   }
 ]
