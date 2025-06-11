@@ -270,3 +270,84 @@ Toutes les routes clients nécessitent un token JWT dans l’en-tête `Authoriza
 - `500 Internal Server Error` en cas d’erreur.
 
 ---
+## 👨‍💼 Employé Routes (`/api/employe`)
+
+### `GET /api/employe/subordonnes`  
+**Description** : Récupère tous les subordonnés de l’employé connecté (hiérarchie descendante).  
+**Protection** : Token JWT obligatoire + rôle employé (`verifierToken`, `verifierEmploye`)  
+**Réponses** :  
+- `200 OK` avec un tableau des employés subordonnés  
+- `400 Bad Request` si ID employé manquant  
+- `500 Internal Server Error` en cas d’erreur serveur
+
+---
+
+### `GET /api/employe/current`  
+**Description** : Récupère les informations basiques (id, nom, prénom, poste) de l’employé connecté.  
+**Protection** : Token JWT + rôle employé  
+**Réponses** :  
+- `200 OK` avec objet employé  
+- `404 Not Found` si employé non trouvé  
+- `500 Internal Server Error` en cas d’erreur serveur
+
+---
+
+### `GET /api/employe/all`  
+**Description** : Récupère tous les employés.  
+**Protection** : Token JWT + rôle employé  
+**Réponses** :  
+- `200 OK` avec un tableau de tous les employés  
+- `500 Internal Server Error` en cas d’erreur serveur
+
+---
+
+### `GET /api/employe/profil/:id`  
+**Description** : Récupère le profil complet d’un employé par son `id`, incluant ses infos et celles de son responsable.  
+**Paramètres** :  
+- `:id` → ID de l’employé ciblé  
+**Protection** : Token JWT + rôle employé  
+**Réponses** :  
+- `200 OK` avec un objet profil employé  
+- `404 Not Found` si employé non trouvé  
+- `500 Internal Server Error` en cas d’erreur serveur
+
+---
+
+### `PUT /api/employe/profil/:id/modifier`  
+**Description** : Modifie le profil d’un employé (champs et éventuellement mot de passe).  
+**Paramètres** :  
+- `:id` → ID de l’employé à modifier  
+- Body JSON requis :  
+  - `nom`, `prenom`, `email`, `poste`, `responsable` (id du responsable ou null)  
+  - `modif_mdp` (booléen), `password` (nouveau mot de passe, si modif_mdp vrai)  
+**Protection** : Token JWT + rôle employé  
+**Conditions** :  
+- L’employé connecté doit être soit la personne modifiée, soit un supérieur hiérarchique  
+**Réponses** :  
+- `200 OK` avec message de succès  
+- `400 Bad Request` si champs manquants ou id manquant  
+- `403 Forbidden` si l’utilisateur n’a pas le droit de modifier ce profil  
+- `500 Internal Server Error` en cas d’erreur serveur
+
+---
+
+### `GET /api/employe/getClient`  
+**Description** : Récupère la liste des clients liés à l’employé connecté en tant que banquier, avec le nombre de comptes par client.  
+**Protection** : Token JWT + rôle employé  
+**Réponses** :  
+- `200 OK` avec tableau des clients et nombre de comptes  
+- `500 Internal Server Error` en cas d’erreur serveur
+
+---
+
+### `GET /api/employe/profil/:id/isSuperieur`  
+**Description** : Vérifie si l’employé connecté est un supérieur hiérarchique de l’employé dont l’ID est passé en paramètre.  
+**Paramètres** :  
+- `:id` → ID de l’employé à vérifier  
+**Protection** : Token JWT + rôle employé  
+**Réponses** :  
+- `200 OK` avec `{ isSuperieur: true|false }`  
+- `400 Bad Request` si ID manquant  
+- `500 Internal Server Error` en cas d’erreur serveur
+
+---
