@@ -50,8 +50,6 @@
 
 ---
 
----
-
 ## 👤 Client Routes (`/api/client`)
 
 Toutes les routes clients nécessitent un token JWT dans l’en-tête `Authorization: Bearer <token>`. Certaines routes sont également protégées par une vérification du rôle employé (`verifierEmploye`).
