@@ -1,5 +1,41 @@
 # Projet-dev-web
 
+# Installation
+
+À partir de ce REPO, une fois le contenu téléchargé, suivez les étapes ci-dessous pour installer et lancer le projet.
+
+## 1. Installer les dépendances
+
+```bash
+npm install
+```
+
+## 2. Configuration
+Créez un fichier .env à la racine du projet et ajoutez-y la variable d'environnement suivante :
+
+```ini
+JWT_SECRET=<votre_secret_pour_jwt>
+```
+
+Remplacez <votre_secret_pour_jwt> par une chaîne secrète sécurisée pour la signature des tokens JWT.
+
+## 3. Lancement du serveur
+Pour démarrer le serveur normalement, exécutez :
+
+```bash
+npm start
+```
+
+Pour lancer le serveur en mode développement avec rechargement automatique à chaque modification, exécutez :
+
+```bash
+npm run dev
+```
+
+## 4. Initialisation de la base de données
+Si le fichier db.sqlite n'est pas présent dans le projet lors du premier lancement, le serveur va automatiquement créer la base de données avec le schéma initial et la peupler.
+
+
 # 📘 API Routes
 
 ## 🔐 Auth Routes (`/api/auth`)
