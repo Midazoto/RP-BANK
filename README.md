@@ -1,6 +1,7 @@
 # Projet-dev-web
 
 # 📘 API Routes
+
 ## 🔐 Auth Routes (`/api/auth`)
 
 ### `POST /api/auth/register/:type`  
@@ -11,34 +12,40 @@
   - Pour **client** : `email`, `password`, `nom`, `prenom`, `adresse`, `telephone`, `banquier`
   - Pour **employe** : `email`, `password`, `nom`, `prenom`, `poste`, `resp_id (optionnel)`
 
-**Protection** : Token JWT obligatoire (`Authorization: Bearer <token>`), et vérification du rôle employé (`verifierEmploye`)
+**Protection** :  
+- Token JWT obligatoire (`Authorization: Bearer <token>`)  
+- L'utilisateur doit être un employé (`verifierEmploye`)
 
 **Réponses** :
-- `201 Created` avec `{ id: <nouvel_id> }`
-- `400 Bad Request` ou `500 Internal Server Error` selon l'erreur
+- `201 Created` → `{ id: <nouvel_id> }`
+- `400 Bad Request` → Champs manquants ou invalides
+- `500 Internal Server Error` → Erreur interne SQL ou serveur
 
 ---
 
 ### `POST /api/auth/login/:type`  
-**Description** : Connexion d’un utilisateur (`client` ou `employe`).
-
+**Description** : Connexion d’un utilisateur existant (client ou employé).  
 **Paramètres** :
 - `:type` → `"client"` ou `"employe"`
-- Body JSON : `email`, `password`
+- Body JSON requis : `email`, `password`
 
 **Réponses** :
-- `200 OK` → `{ token: <jwt> }` si succès
-- `401 Unauthorized` ou `404 Not Found` si les identifiants sont incorrects
-- `500 Internal Server Error` en cas d'erreur
+- `200 OK` → `{ token: <jwt_token> }`
+- `400 Bad Request` → Champs manquants ou type invalide
+- `401 Unauthorized` → Email ou mot de passe incorrect
+- `404 Not Found` → Utilisateur non trouvé
+- `500 Internal Server Error` → Erreur serveur ou SQL
 
 ---
 
 ### `GET /api/auth/user`  
-**Description** : Vérifie si l’utilisateur est connecté en analysant le token JWT.
-
-**Header attendu** :
+**Description** : Vérifie si un utilisateur est connecté à partir du token.  
+**Headers** :
 - `Authorization: Bearer <token>`
 
 **Réponses** :
-- `{ isLoggedIn: true, type: "client" | "employe" }` si connecté
-- `{ isLoggedIn: false, type: null }` si non connecté ou token invalide
+- `200 OK` :
+  - Si connecté : `{ isLoggedIn: true, type: "client" | "employe" }`
+  - Si non connecté ou token invalide : `{ isLoggedIn: false, type: null }`
+
+---
