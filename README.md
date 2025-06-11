@@ -351,3 +351,68 @@ Toutes les routes clients nécessitent un token JWT dans l’en-tête `Authoriza
 - `500 Internal Server Error` en cas d’erreur serveur
 
 ---
+
+## 📊 Statistiques Routes (`/api/stat`)
+
+### `GET /api/stat/nbClients`  
+**Description** : Récupère le nombre total de clients enregistrés.  
+**Protection** : Aucune protection mentionnée.  
+**Réponses** :  
+- `200 OK` avec `{ nbClients: <nombre> }`  
+- `500 Internal Server Error` avec `{ error: <message> }` en cas d’erreur serveur.
+
+---
+
+### `GET /api/stat/nbEmployes`  
+**Description** : Récupère le nombre total d’employés.  
+**Protection** : Aucune protection mentionnée.  
+**Réponses** :  
+- `200 OK` avec `{ nbEmployes: <nombre> }`  
+- `500 Internal Server Error` avec `{ error: <message> }` en cas d’erreur serveur.
+
+---
+
+### `GET /api/stat/nbComptes`  
+**Description** : Récupère le nombre total de comptes bancaires.  
+**Protection** : Aucune protection mentionnée.  
+**Réponses** :  
+- `200 OK` avec `{ nbComptes: <nombre> }`  
+- `500 Internal Server Error` avec `{ error: <message> }` en cas d’erreur serveur.
+
+---
+
+### `GET /api/stat/nbOperations`  
+**Description** : Récupère le nombre total d’opérations (incluant opérations et virements).  
+**Protection** : Aucune protection mentionnée.  
+**Réponses** :  
+- `200 OK` avec `{ nbOperations: <nombre> }`  
+- `500 Internal Server Error` avec `{ error: <message> }` en cas d’erreur serveur.
+
+---
+
+### `GET /api/stat/nbCartes`  
+**Description** : Récupère le nombre total de cartes bancaires émises.  
+**Protection** : Aucune protection mentionnée.  
+**Réponses** :  
+- `200 OK` avec `{ nbCartes: <nombre> }`  
+- `500 Internal Server Error` avec `{ error: <message> }` en cas d’erreur serveur.
+
+---
+
+### `GET /api/stat/totalSolde`  
+**Description** : Récupère la somme totale des soldes de tous les comptes.  
+**Protection** : Aucune protection mentionnée.  
+**Réponses** :  
+- `200 OK` avec `{ totalSolde: <montant> }`  
+- `500 Internal Server Error` avec `{ error: <message> }` en cas d’erreur serveur.
+
+---
+
+### `GET /api/stat/type_compte`  
+**Description** : Récupère la liste de tous les types de comptes disponibles.  
+**Protection** : Aucune protection mentionnée.  
+**Réponses** :  
+- `200 OK` avec tableau JSON de type compte (ex : `[ { id: 1, libelle: "Compte Courant" }, ... ]`)  
+- `500 Internal Server Error` avec `{ error: <message> }` en cas d’erreur serveur.
+
+---
